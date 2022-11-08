@@ -218,3 +218,4 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 - 2022-10-30 Improved UHF Chimney connector shape to the cowl
 - 2022-10-31 Restored the hotend fan through mounts to the UHF cowls
 - 2022-10-31 Fully tested the UHF setup
+- 2022-11-08 Revised the Chimney ducts to be of equal height and leaves access to the PTFE tube clear
