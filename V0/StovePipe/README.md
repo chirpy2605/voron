@@ -176,7 +176,7 @@ Depending on your harness setup you can loosely cable-tie the CPAP hose, printer
 ![WS2403DY01V04](images/WS2403DY01V04.png)
 ![Klipper Expander](images/STM32_Klipper_Expander.png)
 
-Run a wire from the second from the bottom pin (red circle) on the driver board to the center neopixel pin (red circle) on the klipper expander.
+Run a wire from the second from the bottom pin (red circle) on the driver board to the centre neopixel pin (red circle) on the klipper expander.
 
 Connect the 24v connector (blue circle) on the driver board to one of the MOSFET ports (blue circle) on the Klipper Expander, paying attention to the polarity.
 
@@ -219,3 +219,4 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 - 2022-10-31 Restored the hotend fan through mounts to the UHF cowls
 - 2022-10-31 Fully tested the UHF setup
 - 2022-11-08 Revised the Chimney ducts to be of equal height and leaves access to the PTFE tube clear
+- 2022-11-09 Further improvements to the Chimney duct
