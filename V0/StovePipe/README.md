@@ -78,7 +78,7 @@ As a backup, you can also use a modified [MailBox Toolhead](https://github.com/w
 - Dragon SF/HF
 - DragonFly
 - Rapido HF / Mellow Crazy Dragon / Dragon UHF (without extender)
-- Reapido UHF and Dragon UHF (separate cowl)
+- Rapido UHF and Dragon UHF (separate cowl)
 - Mellow NF Crazy (/Mozzie)
 
 ## Printing:
@@ -196,7 +196,7 @@ pin: expander:PB1        # Neopixel pin
 enable_pin: expander:PA0 # Mosfet 0
 hardware_pwm: False      # Use software PWM
 cycle_time: 0.010
-off_below: 0.08          # Minimum speed of 8% - the fan suaully stalls any lower
+off_below: 0.08          # Minimum speed of 8% - the fan usually stalls any lower
 shutdown_speed: 0        # Turn off the fan when klipper shuts down
 ```
 
