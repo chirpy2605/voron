@@ -129,11 +129,15 @@ Remove the support material from the bottom of the Post Connector and clean up w
 
 ![Chimney](images/Chimney.png)
 
-Remove the support material from the bottom of the Chimney. You will need to file/sand the bottom to ensure you have clean surfaces that will slot into the toolhead cowl.
+Remove the support material from the bottom of the Chimney. You will need to file/sand the bottom to ensure you have clean surfaces that will slot into the toolhead 
+
+![Chimney_Slim](images/Chimney_Square.png)
+
+The Square Chimney duct provides space for the Sherpa Mini and Orbiter v1.5 extruders.
 
 ![Chimney_Slim](images/Chimney_Slim.png)
 
-The Slim Chimney duct provides space for the Orbiter v1.5, Sherpa Mini and Sailfin extruders. While the air path is not optimal (compared to the standard Chimney Duct), it still provides the benefits of using the CPAP fan.
+The Slim Chimney duct provides space for the Sailfin extruders. While the air path is not optimal (compared to the standard Chimney Duct), it still provides the benefits of using the CPAP fan.
 
 ![MailBox](images/MailBox.png)
 
@@ -220,3 +224,4 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 - 2022-10-31 Fully tested the UHF setup
 - 2022-11-08 Revised the Chimney ducts to be of equal height and leaves access to the PTFE tube clear
 - 2022-11-09 Further improvements to the Chimney duct
+- 2022-11-22 Added new Square Chimney duct to use instead of Slim Chimney for Sherpa Mini and Orbiter v1.5
