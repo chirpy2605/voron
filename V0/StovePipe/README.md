@@ -224,4 +224,5 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 - 2022-10-31 Fully tested the UHF setup
 - 2022-11-08 Revised the Chimney ducts to be of equal height and leaves access to the PTFE tube clear
 - 2022-11-09 Further improvements to the Chimney duct
-- 2022-11-22 Added new Square Chimney duct to use instead of Slim Chimney for Sherpa Mini and Orbiter v1.5
+- 2022-11-14 Added new Square Chimney duct to use instead of Slim Chimney for Sherpa Mini and Orbiter v1.5
+- 2022-11-15 Modified the UHF hotend mount to cater for shorter mounting screws
