@@ -10,9 +10,11 @@ This toolhead should not lose any X, Z travel. Y axis loss depends on the hotend
 ![mounted2](images/mounted2.jpg)
 
 ### v4 - Front:
+
 ![v4_front](images/v4_front.png)
 
 ### v4 - Back:
+
 ![v4_back](images/v4_back.png)
 
 Computation Fluid Dynamics results:
@@ -252,3 +254,4 @@ Once again, a multimeter and check for continuity. It should show continuity whe
 - 2022-09-22 Released bowden mount with strain relief and PCB mount
 - 2022-09-25 Updated Dragon Mount. Increased depth to better cater for X carriage screws
 - 2022-10-05 Added MiniSlideSwipe documentation
+- 2022-11-15 Modified the Dragonfly hotend mount to cater for shorter mounting screws
