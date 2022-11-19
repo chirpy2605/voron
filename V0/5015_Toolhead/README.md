@@ -255,3 +255,4 @@ Once again, a multimeter and check for continuity. It should show continuity whe
 - 2022-09-25 Updated Dragon Mount. Increased depth to better cater for X carriage screws
 - 2022-10-05 Added MiniSlideSwipe documentation
 - 2022-11-15 Modified the Dragonfly hotend mount to cater for shorter mounting screws
+- 2022-11-19 Fixed the CAD STEP file
