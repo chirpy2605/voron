@@ -58,7 +58,6 @@ Place the 6 heat inserts as shown:
 
 Remove the support tabs from the bucket. There is also a small support tap at the corner of the frame mount (see image at the bottom)
 
-
 Cut down the brush head so that it matches the internal width of the brush holder. It's soft plastic so can be cut with a craft knife or a pair of angle cutters.
 
 ![brush](images/brush.jpg)
@@ -158,8 +157,8 @@ Follow the steps in the nozzlewiper.cfg file to configure the nozzle wiper setup
 - New mounting system to support v0.1 variants, such as the Tri-Zero
 - Improved cable routing
 
-
 ## v2 Changelog:
 
 - 2022-09-05 First release
 - 2022-10-30 Improved Frame Mount and Servo Joint to help prevent excessive vibrations when deploying
+- 2022-11-20 Updated CAD
