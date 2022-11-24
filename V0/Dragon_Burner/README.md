@@ -176,3 +176,4 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 - 2022-09-25 Updated Dragon Mount. Increased depth to better cater for X carriage screws
 - 2022-09-30 Updated all cowlings to help fix screws loosening over time
 - 2022-11-23 Updated ADXL Mount (15mm between screws)
+- 2022-11-24 Updated ZeroClick cowl to allow ADXL mount on the right side of the toolhead
