@@ -54,6 +54,8 @@ Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and th
 
 Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2).
 
+Note: If using the Sherpa Mini or a derivative, you will need the Sherpa_Mini_Mount.stl to clear the X carriage.
+
 ## BOM:
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
@@ -179,3 +181,5 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 - 2022-11-24 Updated ZeroClick cowl to allow ADXL mount on the right side of the toolhead
 - 2022-11-26 Updated all cowls to better hold the 4010 fans
 - 2022-11-26 Updated ZeroClick mount
+- 2022-11-29 Fixed some geometry issues with the hotend mounts
+- 2022-11-29 Added a Sherpa Mini Mount
