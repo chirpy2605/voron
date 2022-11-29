@@ -54,7 +54,7 @@ Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and th
 
 Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2).
 
-Note: If using the Sherpa Mini or a derivative, you will need the Sherpa_Mini_Mount.stl to clear the X carriage.
+Note: If using the Sherpa Mini or a derivative, depending on which hotend you use, you may need the Sherpa_Mini_Mount.stl to clear the X carriage.
 
 ## BOM:
 
