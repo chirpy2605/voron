@@ -161,3 +161,4 @@ Once again, a multimeter and check for continuity. It should show continuity whe
 ## v2 Changelog:
 
 - 2022-11-02 Version 2 release
+- 2022-11-29 Hotend Mount geometry fixes
