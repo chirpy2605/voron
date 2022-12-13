@@ -196,4 +196,6 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 
 - All hotend mounts have the heatsink thermistor functionality
 
-- 
+## v3 Changelog:
+
+- 2022-12-13 v3 released
