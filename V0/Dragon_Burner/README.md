@@ -20,11 +20,13 @@ It uses the standard Voron X carriage, and is inspired by the [Mini-AfterSherpa]
 ### Extruder support:
 
 - LGX Lite extruder support
-- Mini Sherpa extruder support
+- Sherpa Mini extruder support
+- Sherpa Micro extruder support
 - Sailfin/Sharkfin extruder support
 - Orbiter v1.5 extruder support
 - Orbiter v2 extruder support
 - [RoundHouse extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) support
+- [RoundAbout extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) support
 
 ### Fan support:
 
@@ -103,7 +105,7 @@ Fit the 4010 fan that you released the cable from into the cowl, passing the cab
 
 ![fitleftfan](images/fitleftfan.jpg)
 
-The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use M3 screws to secure it through the top two holes into the cowl. Routing of the fans cables are through the channel provided:
+The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. Routing of the fans cables are through the channel provided:
 
 ![fitfrontfan](images/fitfrontfan.jpg)
 
@@ -183,3 +185,15 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 - 2022-11-26 Updated ZeroClick mount
 - 2022-11-29 Fixed some geometry issues with the hotend mounts
 - 2022-11-29 Added a Sherpa Mini Mount
+
+## Release v3:
+
+- Improved geometry of hotend mounts
+
+- Moved all hotend mounts to place the nozzle 2mm further forward to match the Mini AfterBurner - You will need to recalculate your Y limits to take advantage of this. The change should mean no loss of Y _unless_ banging on the door is an issue
+
+- Added Sherpa Micro extruder support
+
+- All hotend mounts have the heatsink thermistor functionality
+
+- 
