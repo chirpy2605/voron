@@ -1,4 +1,4 @@
-# Dragon Burner v2
+# Dragon Burner v3
 
 I wanted to improve the cooling of the Dragon HF hotend and provide improved part cooling when printing filament that needs it (e.g. PLA). I designed this toolhead to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
 
