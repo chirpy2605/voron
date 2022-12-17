@@ -76,7 +76,9 @@ Fit the 4010 fan that you released the cable from into the cowl, passing the cab
 
 ![cowl_back](images/cowl_back.png)
 
-The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. Routing of the fans cables are through the channel provided:
+The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
+
+Routing of the fans cables are through the channel provided:
 
 ![cowl_front](images/cowl_front.png)
 
