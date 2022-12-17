@@ -126,7 +126,7 @@ Mount the extruder to the hotend mount:
 ![frontview](images/frontview.jpg)
 ![sideview](images/sideview.jpg)
 
-Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left:
+Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left.
 
 Zip-tie the wires at the back of the assembly.
 

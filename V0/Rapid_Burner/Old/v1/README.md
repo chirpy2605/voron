@@ -79,7 +79,7 @@ The hotend mount now needs to be mounted to the X Carriage using 2x M3x20mm scre
 
 Offer the cowl to the hotend mount and from the front use 2 M3x8mm screws to secure the cowl and the hotend mount together.
 
-Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left:
+Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left.
 
 Zip-tie the wires at the back of the assembly.
 

@@ -146,7 +146,7 @@ Neopixel cable routing can be seen on these two images:
 ![completeback](images/completeback.jpg)
 ![completeside](images/completeside.jpg)
 
-Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left:
+Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left.
 
 ![mounted3](images/mounted3.jpg)
 
