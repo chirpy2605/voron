@@ -1,6 +1,6 @@
 # Rapid Burner v3
 
-This toolhead for the Voron v0.1 has been specifically designed for the Rapido UHF and Dragon UHF hotends.
+This toolhead for the Voron v0.1 has been specifically designed for the Rapido UHF and Dragon UHF hotends. There are also alternative mounts for the Dragon + Volcano hotend combination.
 
 It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3mm in Y.
 
@@ -133,3 +133,4 @@ Plugin, test the fans and redo your X offset as it will have changed.
 ## v3 Changelog:
 
 - 2022-12-13 v3 released
+- 2022-12-20 Added Dragon Volcano mounts and cowls
