@@ -13,6 +13,7 @@ It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3m
 
 - Rapido UHF hotend
 - Dragon UHF hotend
+- Dragon + Volcano hotend
 
 ### Extruder support:
 
