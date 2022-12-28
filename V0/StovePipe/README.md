@@ -241,3 +241,4 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 ## Changelog:
 
 - 2022-12-19 Released v1
+- Added improved ADXL mount and a [KUSBA]([GitHub - xbst/KUSBA: Klipper USB Accelerometer Project](https://github.com/xbst/KUSBA)) Mount

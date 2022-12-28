@@ -257,3 +257,4 @@ Once again, a multimeter and check for continuity. It should show continuity whe
 - 2022-11-15 Modified the Dragonfly hotend mount to cater for shorter mounting screws
 - 2022-11-19 Fixed the CAD STEP file
 - 2022-11-23 New ADXL Mount to fit 15mm between screws
+- 2022-12-22 Added improved ADXL mount and a [KUSBA]([GitHub - xbst/KUSBA: Klipper USB Accelerometer Project](https://github.com/xbst/KUSBA)) Mount
