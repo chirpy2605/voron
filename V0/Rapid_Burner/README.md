@@ -49,8 +49,8 @@ It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3m
 ## BOM:
 
 - 2x M3x20mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL mount)
-- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL mount)
+- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL side mount)
+- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL side mount)
 - 2x M2x10mm self tapping screws (for blower fans)
 - 2x M2x8mm BHCS and nuts (optional: to mount ADXL)
 - 2x 4010 blower fans (24v recommended)
@@ -135,3 +135,4 @@ Plugin, test the fans and redo your X offset as it will have changed.
 
 - 2022-12-13 v3 released
 - 2022-12-20 Added Dragon Volcano mounts and cowls
+- 2022-12-22 Added improved ADXL mounts (front and side)
