@@ -1,6 +1,6 @@
 # Rapid Burner v3
 
-This toolhead for the Voron v0.1 has been specifically designed for the Rapido UHF and Dragon UHF hotends.
+This toolhead for the Voron v0.1 has been specifically designed for the Rapido UHF and Dragon UHF hotends. There are also alternative mounts for the Dragon + Volcano hotend combination.
 
 It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3mm in Y.
 
@@ -13,6 +13,7 @@ It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3m
 
 - Rapido UHF hotend
 - Dragon UHF hotend
+- Dragon + Volcano hotend
 
 ### Extruder support:
 
@@ -48,8 +49,8 @@ It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3m
 ## BOM:
 
 - 2x M3x20mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL mount)
-- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL mount)
+- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL side mount)
+- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL side mount)
 - 2x M2x10mm self tapping screws (for blower fans)
 - 2x M2x8mm BHCS and nuts (optional: to mount ADXL)
 - 2x 4010 blower fans (24v recommended)
@@ -76,7 +77,9 @@ Fit the 4010 fan that you released the cable from into the cowl, passing the cab
 
 ![cowl_back](images/cowl_back.png)
 
-The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. Routing of the fans cables are through the channel provided:
+The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
+
+Routing of the fans cables are through the channel provided:
 
 ![cowl_front](images/cowl_front.png)
 
@@ -131,3 +134,5 @@ Plugin, test the fans and redo your X offset as it will have changed.
 ## v3 Changelog:
 
 - 2022-12-13 v3 released
+- 2022-12-20 Added Dragon Volcano mounts and cowls
+- 2022-12-22 Added improved ADXL mounts (front and side)

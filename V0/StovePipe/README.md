@@ -6,8 +6,6 @@ It uses the standard Voron X carriage. There's no loss in X or Z, and at most 3m
 
 [![Video](images/video.png)](https://youtu.be/9vlZQuW5ikA)
 
-Please note: This is still a work in progress, though it has been running successfully on my v0.1 for a while. This means that the information below and the implementation could change until it is ready for full release. At that point I will also release the CAD.
-
 ## Background:
 
 CPAP fans not only have a high CFM, they generally also have very high static pressure. This allows air to be delivered to the hotend with greater force than traditional blower fans.
@@ -229,3 +227,18 @@ shutdown_speed: 0        # Turn off the fan when klipper shuts down
 - 2022-11-15 Updated the Square Chimney duct
 - 2022-11-17 Updated Chimney duct to help avoid hitting the stock tophat
 - 2022-11-17 Modified the ZeroClick mount to stop it rotating
+
+## Release v1:
+
+- Improved airflow through part cooling ducts
+
+- Doubled the size of the  part cooling duct exits
+
+- Added heatsink thermistor to Rapido/Dragon UHF mount
+
+- Added CAD
+
+## Changelog:
+
+- 2022-12-19 Released v1
+- 2022-12-22 Added improved ADXL mount and a [KUSBA]([GitHub - xbst/KUSBA: Klipper USB Accelerometer Project](https://github.com/xbst/KUSBA)) Mount

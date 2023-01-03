@@ -42,7 +42,7 @@ It uses the standard Voron X carriage, and is inspired by the [Mini-AfterSherpa]
 
 ### Extras:
 
-- ADXL345 mount point and board mount
+- ADXL345 front and side mount points and board mount
 - Heatsink thermistor support
 
 ## Printing:
@@ -61,11 +61,11 @@ Note: If using the Sherpa Mini or a derivative, depending on which hotend you us
 ## BOM:
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL mount)
+- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL side mount)
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL mount)
+- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL side mount)
 - 2x M2x10mm self tapping screws (for blower fans)
-- 2x M2x8mm BHCS and nuts (optional: to mount ADXL)
+- 2x M2x8mm BHCS and nuts (optional: to mount side ADXL)
 - 2x 4010 blower fans (24v recommended)
 - 1x 3010 hotend fan (24v recommended)
 
@@ -105,7 +105,9 @@ Fit the 4010 fan that you released the cable from into the cowl, passing the cab
 
 ![fitleftfan](images/fitleftfan.jpg)
 
-The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. Routing of the fans cables are through the channel provided:
+The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
+
+Routing of the fans cables are through the channel provided:
 
 ![fitfrontfan](images/fitfrontfan.jpg)
 
@@ -199,3 +201,4 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 ## v3 Changelog:
 
 - 2022-12-13 v3 released
+- 2022-12-22 Added improved ADXL mounts (front and side)
