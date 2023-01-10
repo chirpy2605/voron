@@ -1,6 +1,6 @@
 # Dragon Burner v3 for Voron v0.2 (Beta)
 
-![Dragon Burner](H:\Distributions\voron\V0\Dragon_Burner\v0_2_Beta\images\dragonburner.PNG)
+![Dragon Burner](images/dragonburner.png)
 
 This is a **beta** release of the Dragon Burner toolhead. This beta supports the following:
 
@@ -52,8 +52,6 @@ This is a **beta** release of the Dragon Burner toolhead. This beta supports the
 
 This release is for those that are willing to help with any issues that mazy arise from fitment and use of this toolhead on the Voron v0.2.
 
-
-
 - Changes to the geometry of the cowl removing to unnecessary mounting screws, heatsets 
 
 - Better hotend mount fitting to the cowl
@@ -67,9 +65,5 @@ This release is for those that are willing to help with any issues that mazy ari
 # Caveat:
 
 This beta has <u>not</u> been fitted to a Voron v0.2 as yet. It <u>has</u> been designed, printed and test mounted to the new X-carriage.
-
-Please provide feedback on Discord to [chirpy#2605]([Discord](https://discordapp.com/users/chirpy#2605))
-
-
 
 
