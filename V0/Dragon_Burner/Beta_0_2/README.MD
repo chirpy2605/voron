@@ -66,4 +66,4 @@ This release is for those that are willing to help with any issues that mazy ari
 
 This beta has <u>not</u> been fitted to a Voron v0.2 as yet. It <u>has</u> been designed, printed and test mounted to the new X-carriage.
 
-Feedback to [chirpy#2605]([Discord](https://discordapp.com/users/chirpy#2605)) on Discord is welcome.
+Feedback to [chirpy#2605](https://discordapp.com/users/chirpy#2605) on Discord is welcome.
