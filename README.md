@@ -14,7 +14,7 @@ V0.1 Toolhead has been specifically designed for the Rapido UHF and Dragon UHF h
 
 ## [MailBox Toolhead](V0/5015_Toolhead)
 
-V0.1 Toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
+V0.1 and v0.2 Toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
 
 ## [StovePipe Toolhead](V0/StovePipe)
 
