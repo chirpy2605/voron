@@ -43,3 +43,7 @@ Runout UnKlicky Sensor is a filament runout sensor
 ## [Daylight on a Matchstick Diffuser](V0/Daylight_on_a_Matchstick)
 
 Diffuser and mounts for [Daylight on a Matchstick](https://github.com/VoronDesign/Voron-Hardware/tree/master/Daylight) on a v0.1
+
+## [v0.2 X Carriage](/V0/XCarriage_v0_2)
+
+This is a modified X carriage for the v0.2 that uses heat inserts instead of M3 nuts
