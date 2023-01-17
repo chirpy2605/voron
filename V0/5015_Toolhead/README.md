@@ -288,3 +288,7 @@ Once again, use a multimeter and check for continuity. It should show continuity
 - Updated design
 
 - Added v0.2 compatibility
+
+## v5 Changelog:
+
+- 2023-01-17 Version 5 release
