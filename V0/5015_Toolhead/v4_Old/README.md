@@ -1,61 +1,44 @@
-# The Mailbox v5
+# 5015 Toolhead v5 (The Mailbox)
 
-This is a Voron v0 toolhead for the v0.1 and v0.2 that uses the guts of a 5015 fan for part cooling and incorporates Neopixel RGBW leds. It currently works with the LGX Lite extruder, Orbiter v1.5, the [Voron PocketWatch 2](https://github.com/VoronDesign/Pocket-Watch) and the [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) and the [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) extruders designed specifically for this hotend.
+This is a Voron V0.1 toolhead that uses the guts of a 5015 fan for part cooling and incorporates Neopixel RGBW leds. It currently works with the LGX Lite extruder, the [Voron PocketWatch 2](https://github.com/VoronDesign/Pocket-Watch) and the [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) and the [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) extruders designed specifically for this hotend.
 
-It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carriages).
+It uses the standard Voron V0.1 X carriage (and the MGN9C mod X carriage), is inspired by the [Mini-AfterSherpa](https://github.com/KurioHonoo/Mini-AfterSherpa).
 
-This toolhead should not lose any X or Z travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. The v0 and those with raised/square tophat/top frames should have no issues.
+This toolhead should not lose any X, Z travel. Y axis loss depends on the hotend and bed positioning. The Revo Voron losing none, but larger hotends losing up to ~3mm.
 
-[![Video](images/photo.jpg)](https://youtu.be/6vcyqFZt47E)
+![5015_Toolhead](images/5015_Toolhead.gif)
+![mounted2](images/mounted2.jpg)
 
-### Front:
+Front:
 
-![v4_front](images/front.png)
+![v4_front](images/v4_front.png)
 
 ### Back:
 
-![v4_back](images/back.png)
+![v4_back](images/v4_back.png)
 
-### Computation Fluid Dynamics results:
+Computation Fluid Dynamics results:
 
 ![airflow](images/airflow_v3.png)
 
 ## Printing:
 
-- Use the Voron defaults and print in ABS/ASA or better
+- Use the Voron defaults and print in ABS or better
 - The parts are orientated correctly in the STLs
 - The cowl has different variants for choice of probe, or no probe
 - Choose the mount for the specific hotend to be used
-- Choose the extruder mount required
 - If using the [Voron Pocket-Watch 2](https://github.com/VoronDesign/Pocket-Watch) extruder, print the source STL's from the repository, but use the [Guts_p2_x1.stl](STLs/Guts_p2_x1.stl) from this project instead. The Pocket-Watch is [inverted for this toolhead](images/PocketWatch2.jpg). (Note: The PTFE tube will likely pop out of the top of extruder when fully unloading filament as there is no room for the tube retainer)
-
-### Printed Parts:
-
-v0.1 - The common parts are listed in /STLs and the v0.1 specific parts are in /STLs/v0.1
-
-v0.2 - The common parts are listed in /STLs and the v0.2 specific parts are in /STLs/v0.2
 
 ## BOM:
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 2x M3x30mm  SHCS/BHCS (for the hotend/extruder mount)
-- 1x M3x20mm SHCS/BHCS (for the v0.2 X carriage mount)
+- 2x M3x20mm  SHCS/BHCS (for the hotend/extruder mount)
 - 2(4)x Brass heat inserts (2 for cowl hotend mount, 2 optional for ADXL mount)
 - 1x 5015 part cooling fan that you are happy to cut to pieces
 - 1x 3010 hotend fan (24v recommended)
 - 2x Neopixels and wiring (optional)
 
-## Supported Probes:
-
-- No probe 
-
-- [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe) 
-
-- [ZeroClick probe](https://github.com/zruncho3d/ZeroClick)
-
-- [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe)
-
-- MiniSlideSwipe using the SlideSwipe mechanism
+The cowl variants support a no probe setup, [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe), [ZeroClick probe](https://github.com/zruncho3d/ZeroClick), [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) and a MiniSlideSwipe using the SlideSwipe mechanism
 
 ## Supported Hotends:
 
@@ -69,8 +52,6 @@ v0.2 - The common parts are listed in /STLs and the v0.2 specific parts are in /
 
 - LGX Lite extruder
 
-- Orbiter v1.5 (This has not been tested and might be a tight fit)
-
 - [Voron PocketWatch 2](https://github.com/VoronDesign/Pocket-Watch)
 
 - [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) - developed for this toolhead
@@ -81,11 +62,12 @@ v0.2 - The common parts are listed in /STLs and the v0.2 specific parts are in /
 
 I am using these fans:
 
+- 24v Blower 5015: [Gdstime](https://www.aliexpress.com/item/32867546212.html)
 - 24v Axial 3010: [Gdstime](https://www.aliexpress.com/item/1005002857100082.html)
 
 ## Heatsink Thermistor:
 
-Each hotend mount includes a hole at the top to insert a thermistor where geometry allows. With this in place, klipper can track the temperature of the heatsink to watch for heat creep from the heatbreak. You can have klipper abort and shutdown before your whole toolhead melts! You only need a simple klipper entry for the appropriate pin on your MCU, e.g.:
+Each cowl includes a hole at the top to insert a thermistor. With this in place, klipper can track the temperature of the heatsink to watch for heat creep from the heatbreak. You can have klipper abort and shutdown before your whole toolhead melts! You only need a simple klipper entry for the appropriate pin on your MCU, e.g.:
 
 ```
 [temperature_sensor Heatsink]
@@ -98,71 +80,89 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ## Assembly:
 
+![startparts](images/startparts.jpg)
+
 Place brass inserts into the cowl for mounting the hotend and the adxl mount if using this.
 
-To apply the hotend/extruder mount inserts, turn the cowl upside-down and place an insert into the hole. Make sure the insert is correctly positioned and apply your soldering iron to the top of the insert and slowly apply pressure to sink it into the hole. Be careful not to push the insert in at an angle. Try to not touch the cowl with the soldering iron. If it is not entirely straight, try turning a screw into the insert from the opposite side and apply heat to the insert and straighten it using the attached screw:
+Remove the fan duct supports carefully. Check that none of the removed plastic has fallen into the ducts:
 
-![startparts](images/insert1.png)
-
-![startparts](images/insert2.png)
-
-ADXL mount inserts:
-
-![startparts](images/insert3_4.png)
+![cowlsupports](images/cowlsupports.jpg)
+![supports](images/supports.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use M3 screws to secure it through the top two holes into the cowl. Routing of the fans cables are through the channel provided:
 
-![hotendfan](images/3010_fan.png)
+![hotendfan](images/hotendfan.png)
+![hotendfanfit](images/hotendfanfit.jpg)
 
-![hotendfan](images/cabling.png)
-
-To fit the 5015 fan you need to remove most of the outer shell. Before doing so, please connect the fan to your MCU/toolhead board and ensure that it responds to pmw from klipper.
+You need to remove most of the outer shell of the 5015 fan. Before doing so, please connect the fan to your MCU/toolhead board and ensure that it responds to pmw from klipper.
 
 You need to split the 5015 fan casing in half by poking the tabs on the fan. Once done, take the half with the fan attached and carefully trim off the casing up to the fins. I use side cutters, but a craft knife should work. If more breaks off it shouldn't be a problem. What you want to be left with is a ~35mm circle of casing that matches the diameter of the actual fan. Be very careful not to cut the fan wires, or to manipulate the wires too much as they can easily break from their solder patches (a dab of hot glue helps):
 
-![hotendfan](images/fan_vhb.png)
+![fancut](images/fancut.jpg)
 
 Using VHB tape, cut to fit the back of the fan. You might want to remove any stickers on the back of the fan casing to ensure a good bond:
 
-Affix the fan to the fan cap by threading the wires through the hole and centre the fan into the middle of the fan cap. It does not need to be 100% central, but the closer the better it will look.
+![fantape](images/fantape.jpg)
 
-![hotendfan](images/fan_cover.png)
+Affix the fan to the fan cap by threading the wires through the hole and centre the fan into the middle of the fan cap. It does not need to be 100% central, but the closer the better it will look:
+
+![fancap](images/fancap.jpg)
+
+Fit the fan cap onto the cowl and ensure that it sits well without rubbing on the cowl:
+
+![fanmount](images/fanmount.jpg)
+
+The fan cover is a light friction fit and is held in place by the extruder mount:
+
+![fanfit](images/fanfit.jpg)
 
 If you are going to use Neopixels, remove the two tabs at the inner base of the cowl to expose the Neopixel holes:
 
-![rgbwtabs](images/supports.png)
+![rgbwtabs](images/rgbwtabs.jpg)
 
 Route the Neopixel cable through the provided groove and align with the hole:
 
-![rgbwcable](images/led.png)
+![rgbwcable](images/rgbwcable.jpg)
 
 Place the Neopixel diffuser/holder over the top of the Neopixel with the longer sides facing down and the front:
 
-![rgbwdiffuser](images/led_cover.png)
+![rgbwdiffuser](images/rgbwdiffuser.jpg)
 
-Push the diffuser/holder into the whole being careful not to dislodge the Neopixel being careful not to leave the cables pinched.
+Push the diffuser/holder into the whole being careful not to dislodge the Neopixel being careful not to leave the cables pinched:
+
+![rgbwfit](images/rgbwfit.jpg)
+
+Affix your chosen hotend mount to your hotend:
+
+![hotendparts](images/hotendparts.jpg)
+![hotendmount](images/hotendmount.jpg)
 
 Affix the extruder mount to the bottom of the extruder:
 
-![extrudermount](images/hotend.png)
+![extrudermount](images/extrudermount.jpg)
 
-Fit the fan cap onto the cowl and ensure that it sits well without rubbing on the cowl.
+Mount the extruder on top of the hotend onto the cowl using 2 M3x20 screws to check the assembly:
 
-Fit your chosen hotend mount to your hotend.
+![toolheadfit](images/toolheadfit.jpg)
 
-The fan cover is a light friction fit and is held in place by the hotend/extruder mount:
+You can now route your cables and secure them to the cable-tie mounts provided.
 
-![toolheadfit](images/fan_hotend_mounts.png)
+The following is a complete installation with the [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) extruder and a custom hotend:
 
-You can now route your cables and secure them to the cable-tie mounts provided:
+![completefront](images/completefront.jpg)
 
-![toolheadfit](images/cabling.png)
+Neopixel cable routing can be seen on these two images:
 
-To fit the toolhead to the printer, offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces. Also check that the toolhead can move completely to the left/right, front/back.
+![completeback](images/completeback.jpg)
+![completeside](images/completeside.jpg)
+
+Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left:
+
+![mounted3](images/mounted3.jpg)
 
 Zip-tie the wires at the back of the assembly.
 
-Plugin, test the fans and redo your Z offset as it will have changed.
+Plugin, test the fans and redo your X offset as it will have changed slightly.
 
 ## Neopixels:
 
@@ -198,7 +198,7 @@ Use a multimeter and check for continuity. It should show continuity when the pr
 
 On the cowl, use two wires from inside the right LED mounting hole. Use coiled bare wire from the two pieces and thread the wire into the LED mounting hole and then push (optionally glue) the magnets into the base, ensuring that they have the correct polarity so that the shuttle probe will attach to them. Run the wires up the LED channel on the inside of the hotend cowl and attach as you would for a normal [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe).
 
-Once again, use a multimeter and check for continuity. It should show continuity when the probe is attached to the hotend cowl but not triggered and no continuity when the switch is pressed.
+Once again, a multimeter and check for continuity. It should show continuity when the probe is attached to the hotend cowl but not triggered and no continuity when the switch is pressed.
 
 ## v1 Changelog:
 
@@ -277,14 +277,14 @@ Once again, use a multimeter and check for continuity. It should show continuity
 
 - Improved airflow through part cooling ducts
 
-- Increased the size of the part cooling duct exits
+- Doubled the size of the part cooling duct exits
+
+- Reduced toolhead height
+
+- Moved all hotend mounts to place the nozzle 2mm further forward to match the Mini AfterBurner - You will need to recalculate your Y limits to take advantage of this. The change should mean no loss of Y *unless* banging on the door is an issue
 
 - Added bridge cutter holes to front cowl mount points
 
 - Removed printed supports for the fan ducts as they are no longer needed with the current geometry
 
 - Fixed alignment issue with heat insert holes for the hotend/extruder mounts
-
-- Updated design
-
-- Added v0.2 compatibility
