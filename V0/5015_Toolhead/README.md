@@ -4,7 +4,9 @@ This is a Voron v0 toolhead for the v0.1 and v0.2 that uses the guts of a 5015 f
 
 It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carriages).
 
-This toolhead should not lose any X or Z travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. The v0 and those with raised/square tophat/top frames should have no issues.
+This toolhead should not lose any X or Z axis travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. Those with raised/square tophat/top frames should have no issues.
+
+
 
 [![Video](images/photo.jpg)](https://youtu.be/6vcyqFZt47E)
 
