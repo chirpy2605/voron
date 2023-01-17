@@ -6,8 +6,6 @@ It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carria
 
 This toolhead should not lose any X or Z axis travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. Those with raised/square tophat/top frames should have no issues.
 
-
-
 [![Video](images/photo.jpg)](https://youtu.be/6vcyqFZt47E)
 
 ### Front:
@@ -33,9 +31,9 @@ This toolhead should not lose any X or Z axis travel. There should be no Y axis 
 
 ### Printed Parts:
 
-v0.1 - The common parts are listed in /STLs and the v0.1 specific parts are in /STLs/v0.1
+v0.1 - The common parts are listed in /STLs and the v0.1 specific parts are in /STLs/v0_1
 
-v0.2 - The common parts are listed in /STLs and the v0.2 specific parts are in /STLs/v0.2
+v0.2 - The common parts are listed in /STLs and the v0.2 specific parts are in /STLs/v0_2
 
 ## BOM:
 
