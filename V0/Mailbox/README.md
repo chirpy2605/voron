@@ -2,6 +2,8 @@
 
 This is a Voron v0 toolhead for the v0.1 and v0.2 that uses the guts of a 5015 fan for part cooling and incorporates Neopixel RGBW leds. It currently works with the LGX Lite extruder, Orbiter v1.5, the [Voron PocketWatch 2](https://github.com/VoronDesign/Pocket-Watch) and the [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) and the [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) extruders designed specifically for this hotend.
 
+It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
+
 It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carriages).
 
 This toolhead should not lose any X or Z axis travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. Those with raised/square tophat/top frames should have no issues.
