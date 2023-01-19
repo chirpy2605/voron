@@ -6,8 +6,6 @@ This toolhead improves the cooling of the Dragon HF hotend and provides much imp
 
 ![Dragon Burner](images/frontpic.jpg)
 
-
-
 ![Dragon Burner](images/sidepic.jpg)
 
 ## Features:
@@ -98,8 +96,6 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ![startparts](images/front.png)
 
-
-
 ![startparts](images/back.png)
 
 Add heat inserts into the hotend mount. Most mounts accept them from underneath, some need them from the top:
@@ -129,7 +125,6 @@ Attach the extruder to the extruder specific mount, shown here with the LGX Lite
 Mount the extruder to the hotend mount:
 
 ![frontview](images/mountedfront.png)
-
 
 ![sideview](images/mountedback.png)
 
@@ -236,4 +231,4 @@ Plugin, test the fans and redo your X offset as it will likely have changed.
 
 ## v4 Changelog:
 
-- 2023-01-XX v4 released
+- 2023-01-19 v4 released
