@@ -65,7 +65,8 @@ Note: If using the Sherpa Mini or a derivative, depending on which hotend you us
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
 - 2x M3x5x4mm heat inserts (2 for extruder mount)
-- 2x M3x8mm SHCS/BHCS (2 for extruder mount)
+-  2x M3x8mm SHCS/BHCS (2 for extruder mount)
+- 1x M3x20mm SHCS/BHCS (for the rear of the v0.2 X carriage mount)
 - 4x M2x10mm self tapping screws (for blower fans)
 - 2x 4010 blower fans (24v recommended)
 - 1x 3010 hotend fan (24v recommended)
@@ -232,3 +233,5 @@ Plugin, test the fans and redo your X offset as it will likely have changed.
 ## v4 Changelog:
 
 - 2023-01-19 v4 released
+- 2023-01-19 Fixed v0.2 RapidoHF and Revo Voron mounts
+- 2023-01-19 Added M3x20mm screw to BOM for v0.2 X-carriage
