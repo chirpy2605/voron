@@ -57,7 +57,7 @@ Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and th
 
 Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2)
 
-Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the [STL Sherpa Micron subdirectory](STLs/Sherpa_Micro)
+Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the [STL Sherpa Micro subdirectory](STLs/Sherpa_Micro)
 
 Note: If using the Sherpa Mini or a derivative, depending on which hotend you use, you will need the Sherpa_Mini_Mount.stl to clear the X carriage
 
@@ -65,7 +65,7 @@ Note: If using the Sherpa Mini or a derivative, depending on which hotend you us
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
 - 2x M3x5x4mm heat inserts (2 for extruder mount)
--  2x M3x8mm SHCS/BHCS (2 for extruder mount)
+- 2x M3x8mm SHCS/BHCS (2 for extruder mount)
 - 1x M3x20mm SHCS/BHCS (for the rear of the v0.2 X carriage mount)
 - 4x M2x10mm self tapping screws (for blower fans)
 - 2x 4010 blower fans (24v recommended)
