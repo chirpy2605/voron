@@ -1,11 +1,14 @@
-# Dragon Burner v3
+# Dragon Burner v4
 
-I wanted to improve the cooling of the Dragon HF hotend and provide improved part cooling when printing filament that needs it (e.g. PLA). I designed this toolhead to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
+This is a toolhead for the v0.1 and v0.2 Voron printers. It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
-It uses the standard Voron X carriage, and is inspired by the [Mini-AfterSherpa](https://github.com/KurioHonoo/Mini-AfterSherpa)
+This toolhead improves the cooling of the Dragon HF hotend and provides much improved part cooling when printing filament that needs it (e.g. PLA). Designed to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
 
-![Dragon Burner](images/v2.jpg)
-![Dragon Burner](images/v2.png)
+![Dragon Burner](images/frontpic.jpg)
+
+
+
+![Dragon Burner](images/sidepic.jpg)
 
 ## Features:
 
@@ -42,30 +45,30 @@ It uses the standard Voron X carriage, and is inspired by the [Mini-AfterSherpa]
 
 ### Extras:
 
-- ADXL345 front and side mount points and board mount
+- ADXL345 front mount (v0.1 only)
 - Heatsink thermistor support
 
 ## Printing:
 
-- Use the Voron defaults and print in ABS or better. The parts are orientated correctly in the STL.
+- Use the Voron defaults and print in ABS/ASA or better. The parts are orientated correctly in the STLs
 - Print the appropriate cowl for your sensor probe if you use one
 - Print the appropriate hotend mount
 - Print the extruder mount
 
 Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter1.5 subdirectory](STLs/Orbiter1.5). With this extruder you loose the addition of the heatbreak thermistor.
 
-Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2).
+Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2)
 
-Note: If using the Sherpa Mini or a derivative, depending on which hotend you use, you may need the Sherpa_Mini_Mount.stl to clear the X carriage.
+Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the [STL Sherpa Micron subdirectory](STLs/Sherpa_Micro)
+
+Note: If using the Sherpa Mini or a derivative, depending on which hotend you use, you will need the Sherpa_Mini_Mount.stl to clear the X carriage
 
 ## BOM:
 
 - 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x5x4mm heat inserts (4 for extruder mount, optional: 2 for ADXL side mount)
-- 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 6x M3x8mm SHCS/BHCS (4 for extruder mount, optional: 2 for ADXL side mount)
-- 2x M2x10mm self tapping screws (for blower fans)
-- 2x M2x8mm BHCS and nuts (optional: to mount side ADXL)
+- 2x M3x5x4mm heat inserts (2 for extruder mount)
+- 2x M3x8mm SHCS/BHCS (2 for extruder mount)
+- 4x M2x10mm self tapping screws (for blower fans)
 - 2x 4010 blower fans (24v recommended)
 - 1x 3010 hotend fan (24v recommended)
 
@@ -93,46 +96,48 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ## Assembly:
 
-![startparts](images/startparts.jpg)
+![startparts](images/front.png)
 
-Add heat inserts into the cowl and hotend mount:
 
-![heatinserts](images/heatinserts.jpg)
+
+![startparts](images/back.png)
+
+Add heat inserts into the hotend mount. Most mounts accept them from underneath, some need them from the top:
+
+![heatinserts](images/hotendinserts.png)
 
 Insert the fans. You will need to release the cable from their tabs on the front-end and one of the 4010 fans. This is to allow the cables to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
 
 Fit the 4010 fan that you released the cable from into the cowl, passing the cable through the provided round hole:
 
-![fitleftfan](images/fitleftfan.jpg)
+![fitleftfan](images/cowl.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
-Routing of the fans cables are through the channel provided:
+Routing of the fans cables are through the channel provided.
 
-![fitfrontfan](images/fitfrontfan.jpg)
+Now slot in the second 4010 fan and use 2x M2x10mm self tapping screws to secure the fans into the cowl.
 
-Now slot in the second 4010 fan and use 2x M2x10mm self tapping screws to secure the fans into the cowl:
+Attach the hotend to the hotend specific mount:
 
-![frontfans](images/frontfans.jpg)
+![fithotend](images/hotendmount.png)
 
-Place the hotend onto the cowl. There are two locator tabs to help align the two parts. From the front use 2 M3x8mm screws to secure the cowl and the hotend mount together:
+Attach the extruder to the extruder specific mount, shown here with the LGX Lite:
 
-![fithotend](images/fithotend.jpg)
-
-Attach the extruder mount to your chosen extruder, shown here with the LGX Lite:
-
-![extrudermount](images/extrudermount.jpg)
+![extrudermount](images/extrudermount.png)
 
 Mount the extruder to the hotend mount:
 
-![frontview](images/frontview.jpg)
-![sideview](images/sideview.jpg)
+![frontview](images/mountedfront.png)
 
-Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered. Also check that the X axis can move completely to the left:
+
+![sideview](images/mountedback.png)
+
+Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1). Also check that the X axis can move completely to the left:
 
 Zip-tie the wires at the back of the assembly.
 
-Plugin, test the fans and redo your X offset as it will have changed slightly.
+Plugin, test the fans and redo your X offset as it will likely have changed.
 
 ## v1 Changelog:
 
@@ -202,3 +207,33 @@ Plugin, test the fans and redo your X offset as it will have changed slightly.
 
 - 2022-12-13 v3 released
 - 2022-12-22 Added improved ADXL mounts (front and side)
+
+## Release v4:
+
+- New design
+
+- Voron v0.2 support
+
+- Improved cable routing space
+
+- Additional M2x10mm self tapping screws to hold the 4010 fans in place
+
+- All hotends align to the same location
+
+- Improved rigidity of the toolhead
+
+- Simpler mounting (removed 2 screws/inserts)
+
+- Improved ZeroClick support
+
+- Improved mounting screw depth 
+
+- Where possible, moved the heat inserts to opposing plastic for better screw retention
+
+- Adding bridge cutters where needed
+
+- Removed side-mount ADXL mount in favour of the front mount on v0.1. v0.2 uses the mount on the back of the X carriage
+
+## v4 Changelog:
+
+- 2023-01-XX v4 released
