@@ -10,7 +10,7 @@ v0.1, v0.2 and  [Printers for Ants](https://3dprintersforants.com/) toolhead usi
 
 ## [Rapid Burner Toolhead](V0/Rapid_Burner)
 
-v0.1 and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF and Dragon UHF hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
+v0.1, V0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF and Dragon UHF hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
 
 ## [Mailbox Toolhead](V0/Mailbox)
 
