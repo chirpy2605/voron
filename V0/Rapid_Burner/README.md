@@ -2,16 +2,11 @@
 
 This toolhead for the Voron v0.1, v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
-
-
 It has been specifically designed for the Rapido UHF and Dragon UHF hotends. There are also alternative mounts for the Dragon + Volcano, Rapido HF, Dragon UHF without extender.
 
 It uses the standard Voron v0 X carriage. There's no loss in X, Y or Z. On the v0.1 you might find it taps the front door.
 
-
-
 ![front](images/frontpic.jpg)
-
 
 ![front](images/sidepic.jpg)
 
@@ -19,9 +14,11 @@ It uses the standard Voron v0 X carriage. There's no loss in X, Y or Z. On the v
 
 - Rapido UHF hotend
 - Dragon UHF hotend
+- Rapido HF
 - Dragon + Volcano hotend
 - Dragon UHF without Extender
-- Rapido HF
+  
+  
 
 ### Extruder support:
 
@@ -90,25 +87,17 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ![front](images/front.png)
 
-
-
 ![front](images/back.png)
-
-
 
 Add heat inserts into the cowl and hotend mount:
 
 ![hotend_mount](images/hotendinserts.png)
-
-
 
 Fitting the fans: You will need to release the cable from their tabs on the 3010 frontend fan and one of the 4010 fans. This is to allow the cables to be routed correctly through the cowl. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans. It helps if you can add a blob of hot glue as strain relief.
 
 Fit the 4010 fan that you released the cable from into the cowl, passing the cable through the provided round hole:
 
 ![cowl_back](images/cowl.png)
-
-
 
 The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
@@ -126,13 +115,9 @@ Mount the hotend to the hotend mount:
 
 ![cowl_back](images/hotendmount.png)
 
-
-
 If using an LGX Lite, mount the extruder mount to the hotend mount:
 
 ![cowl_back](images/extrudermount.png)
-
-
 
 The hotend mount needs to be mounted to the X Carriage using 2x M3x10mm screws:
 
