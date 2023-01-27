@@ -30,6 +30,8 @@ This is a work in progress, CAD will be released when testing is finished.
 
 ## Assembly:
 
+Note: There is now an additional heat insert to the lower right of this picture:
+
 ![front](images/frontfittings.png)
 
 ![front](images/backfittings.png)
