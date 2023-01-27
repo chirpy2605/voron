@@ -6,8 +6,6 @@ This is a work in progress, CAD will be released when testing is finished.
 
 [Youtube video](https://youtube.com/shorts/BWLd8I14_3c).
 
-
-
 ![front](images/front.png)
 
 ![front](images/back.png)
@@ -23,6 +21,8 @@ This is a work in progress, CAD will be released when testing is finished.
 - 4x Brass heat inserts
 
 - 1x UM2 4mm coupling collet to hold the PTFE tube (optional, but recommended). If you have a spare TBG Lite or LGX Lite you can use the one with those
+
+- An assortment of M3 SHCS/BHCS screws 
 
 ## Klipper:
 
