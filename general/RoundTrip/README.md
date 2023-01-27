@@ -4,15 +4,13 @@ This extruder uses the Trianglelab TBG gear set. It is an open design, so that t
 
 This is a work in progress, CAD will be released when testing is finished.
 
-
-
 ![front](images/front.png)
 
 ![front](images/back.png)
 
 ## BOM:
 
-1x [Trianglelab TBG gear set]((https://www.aliexpress.com/item/1005004050167328.html)
+1x [Trianglelab TBG gear set](https://www.aliexpress.com/item/1005004050167328.html)
 
 1x [NEMA14 36MM 17MM geared motor](https://www.aliexpress.com/item/1005003056906725.html)
 
