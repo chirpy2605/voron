@@ -4,6 +4,10 @@ This extruder uses the Trianglelab TBG gear set. It is an open design, so that t
 
 This is a work in progress, CAD will be released when testing is finished.
 
+[Youtube video](https://youtube.com/shorts/BWLd8I14_3c).
+
+
+
 ![front](images/front.png)
 
 ![front](images/back.png)
