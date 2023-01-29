@@ -190,3 +190,5 @@ Plugin, test the fans and redo your X offset as it will have changed.
 ## v4 Changelog:
 
 - 2023-01-23 v4 released
+- 2023-01-27 Added sliders to the v0.2 cowls and hotend mounts to prevent the toolhead from tilting
+- 2023-01-27 Added experimental sequin support for v0.2 cowls 
