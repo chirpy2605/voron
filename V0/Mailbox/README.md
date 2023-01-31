@@ -294,3 +294,4 @@ Once again, use a multimeter and check for continuity. It should show continuity
 ## v5 Changelog:
 
 - 2023-01-17 Version 5 release
+- 2023-01-31 Geometry fixes to the cowls to help with first layer print and some thin walls
