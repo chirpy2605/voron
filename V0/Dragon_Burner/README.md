@@ -233,8 +233,11 @@ Plugin, test the fans and redo your X offset as it will likely have changed.
 ## v4 Changelog:
 
 - 2023-01-19 v4 released
+
 - 2023-01-19 Fixed v0.2 RapidoHF and Revo Voron mounts
+
 - 2023-01-19 Added M3x20mm screw to BOM for v0.2 X-carriage
+
 - 2023-01-29 Fixed mainbody/nozzle alignment for v0.1 cowl
 
 - 2023-01-31 Added sliders to the cowls and hotend mounts to help prevent the toolhead from tilting

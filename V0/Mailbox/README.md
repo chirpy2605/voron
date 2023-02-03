@@ -295,3 +295,5 @@ Once again, use a multimeter and check for continuity. It should show continuity
 
 - 2023-01-17 Version 5 release
 - 2023-01-31 Geometry fixes to the cowls to help with first layer print and some thin walls
+- 2023-02-03 Geometry fixes to cowls
+- 2023-02-03 Added sliders to the cowls and hotend mounts to help prevent the toolhead from tilting
