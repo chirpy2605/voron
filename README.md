@@ -28,6 +28,10 @@ v0.1  and [Printers for Ants](https://3dprintersforants.com/) Extruder to comple
 
 v0.1 and [Printers for Ants](https://3dprintersforants.com/) Extruder to complement the 5015 Toolhead using Orbiter v2.0 parts
 
+## [RoundTrip Extruder](general/RoundTrip)
+
+This extruder uses either the LGX Lite or the TBG Lite extruder gears. It can work on the v0, Trident and v2 depending on the toolhead used
+
 ## [NozzleWiper](V0/NozzleWiper)
 
 V0.1, v02 and [Printers for Ants](https://3dprintersforants.com/) Nozzle purge and wipe mod
