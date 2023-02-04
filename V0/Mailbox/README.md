@@ -124,9 +124,11 @@ You need to split the 5015 fan casing in half by poking the tabs on the fan. Onc
 
 ![hotendfan](images/fan_vhb.png)
 
-Using VHB tape, cut to fit the back of the fan. You might want to remove any stickers on the back of the fan casing to ensure a good bond:
+Using VHB tape, cut to fit the back of the fan. You might want to remove any stickers on the back of the fan casing to ensure a good bond.
 
-Affix the fan to the fan cap by threading the wires through the hole and centre the fan into the middle of the fan cap. It does not need to be 100% central, but the closer the better it will look.
+**NOTE**: Do not cover the motor shaft/bearing on the bottom of the fan with VHB tape. Either cut a small disk of paper and cover the shaft/bearing before applying the tape, or place tape either side so that it doesn't touch the shaft/bearing.
+
+Affix the fan to the fan cap by threading the wires through the hole and centre the fan into the middle of the fan cap. It does not need to be 100% central, but the closer the better it will look:
 
 ![hotendfan](images/fan_cover.png)
 
