@@ -73,3 +73,4 @@ Feed some filament through the extruder and check that the hobbed gears pull the
 ## Changelog:
 
 - 2023-02-04 Initial WIP release
+- 2023-02-07 Updated Front and Back STLs to cover the guidler to retain the pin if it's loose
