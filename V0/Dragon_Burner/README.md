@@ -151,7 +151,7 @@ Place the Neopixel into the cover with the wires coming out of the side where th
 
 ![ledcables](images/ledcables.png)
 
-For creating the actual wiring, refer to page 46 of the [StealthBurner manual](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Manual/Assembly_Manual_SB.pdf). The cables should be around 12-15mm in length depending on your toolhead board, if you use one.
+For creating the actual wiring, refer to page 46 of the [StealthBurner manual](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Manual/Assembly_Manual_SB.pdf). The cables should be around 12-15cm in length depending on your toolhead board, if you use one.
 
 To configure the Neopixel in Klipper, I'd suggest using the [StealthBurner config file](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Firmware/stealthburner_leds.cfg).
 
