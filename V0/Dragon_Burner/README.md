@@ -28,6 +28,7 @@ This toolhead improves the cooling of the Dragon HF hotend and provides much imp
 - Orbiter v2 extruder support
 - [RoundHouse extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) support
 - [RoundAbout extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) support
+- [RoundTrip extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) support
 
 ### Fan support:
 
@@ -45,6 +46,7 @@ This toolhead improves the cooling of the Dragon HF hotend and provides much imp
 
 - ADXL345 front mount (v0.1 only)
 - Heatsink thermistor support
+- Neopixel support (experimental)
 
 ## Printing:
 
@@ -95,19 +97,19 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ## Assembly:
 
-![startparts](images/front.png)
+![front](images/front.png)
 
-![startparts](images/back.png)
+![back](images/back.png)
 
 Add heat inserts into the hotend mount. Most mounts accept them from underneath, some need them from the top:
 
-![heatinserts](images/hotendinserts.png)
+![hotendinserts](images/hotendinserts.png)
 
 Insert the fans. You will need to release the cable from their tabs on the front-end and one of the 4010 fans. This is to allow the cables to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
 
 Fit the 4010 fan that you released the cable from into the cowl, passing the cable through the provided round hole:
 
-![fitleftfan](images/cowl.png)
+![cowl](images/cowl.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
@@ -117,7 +119,7 @@ Now slot in the second 4010 fan and use 2x M2x10mm self tapping screws to secure
 
 Attach the hotend to the hotend specific mount:
 
-![fithotend](images/hotendmount.png)
+![hotendmount](images/hotendmount.png)
 
 Attach the extruder to the extruder specific mount, shown here with the LGX Lite:
 
@@ -125,15 +127,33 @@ Attach the extruder to the extruder specific mount, shown here with the LGX Lite
 
 Mount the extruder to the hotend mount:
 
-![frontview](images/mountedfront.png)
+![mountedfront](images/mountedfront.png)
 
-![sideview](images/mountedback.png)
+![mountedback](images/mountedback.png)
 
 Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1). Also check that the X axis can move completely to the left:
 
 Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
+
+### Experimental RGBW:
+
+To add an RGBW Noepixel to the toolhead you will need to print the [[t]_LED_Holder.stl](STLs/[t]_LED_Holder.stl). It should be printed in at least ABS/ASA or PC in a translucent colour. Do not try to use PLA or PETG. It will melt. Quickly.
+
+It is recommended to print 2 or 3 as they are fragile and a bit fiddly to fit. They may also get a little melty near the hotend.
+
+Once printed, carefully remove the support tabs from the holder:
+
+![ledholder](images/led_holder.png)
+
+Place the Neopixel into the cover with the wires coming out of the side where that tab was removed. Carefully push the holder into the gap at the back of the cowl so that the wires are inside the cowl and then run them up through the channel provided:
+
+![ledcables](images/ledcables.png)
+
+For creating the actual wiring, refer to page 46 of the [StealthBurner manual](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Manual/Assembly_Manual_SB.pdf). The cables should be around 12-15mm in length depending on your toolhead board, if you use one.
+
+To configure the Neopixel in Klipper, I'd suggest using the [StealthBurner config file](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Firmware/stealthburner_leds.cfg).
 
 ## v1 Changelog:
 
@@ -241,3 +261,9 @@ Plugin, test the fans and redo your X offset as it will likely have changed.
 - 2023-01-29 Fixed mainbody/nozzle alignment for v0.1 cowl
 
 - 2023-01-31 Added sliders to the cowls and hotend mounts to help prevent the toolhead from tilting
+
+- 2023-02-09 New cowls with experimental RGBW support
+
+- 2023-02-09 Modified cowls to have two cable channels. Both channels are now deeper
+
+- 2023-02-09 Modified v0.2 extruder mounts to extend the x-carriage rear screw distance to a closer distance
