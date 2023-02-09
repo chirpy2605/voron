@@ -266,4 +266,4 @@ To configure the Neopixel in Klipper, I'd suggest using the [StealthBurner conf
 
 - 2023-02-09 Modified cowls to have two cable channels. Both channels are now deeper
 
-- 2023-02-09 Modified v0.2 extruder mounts to extend the x-carriage rear screw distance to a closer distance
+- 2023-02-09 Modified v0.2 extruder mounts to extend the x-carriage rear screw distance to be a closer fit
