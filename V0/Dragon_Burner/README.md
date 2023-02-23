@@ -285,7 +285,7 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 
 - 2023-02-23 Made all the v0.2 extruder mounts flush with the x-carriage rear screw mount
 
-- 2023-02-23 Added new cable routing system that allows the easy fitting and removal of part cooling fans together with simple routing for LEDs
+- 2023-02-23 Added new cable routing system that allows the easy fitting and removal of part cooling fans and simple routing for LEDs
 
 - 2023-02-23 Updated CAD with all the recent changes
 
