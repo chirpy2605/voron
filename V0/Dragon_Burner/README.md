@@ -292,3 +292,5 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 - 2023-02-23 Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
 
 - 2023-02-23 Added Sequin cowls
+
+- 2023-02-23 Modified Sequin cowls to restore through access for daisy-chained sequins
