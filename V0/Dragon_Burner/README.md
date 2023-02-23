@@ -10,6 +10,9 @@ This toolhead improves the cooling of the Dragon HF hotend and provides much imp
 
 ## Features:
 
+Now with (experimental) LED's!
+[Dragon Burner LEDs - YouTube](https://youtu.be/B831uYE642U)
+
 ### Hotend support:
 
 - Dragon SF and HF hotend support
