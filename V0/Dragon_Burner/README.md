@@ -140,7 +140,11 @@ Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
 
-### Experimental RGBW:
+## Experimental LEDs:
+
+Support has been added for either standard Neopixels or Sequins. 
+
+### Neopixels:
 
 To fit the Neopixels, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
 
@@ -150,7 +154,19 @@ It's a bit of a tight squeeze, but they should slot in with a little manipulatio
 
 I'd recommend cabling the LED's together into a single 3 pin connector. The cable from each LED to the 3 pin connector should be around 12-15cm in length depending on your toolhead board, if you use one.
 
-To configure the Neopixel in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
+### Sequins:
+
+Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
+
+Sequins are fitted after soldering the cables to the sequins, but before crimping the cables.
+
+Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
+
+![Sequins](images/sequin.png)
+
+**Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
+
+To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
 
 ## v1 Changelog:
 
@@ -274,3 +290,5 @@ To configure the Neopixel in Klipper, I'd suggest using the [[GitHub - juliansc
 - Updated CAD with all the recent changes
 
 - Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
+
+- Added Sequin cowls
