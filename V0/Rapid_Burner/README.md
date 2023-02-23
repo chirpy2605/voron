@@ -191,4 +191,5 @@ Plugin, test the fans and redo your X offset as it will have changed.
 
 - 2023-01-23 v4 released
 - 2023-01-27 Added sliders to the v0.2 cowls and hotend mounts to help prevent the toolhead from tilting
-- 2023-01-27 Added experimental sequin support for v0.2 cowls 
+- 2023-01-27 Added experimental sequin support for v0.2 cowls
+- 2023-02-23 Added missing heat insert hole to the orbiter v2 volcano mount
