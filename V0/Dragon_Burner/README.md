@@ -105,17 +105,17 @@ Add heat inserts into the hotend mount. Most mounts accept them from underneath,
 
 ![hotendinserts](images/hotendinserts.png)
 
-Insert the fans. You will need to release the cable from their tabs on the front-end and one of the 4010 fans. This is to allow the cables to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
+Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
 
-Fit the 4010 fan that you released the cable from into the cowl, passing the cable through the provided round hole:
+If you are going to fit Neopixels, it's best to do that now (see bottom of page).
+
+Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
 ![cowl](images/cowl.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
-Routing of the fans cables are through the channel provided.
-
-Now slot in the second 4010 fan and use 2x M2x10mm self tapping screws to secure the fans into the cowl.
+Use 4x M2x10mm self tapping screws to secure the fans into the cowl.
 
 Attach the hotend to the hotend specific mount:
 
@@ -139,21 +139,15 @@ Plugin, test the fans and redo your X offset as it will likely have changed.
 
 ### Experimental RGBW:
 
-To add an RGBW Noepixel to the toolhead you will need to print the [[t]_LED_Holder.stl](STLs/[t]_LED_Holder.stl). It should be printed in at least ABS/ASA or PC in a translucent colour. Do not try to use PLA or PETG. It will melt. Quickly.
+To fit the Neopixels, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
 
-It is recommended to print 2 or 3 as they are fragile and a bit fiddly to fit. They may also get a little melty near the hotend.
+It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
 
-Once printed, carefully remove the support tabs from the holder:
+![ledcables](images/ledfitting.jpg)
 
-![ledholder](images/led_holder.png)
+I'd recommend cabling the LED's together into a single 3 pin connector. The cable from each LED to the 3 pin connector should be around 12-15cm in length depending on your toolhead board, if you use one.
 
-Place the Neopixel into the cover with the wires coming out of the side where that tab was removed. Carefully push the holder into the gap at the back of the cowl so that the wires are inside the cowl and then run them up through the channel provided:
-
-![ledcables](images/ledcables.png)
-
-For creating the actual wiring, refer to page 46 of the [StealthBurner manual](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Manual/Assembly_Manual_SB.pdf). The cables should be around 12-15cm in length depending on your toolhead board, if you use one.
-
-To configure the Neopixel in Klipper, I'd suggest using the [StealthBurner config file](https://github.com/VoronDesign/Voron-Stealthburner/blob/main/Firmware/stealthburner_leds.cfg).
+To configure the Neopixel in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
 
 ## v1 Changelog:
 
@@ -267,3 +261,13 @@ To configure the Neopixel in Klipper, I'd suggest using the [StealthBurner conf
 - 2023-02-09 Modified cowls to have two cable channels. Both channels are now deeper
 
 - 2023-02-09 Modified v0.2 extruder mounts to extend the x-carriage rear screw distance to be a closer fit
+
+- 2023-02-23 Fixed v0.1 hotend mounts so they meet the cowl correctly
+
+- 2023-02-23 Made all the v0.2 extruder mounts flush with the x-carriage rear screw mount
+
+- Added new cable routing system that allows the easy fitting and removal of part cooling fans together with simple routing for LEDs
+
+- Updated CAD with all the recent changes
+
+- Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
