@@ -6,7 +6,9 @@
 
 - Can't quite reach?
 
-- Don't want to have to open the cam lock?
+- Don't want to have to open the cam locks?
+
+- Don't want to lose *all* that chamber heat?
 
 #### You need a Tophat Cat Flap!
 
