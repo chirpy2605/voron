@@ -1,7 +1,5 @@
 # Voron v0.2 Mods:
 
----
-
 Z Cover to prevent stuff falling through the chamber into the lead screw hole:
 
 ![Z Cover](images/[a]_Z_Cover.png)
@@ -34,5 +32,3 @@ Gap Seals:
 
 Rear Skirt Keystone Mesh from [VoronUsers/printer_mods/hartk1213/Voron0.2_Rear_Keystone_Skirt at master · VoronDesign/VoronUsers · GitHub](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/hartk1213/Voron0.2_Rear_Keystone_Skirt):
 ![](images/Rear_Skirt_Keystone_Mesh.png)
-
----
