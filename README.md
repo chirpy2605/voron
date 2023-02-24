@@ -51,3 +51,7 @@ Diffuser and mounts for [Daylight on a Matchstick](https://github.com/VoronDesig
 ## [v0.2 X Carriage](/V0/XCarriage_v0_2)
 
 This is a modified X carriage for the v0.2 and [Printers for Ants](https://3dprintersforants.com/) that uses heat inserts instead of M3 nuts
+
+## [Other v0.2 Stuff](/V0/v0.2_Stuff)
+
+Other v0.2 mods I've made for my own printer
