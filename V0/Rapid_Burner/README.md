@@ -10,6 +10,10 @@ It uses the standard Voron v0 X carriage. There's no loss in X, Y or Z. On the v
 
 ![front](images/sidepic.jpg)
 
+### Features:
+
+Now with (experimental) LED's!
+
 ### Hotend support:
 
 - Rapido UHF hotend
@@ -91,21 +95,17 @@ Add heat inserts into the cowl and hotend mount:
 
 ![hotend_mount](images/hotendinserts.png)
 
-Fitting the fans: You will need to release the cable from their tabs on the 3010 frontend fan and one of the 4010 fans. This is to allow the cables to be routed correctly through the cowl. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans. It helps if you can add a blob of hot glue as strain relief.
+Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
 
-Fit the 4010 fan that you released the cable from into the cowl, passing the cable through the provided round hole:
+If you are going to fit Neopixels, it's best to do that now (see bottom of page).
+
+Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
 ![cowl_back](images/cowl.png)
 
-The 3010 hotend fan is press fit. Feed the cable through the front of the cowl and then push the fan into the cowl from the front. If it's too tight, sand or file the opening. Don't force it in, otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
+The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
-Routing of the fans cables are through the channel provided
-
-Now slot in the second 4010 fan and use 2x M2x10mm (4x M2x10mm on some cowl variants) self tapping screws to secure the fans into the cowl.
-
-Route the 3010 cable through the provided channel in the cowl.
-
-The cables should run up the inside and back of the 4010 fans and cabled tied to the extruder mount. Try and keep the cable bundle flat so that the belt does not run against the X extrusion when mounted. If you have trouble with the Rapido cables, you can trim a bit of the outer cable covering so that the heater and thermistor cables can lay flat.
+Use 2x M2x10mm (4x M2x10mm on some cowl variants) self tapping screws to secure the fans into the cowl.
 
 ## Mounting:
 
@@ -128,6 +128,34 @@ Be careful not to catch any wires between the surfaces and that when the toolhea
 Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will have changed.
+
+## Experimental LEDs:
+
+Support has been added for either standard Neopixels or Sequins.
+
+### Neopixels:
+
+To fit the Neopixels, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
+
+It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
+
+![ledcables](images/ledfitting.jpg)
+
+I'd recommend cabling the LED's together into a single 3 pin connector. The cable from each LED to the 3 pin connector should be around 12-15cm in length depending on your toolhead board, if you use one.
+
+### Sequins:
+
+Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
+
+Sequins are fitted after soldering the cables to the sequins, but before crimping the cables.
+
+Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
+
+![Sequins](images/sequin.png)
+
+**Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
+
+To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
 
 ## v1 Changelog:
 
@@ -190,6 +218,19 @@ Plugin, test the fans and redo your X offset as it will have changed.
 ## v4 Changelog:
 
 - 2023-01-23 v4 released
+
 - 2023-01-27 Added sliders to the v0.2 cowls and hotend mounts to help prevent the toolhead from tilting
+
 - 2023-01-27 Added experimental sequin support for v0.2 cowls
-- 2023-02-23 Added missing heat insert hole to the orbiter v2 volcano mount
+
+- 2023-02-26 Added missing heat insert hole to the orbiter v2 volcano mount
+
+- 2023-02-26 Made all the v0.2 extruder mounts flush with the x-carriage rear screw mount
+
+- 2023-02-26 Added new cable routing system that allows the easy fitting and removal of part cooling fans and simple routing for LEDs
+
+- 2023-02-26 Updated CAD with all the recent changes
+
+- 2023-02-26 Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
+
+- 2023-02-26 Added Sequin cowls
