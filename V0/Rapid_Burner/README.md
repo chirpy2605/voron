@@ -229,8 +229,12 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 
 - 2023-02-26 Added new cable routing system that allows the easy fitting and removal of part cooling fans and simple routing for LEDs
 
+- 2023-02-26 Added Neopixel cowls
+
+- 2023-02-26 Added Sequin cowls
+
 - 2023-02-26 Updated CAD with all the recent changes
 
 - 2023-02-26 Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
 
-- 2023-02-26 Added Sequin cowls
+- 
