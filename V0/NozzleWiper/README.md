@@ -1,6 +1,6 @@
 # Nozzle Wiper v2
 
-This is a nozzle purge and wipe mod for the Voron V0.1. It is based on the [SlideSwipe](https://github.com/chestwood96/SlideSwipe) magnetic probe.
+This is a nozzle purge and wipe mod for the Voron v0.1, v0.2 and various [Printers for Ants](https://3dprintersforants.com/). It is based on the [SlideSwipe](https://github.com/chestwood96/SlideSwipe) magnetic probe.
 
 It uses a snap in frame clip to attach a servo that extends a bucket and brush over the build plate for the hotend nozzle to clean it of filament debris for cleaner prints.
 
@@ -147,8 +147,6 @@ Holding the nozzle wiper firmly in the hand by the extrusion mount, run the "NW 
 Shutdown the printer.
 
 Fit the Nozzle Wiper under the left Y extrusion: Feed the cable up through the provided routing on the frame mount. Then angle the frame mount into into the groove on underside of the left Y extrusion and push firmly so it snaps into place. Slide the assembly until the end of the tool carrier/bucket is ~5mm from the back panel. Now screw the fitted M3x10mm on the frame mount into the extrusion. Don't overtighten, it only needs small amount of contact to hold the Nozzle Wiper in place.
-
-
 
 ![printerfit](images/printerfit.jpg)
 
