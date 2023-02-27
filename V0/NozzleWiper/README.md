@@ -36,13 +36,19 @@ For up to date modifications, check my [git repo](https://github.com/waytotheweb
 
 ## Hardware:
 
-Brush:
-https://www.amazon.co.uk/gp/product/B08H8SXBKM
-https://www.aliexpress.com/item/4000801101276.html
+Brass Brush:
+
+[https://www.amazon.co.uk/gp/product/B08H8SXBKM](https://www.amazon.co.uk/gp/product/B08H8SXBKM)
+[https://www.aliexpress.com/item/4000801101276.html](https://www.aliexpress.com/item/4000801101276.html)
+
+Silicone Brush:
+
+https://www.amazon.co.uk/gp/product/B09P535KM6
 
 Servo:
-https://www.amazon.co.uk/gp/product/B0972M7JN1
-https://www.aliexpress.com/item/1005001956791642.html
+
+[https://www.amazon.co.uk/gp/product/B0972M7JN1](https://www.amazon.co.uk/gp/product/B0972M7JN1)
+[https://www.aliexpress.com/item/1005001956791642.html](https://www.aliexpress.com/item/1005001956791642.html)
 
 ## Assembly:
 
@@ -58,9 +64,15 @@ Place the 6 heat inserts as shown:
 
 Remove the support tabs from the bucket. There is also a small support tap at the corner of the frame mount (see image at the bottom)
 
+#### Brass Brush:
+
 Cut down the brush head so that it matches the internal width of the brush holder. It's soft plastic so can be cut with a craft knife or a pair of angle cutters.
 
 ![brush](images/brush.jpg)
+
+#### Silicone Brush:
+
+Remove the brush from the handle. Trim the base of the brush to about 8mm from the bristles. Trim the bristles to about 15mm in length. Do *not* cut them shorter yet as the nozzle may not reach them. Push the brush onto the adapter. You can trim the bristles later once you have the nozzlewiper installed and can better judge how long they need to be.
 
 Cut the PTFE tube into 3 lots of 16mm and 1 lot of 7mm. These will act as the hinges.
 
@@ -96,7 +108,7 @@ Place the M3x10mm screw through into the frame mount and wind on the nut about 2
 
 ![mountnut](images/mountnut.jpg)
 
-Attach the frame mount to the servo mount using 2 M3x8mm screws through the groove. Do not tighten these screws, the servo mount should slide up and down the frame mount for now:
+Attach the frame mount to the servo mount using 2 M3x8mm screws through the small  sliding clamp which slides up and down the groove in the frame mount. Do not tighten these screws, the servo mount should slide up and down the frame mount for now:
 
 ![complete](images/complete.jpg)
 
@@ -112,11 +124,11 @@ Before permanently mounting the nozzle wiper to the printer test whether it work
 - Brown wire  = GND
 - Orange wire = signal pin
 
-There are various choices for connecting the servo to the MCU. Here will will refer to the BTT SKR Mini E3 V2.0.
+There are various choices for connecting the servo to the MCU. Here will will refer to the BTT SKR Pico.
 
 Always turn off the printer before connecting or removing anything to or from the MCU.
 
-The simplest is to connect to the Neopixel or E0-STOP connector if it is not in use as it provides all 3 required connections. Alternatively, a [Klipper Expander](https://github.com/timmit99/Klipper-Expander) can be used if there are no free pins.
+The simplest is to connect to the Servo or Neopixel connector if it is not in use as it provides all 3 required connections. Alternatively, a [Klipper Expander](https://github.com/timmit99/Klipper-Expander) can be used if there are no free pins.
 
 Remember, do not fit the arm to the printer at this point.
 
@@ -126,7 +138,7 @@ Now edit printer.cfg and add an include line to the Macro section of your config
 
 ```[include nozzlewiper.cfg]```
 
-Modify nozzlewiper.cfg "[servo wipeServo]" and set the correct pin that you attached the single wire for the servo to. For example, PA8 would be on the Neopixel, PC15 would be the E0-STOP.
+Modify nozzlewiper.cfg "[servo wipeServo]" and set the correct pin that you attached the single wire for the servo to. For example, gpio29 would be on the Servo port, gpio24 would be the Neopixel.
 
 Now power on the printer. Once it has fully booted, you should see a list of new macros available all prefixed with "NW". You may need to home the server first.
 
@@ -134,7 +146,9 @@ Holding the nozzle wiper firmly in the hand by the extrusion mount, run the "NW 
 
 Shutdown the printer.
 
-Fit the Nozzle Wiper under the left Y extrusion: Feed the cable up through the provided routing on the frame mount. Then angle the frame mount into into the groove on underside of the left Y extrusion and push firmly so it snaps into place. Slide the assembly until the end of the tool carrier/bucket is ~5mm from the back panel. Now screw the fitted M3x10mm on the frame mount into the extrusion. Don't overtighten, it only needs small amount of contact to hold the Nozzle Wiper in place
+Fit the Nozzle Wiper under the left Y extrusion: Feed the cable up through the provided routing on the frame mount. Then angle the frame mount into into the groove on underside of the left Y extrusion and push firmly so it snaps into place. Slide the assembly until the end of the tool carrier/bucket is ~5mm from the back panel. Now screw the fitted M3x10mm on the frame mount into the extrusion. Don't overtighten, it only needs small amount of contact to hold the Nozzle Wiper in place.
+
+
 
 ![printerfit](images/printerfit.jpg)
 
@@ -162,3 +176,6 @@ Follow the steps in the nozzlewiper.cfg file to configure the nozzle wiper setup
 - 2022-09-05 First release
 - 2022-10-30 Improved Frame Mount and Servo Joint to help prevent excessive vibrations when deploying
 - 2022-11-20 Updated CAD
+- 2023-02-26 Modified Frame Mount to allow easier height adjustment
+- 2023-02-26 Added Silicon Brush adapter
+- 2023-02-26 Added M3 thread profiles to the servo mount
