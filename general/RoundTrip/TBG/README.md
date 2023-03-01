@@ -48,4 +48,6 @@ Note: There is now an additional heat insert to the lower right of this picture:
 
 ## Changelog:
 
-2023-03-01 Updated Front and Back parts to eliminate backlash between the large and drive gears
+- 2023-03-01 Updated Front and Back parts to eliminate backlash between the large and drive gears
+
+- 2023-03-01 Updated aesthetics to match the RoundTrip (LGX)
