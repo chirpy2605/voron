@@ -43,3 +43,9 @@
 ### BOM:
 
 8x 6x3mm Neodymium magnets
+
+---
+
+#### Pi Camera 3 Mount
+
+![](images/picamera3.png)
