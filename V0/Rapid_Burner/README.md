@@ -237,4 +237,4 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 
 - 2023-02-26 Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
 
-- 
+- 2023-03-07 Added from mounting ADXL mount plate
