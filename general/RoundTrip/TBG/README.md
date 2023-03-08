@@ -2,11 +2,7 @@
 
 This extruder uses the Trianglelab TBG gear set. It is an open air design, so that the workings are easily seen. There is provision to alter backlash to avoid extruder artefacts in prints.
 
-This is a work in progress, CAD will be released when testing is finished.
-
-[Youtube video](https://youtube.com/shorts/BWLd8I14_3c).
-
-![front](images/front.png)
+![](images/front.png)
 
 ![front](images/back.png)
 
@@ -22,7 +18,30 @@ This is a work in progress, CAD will be released when testing is finished.
 
 - 1x UM2 4mm coupling collet to hold the PTFE tube (optional, but recommended). If you have a spare TBG Lite or LGX Lite you can use the one with those
 
-- An assortment of M3 SHCS/BHCS screws 
+- An assortment of M3 BHCS screws 
+
+## Assembly:
+
+Melt 4 heated inserts into the Front piece as shown:
+
+![front](images/insertsfront.png)
+
+
+![back](images/insertsback.png)
+
+Push one hobbed gear with a shaft through it into the guidler. It might need a bit of force to push it in. Ensure it spins smoothly.
+
+Fit the second hobbed gear plus the large gear in between the front and back pieces.
+
+Screw the back and front together using BHCS screws.
+
+Attach the motor, leaving the screws a little loose.
+
+Rotate the motor until the motor gear meshes with the large extruder gear. You want enough contact so that there's no or little backlash, but not so much that the motor gear is pushing the large extruder gear away from it.
+
+Once in position tighten the motor screws.
+
+Feed some filament through the extruder and check that the hobbed gears pull the filament smoothly though by turning the large extruder gear. Check that there's no backlash when this happens. If there is, loosen the screws mentioned in the procedure above and redo the backlash setup.
 
 ## Klipper:
 
@@ -32,22 +51,10 @@ This is a work in progress, CAD will be released when testing is finished.
 
 - Adjust flow in EM
 
-## Assembly:
+## Release v1:
 
-Note: There is now an additional heat insert to the lower right of this picture:
-
-![front](images/frontfittings.png)
-
-![front](images/backfittings.png)
-
-![front](images/guidlerfittings.png)
-
-![front](images/front.png)
-
-![front](images/back.png)
+- Initial Release
 
 ## Changelog:
 
-- 2023-03-01 Updated Front and Back parts to eliminate backlash between the large and drive gears
-
-- 2023-03-01 Updated aesthetics to match the RoundTrip (LGX)
+- 2023-03-08 First full release including CAD
