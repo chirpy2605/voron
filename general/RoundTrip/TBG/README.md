@@ -22,10 +22,9 @@ This extruder uses the Trianglelab TBG gear set. It is an open air design, so th
 
 ## Assembly:
 
-Melt 4 heated inserts into the Front piece as shown:
+Melt 3 heated inserts into the Front piece as shown:
 
 ![front](images/insertsfront.png)
-
 
 ![back](images/insertsback.png)
 
@@ -58,3 +57,6 @@ Feed some filament through the extruder and check that the hobbed gears pull the
 ## Changelog:
 
 - 2023-03-08 First full release including CAD
+- 2023-03-12 Reduced the number of heat inserts to one
+- 2023-03-12 Angled the motor and added PCB mountpoints. Use standoffs from these points to mount a PCB behind the motor
+- 2023-03-12 Moved the backlash adjustment to the front and increased the amount of adjustment
