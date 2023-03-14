@@ -10,13 +10,12 @@ This project is a Work in Progress, so may change as issues crop up. I'll post t
 
 There are a couple of caveats at present:
 
-- There is no stop on the hinge. This means if you open it, you either need the tophat to rest against something, or to carefully allow it to open fully and remove it. When fully opened the Tophat can be unstable because of this
+- There is no stop on the hinge. This means if you open it, you either need the tophat to rest against something, or to carefully allow it to open fully and remove it
 
-- The STL's are orientated to get the best strength for the hinges. This means they are printed on their sides. Unless you have really good bed adhesion I'd strongly recommend using brims or anti-warping pads when slicing.
+- The STL's are orientated to get the best strength for the hinges. This means they are printed on their sides
 
-- The bottom hinges have large inbuilt supports that have to be removed and tidied up a little. This is a consequence of printing the parts on an edge
+- The bottom hinges have inbuilt supports that have to be removed and tidied up a little
 
-- Then hinges are a bit chunky for strength and durability. I may slim them down depending on how they perform over time
 
 ### BOM:
 
