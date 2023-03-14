@@ -2,7 +2,7 @@
 
 These hinges are for the v0.2 Tophat. They allow you to remove the Tophat by opening it completely and then you can simply lift the Tophat off.
 
-This makes removal for PLA printing much easier.
+This makes removal for PLA printing and maintenance much easier.
 
 ![](images/back.png)
 
