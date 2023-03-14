@@ -22,7 +22,7 @@ There are a couple of caveats at present:
 
 - 2x M3x4mmx5mm brass heat inserts
 
-- 2x M3x35mm BHCS/SHCS screws
+- 2x M3x25mm BHCS/SHCS screws
 
 - Reuse the screws from the standard v0.2 Tophat hinges
 
@@ -36,7 +36,7 @@ Remove the supports from the bottom hinges and then fit a brass insert into the 
 
 Tidy up the insides of the bottom hinge and check that the matching upper hinge will freely sit inside the gap.
 
-Insert each of the M3x35mm screws but do not tighten. If you tighten them, they will pull the hinge lugs together causing friction with the upper hinge.
+Insert each of the M3x25mm screws but do not tighten. If you tighten them, they will pull the hinge lugs together causing friction with the upper hinge.
 
 Remove the standard bottom hinges (if fitted) retaining the screws. Fit the new bottom hinges using those screws and tighten. Don't forget to refit your back panel at the same time if you are using one.
 
