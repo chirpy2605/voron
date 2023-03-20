@@ -14,7 +14,7 @@ It supports Nozzle and Logo mounted LED's.
 
 ## Notes:
 
-This version no longer supports to v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
+This version no longer supports the v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
 
 New X Carriage, new X/Y joint tops and sensorless homing
 
