@@ -12,4 +12,4 @@ New X Carriage mod with built in microswitch for X.
 
 The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
 
-You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/v4_Old).
+You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/Old_Versions/v4).
