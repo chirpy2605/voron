@@ -6,11 +6,7 @@ This toolhead improves the cooling of the Dragon HF hotend and provides much imp
 
 It supports Nozzle and Logo mounted LED's.
 
-(Dragon Burner v4 photos)
-
-![Dragon Burner](images/frontpic.jpg)
-
-![Dragon Burner](images/sidepic.jpg)
+![Dragon Burner](images/DragonBurner.gif)
 
 ## Notes:
 
