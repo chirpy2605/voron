@@ -172,7 +172,7 @@ Feed the sequin cables through the back of the sequin mount holes and then up an
 
 ### LED Software:
 
-To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
+To configure the Neopixels in Klipper, I'd suggest using the [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
 
 ## Fans:
 
