@@ -1,18 +1,30 @@
-# Rapid Burner v4
+# Rapid Burner v5
 
-This toolhead for the Voron v0.1, v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
+This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
 It has been specifically designed for the Rapido UHF and Dragon UHF hotends. There are also alternative mounts for the Dragon + Volcano, Rapido HF, Dragon UHF without extender.
 
-It uses the standard Voron v0 X carriage. There's no loss in X, Y or Z. On the v0.1 you might find it taps the front door.
+It uses the standard Voron v0.2 X carriage. There's no loss in X, Y or Z.
+
+It supports Nozzle and Logo mounted LED's.
 
 ![front](images/frontpic.jpg)
 
 ![front](images/sidepic.jpg)
 
-### Features:
+### Notes:
 
-Now with (experimental) LED's!
+This version no longer supports the v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
+
+New X Carriage, new X/Y joint tops and sensorless homing
+
+or:
+
+New X Carriage mod with built in microswitch for X available [here](https://www.printables.com/model/388228-voron-v02-x-carriage-w-endstop).
+
+The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
+
+You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner/Old_Versions/v4).
 
 ### Hotend support:
 
@@ -21,6 +33,10 @@ Now with (experimental) LED's!
 - Rapido HF
 - Dragon + Volcano hotend
 - Dragon UHF without Extender
+- Goliath Air (experimental)**
+- Goliath Water (experimental)**
+
+** This is untested (I don't have either Goliath hotends), but support has been tested in CAD.
 
 ### Extruder support:
 
@@ -32,6 +48,7 @@ Now with (experimental) LED's!
 - Orbiter v2 extruder support
 - [RoundHouse extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) support
 - [RoundAbout extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) support
+- [RoundTrip extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) support
 
 ### Fan support:
 
@@ -45,6 +62,12 @@ Now with (experimental) LED's!
 - [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe) support
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
+
+## Extras:
+
+- ADXL345 front mount
+- Heatsink thermistor support
+- Neopixel support (nozzle and logo)
 
 ## Printing:
 
@@ -95,9 +118,65 @@ Add heat inserts into the cowl and hotend mount:
 
 ![hotend_mount](images/hotendinserts.png)
 
-Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
+## LEDs:
 
-If you are going to fit Neopixels, it's best to do that now (see bottom of page).
+Support has been added for either standard Neopixels or Sequins for the nozzle LEDs, Neopixels, Sequins and RainbowBarf for the Logo LED.
+
+If you do not want to use the Logo LED you can fit the [a]_Carrier_Dummy.STL instead.
+
+LED's are best cabled in series if they are addressable to allow independent control. For example, start with the (as seen from the front) right nozzle LED going to the left nozzle LED through the connecting gap, then up to the logo LED and back down and through the left cable channel to the back of the toolhead with the wire then extending up to the toolhead if you are using one.
+
+### Logo LED:
+
+![](images/logofitted.png)
+
+You need to print the [c]*Diffuser.stl out of a transparent/translucent filament, such as natural ABS. You then will need to print the [o]_Carrier*[led type].stl of choice in an opaque filament to help prevent light bleed. The filament used to print the Cowl will likely be fine.
+
+The LED is inserted into the side of the carrier. The diffuser sits inside the front of the carrier:
+
+![](images/logoled.png)
+
+The logo unit is pushed into the cowl from the rear:
+
+![](images/logofitting.png)
+
+The cables route to the side of the inside of the cowl and then out through the cable channels to the rear:
+
+![](images/logowiring.png)
+
+### Nozzle Neopixels:
+
+The LEDs can be fitted in series or parallel. If fitting in parallel, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
+
+To fit in series, simply place an LED in each slot with the cable between them going across the bridge.
+
+It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
+
+![](images/ledcables.png)
+
+![](images/ledfitting.jpg)
+
+### Nozzle Sequins:
+
+Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
+
+Sequins are fitted after soldering the cables to the sequins, but before crimping the cables. They can be fitted in series or parallel as explained in the Nozzle Neopixels section above.
+
+Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
+
+![](images/sequin.png)
+
+> **Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
+
+> **Credit to actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED.**
+
+### LED Software:
+
+To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
+
+## Fans:
+
+Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
 
 Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
@@ -113,7 +192,7 @@ Mount the hotend to the hotend mount:
 
 ![cowl_back](images/hotendmount.png)
 
-If using an LGX Lite, mount the extruder mount to the hotend mount:
+Mount the extruder mount to the hotend mount:
 
 ![cowl_back](images/extrudermount.png)
 
@@ -128,34 +207,6 @@ Be careful not to catch any wires between the surfaces and that when the toolhea
 Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will have changed.
-
-## Experimental LEDs:
-
-Support has been added for either standard Neopixels or Sequins.
-
-### Neopixels:
-
-To fit the Neopixels, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
-
-It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
-
-![ledcables](images/ledfitting.jpg)
-
-I'd recommend cabling the LED's together into a single 3 pin connector. The cable from each LED to the 3 pin connector should be around 12-15cm in length depending on your toolhead board, if you use one.
-
-### Sequins:
-
-Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
-
-Sequins are fitted after soldering the cables to the sequins, but before crimping the cables.
-
-Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
-
-![Sequins](images/sequin.png)
-
-**Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
-
-To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
 
 ## v1 Changelog:
 
@@ -238,3 +289,17 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 - 2023-02-26 Changed LED configuration recommendation to [GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect)
 
 - 2023-03-07 Added from mounting ADXL mount plate
+
+## Release v5:
+
+With this release you will need to print a cowl, a hotend mount and an extruder mount
+
+- v0.2 X Carriage only support going forwards
+- Added Logo LED support for Neopixel, Sequin or RainbowBarf
+- Nozzle LEDs no longer experimental
+- Widened the SlideSwipe magnets holes slightly to help prevent printed part splitting when inserting the magnets
+- Added experimental Goliath Air and Water hotend support
+
+## v5 Changelog:
+
+- 2023-03-23 v5 released
