@@ -56,7 +56,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 
 ### Extras:
 
-- ADXL345 front mount (v0.1 only)
+- ADXL345 front mount
 - Heatsink thermistor support
 - Neopixel support (nozzle and logo)
 
@@ -176,8 +176,6 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 ## Fans:
 
 Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
-
-If you are going to fit Neopixels, it's best to do that now (see bottom of page).
 
 Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
