@@ -30,7 +30,7 @@ v0.1 and [Printers for Ants](https://3dprintersforants.com/) Extruder to complem
 
 ## [RoundTrip Extruder](general/RoundTrip)
 
-This extruder uses either the LGX Lite or the TBG Lite extruder gears. It can work on the v0, Trident and v2 depending on the toolhead used
+This extruder uses either the LGX Lite, TBG Lite, Orbiter v1.5 or Orbiter v2.0 extruder gears. It can be used on any printer that uses the Sherpa Mini mounting pattern
 
 ## [NozzleWiper](V0/NozzleWiper)
 
