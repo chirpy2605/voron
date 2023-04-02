@@ -146,27 +146,27 @@ The cables route to the side of the inside of the cowl and then out through the 
 
 ### Nozzle Neopixels:
 
-The LEDs can be fitted in series or parallel. If fitting in parallel, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
+The LEDs should be fitted in series. Place an LED in each slot of the neopixel holder with the cable between them going across the bridge and then out to the front of the holder in the notch on the left in the picture:
 
-To fit in series, simply place an LED in each slot with the cable between them going across the bridge.
+![](images/neopixelholder.png)
 
-It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
+Now insert the holder into the cowl being careful to keep the wires along the side of the holder and orientated correctly. It should snap into place after pushing past the nubs on the cowl:
 
-![](images/ledcables.png)
-
-![](images/ledfitting.jpg)
+![](images/neopixelholderfit.png)
 
 ### Nozzle Sequins:
 
-Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
+Sequins are fitted after soldering the cables to the sequins, but before crimping the cables. They should be fitted in series.
 
-Sequins are fitted after soldering the cables to the sequins, but before crimping the cables. They can be fitted in series or parallel as explained in the Nozzle Neopixels section above.
+Feed the sequin cables through the sequin holder and up into the cap at the top of the holder. You will need to secure the sequins with a dab of glue to prevent them from coming loose:
 
-Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
+![](images/sequinholder.png)
 
-![](images/sequin.png)
+Now insert the holder into the cowl being careful to keep the wires out of the top of the holder and orientated correctly. It should snap into place after pushing past the nubs on the cowl:
 
-> **Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
+![](images/sequinholderfit.png)
+
+**Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
 
 > **Credit to actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED.**
 
@@ -303,3 +303,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 ## v5 Changelog:
 
 - 2023-03-23 v5 released
+- 2023-04-02 Separated the LED housing from the cowl to create holders for sequins or neopixels to make it easier to install the LEDs and reduces the number of cowls that need to be published
