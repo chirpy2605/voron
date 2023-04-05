@@ -177,3 +177,5 @@ Follow the steps in the nozzlewiper.cfg file to configure the nozzle wiper setup
 - 2023-02-26 Modified Frame Mount to allow easier height adjustment
 - 2023-02-26 Added Silicon Brush adapter
 - 2023-02-26 Added M3 thread profiles to the servo mount
+- 2023-04-05 Added alternative MG90S servo arm and servo mount STLs
+- 
