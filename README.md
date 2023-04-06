@@ -56,6 +56,10 @@ This is a modified X carriage for the v0.2 and [Printers for Ants](https://3dpri
 
 This converts the front panel of the v0.2 Tophat into a detachable door
 
+## [v0.2 Lift-Off Tophat Hinges](V0/Lift-Off_Tophat_Hinges/)
+
+These hinges are for the v0.2 Tophat. They allow you to remove the Tophat by opening it completely and then you can simply lift the Tophat off
+
 ## [Other v0.2 Stuff](/V0/v0.2_Stuff)
 
 Other v0.2 mods I've made for my own printer
