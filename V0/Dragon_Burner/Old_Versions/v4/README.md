@@ -58,11 +58,11 @@ Now with (experimental) LED's!
 - Print the appropriate hotend mount
 - Print the extruder mount
 
-Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter1.5 subdirectory](STLs/Orbiter1.5). With this extruder you loose the addition of the heatbreak thermistor.
+Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and the hotend mounts from the STL Orbiter1.5 subdirectory. With this extruder you loose the addition of the heatbreak thermistor
 
-Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the [STL Orbiter2 subdirectory](STLs/Orbiter2)
+Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the STL Orbiter2 subdirectory
 
-Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the [STL Sherpa Micro subdirectory](STLs/Sherpa_Micro)
+Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the STL Sherpa Micro subdirectory
 
 Note: If using the Sherpa Mini or a derivative, you will need the Sherpa_Mini_Mount.stl to clear the X carriage
 
