@@ -8,7 +8,7 @@ It supports Nozzle and Logo mounted LED's.
 
 ![Dragon Burner](images/DragonBurner.gif)
 
-Review by MapleLeafMakers:
+Review by Maple Leaf Makers:
 [Voron Mod Showcase: Dragon Burner Toolhead - YouTube](https://www.youtube.com/watch?v=ooU3U1dBz1Q)
 
 ## Notes:
