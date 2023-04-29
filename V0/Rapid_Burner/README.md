@@ -1,4 +1,4 @@
-# Rapid Burner v5
+# Rapid Burner v6
 
 This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
@@ -8,9 +8,7 @@ It uses the standard Voron v0.2 X carriage. There's no loss in X, Y or Z.
 
 It supports Nozzle and Logo mounted LED's.
 
-![front](images/frontpic.jpg)
-
-![front](images/sidepic.jpg)
+![front](images/DragonBurner.gif)
 
 ### Notes:
 
@@ -40,21 +38,22 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 
 ### Extruder support:
 
-- LGX Lite extruder support
-- Sherpa Mini extruder support
-- Sherpa Micro extruder support
-- Sailfin/Sharkfin extruder support
-- Orbiter v1.5 extruder support
-- Orbiter v2 extruder support
-- [RoundHouse extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) support
-- [RoundAbout extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) support
-- [RoundTrip extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) support
+- LGX Lite
+- Sherpa Mini
+- Sherpa Micro
+- Sailfin/Sharkfin
+- Orbiter v1.5
+- Orbiter v2
+- [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse)
+- [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout)
+- [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip)
 
 ### Fan support:
 
 - Single 3010 24v hotend cooling fan
 - Twin 4010 24v blower part cooling fans
 - Screwless hotend fan attachment
+- Screwless part fooling fan attachement
 
 ### Probe support:
 
@@ -68,6 +67,9 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - ADXL345 front mount
 - Heatsink thermistor support
 - Neopixel support (nozzle and logo)
+- 
+- Adafruit Sequin support
+- [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequin support
 
 ## Printing:
 
@@ -154,7 +156,7 @@ Now insert the holder into the cowl being careful to keep the wires along the si
 
 ![](images/neopixelholderfit.png)
 
-### Nozzle Sequins:
+### Nozzle Sequins & Neopixel Sequins:
 
 Sequins are fitted after soldering the cables to the sequins, but before crimping the cables. They should be fitted in series.
 
@@ -176,15 +178,19 @@ To configure the Neopixels in Klipper, I'd suggest using the [GitHub - juliansc
 
 ## Fans:
 
-Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
+Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan as well as the left part cooling 4010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans. You can add cable relief with a dab of hot glue on the fan wire connections under the sticker.
 
-Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
+Fit the 3010 fan by passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
 ![cowl_back](images/cowl.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
-Use 2x M2x10mm (4x M2x10mm on some cowl variants) self tapping screws to secure the fans into the cowl.
+There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan:
+
+![](images/2510spacer.png)
+
+Slide the 4010 fans into the cowl from the rear into the provided slots. There is a slight rise near the ducts at the rear of the cowl that you will need to fit the fan over. Push them to the from of the cowl. You should not need to secure the 4010 fans further, however you can use M2x10mm self tapping screws if needed. Do *not* overtighten them as there is no support between the fan hole tabs and the cowl and that could snap them.
 
 ## Mounting:
 
@@ -304,3 +310,31 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 
 - 2023-03-23 v5 released
 - 2023-04-02 Separated the LED housing from the cowl to create holders for sequins or neopixels to make it easier to install the LEDs and reduces the number of cowls that need to be published
+
+## Release v6:
+
+- Improved printability of the top front corners of the cowl
+
+- Added support for [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequins
+
+- Added part cooling fan guides to better seat the fan against the ducts
+
+- Removed the need for part cooling fan screws
+
+- Removed part cooling fan screw nubs to support a wider range of 4010 blowers
+
+- New ducts that are wider to help prevent melting when using v6 type heater blocks (e.g. Dragon hotends)
+
+- New ducts with improved airflow and concentration
+
+- Improved Neopixel fitting with cable routing cutout
+
+- Various cowl geometry fixes
+
+- Confirmed support for the Vz-HextrudORT extruder (uses the LGX Lite extruder mount)
+
+- Improved geometry for the Goliath Air cowl
+
+## v6 Changelog:
+
+- 2023-04-29 v6 released
