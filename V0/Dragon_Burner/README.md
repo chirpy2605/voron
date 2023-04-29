@@ -1,8 +1,8 @@
-# Dragon Burner v5
+# Dragon Burner v6
 
 This is a toolhead for the v0.2 Voron printer. It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
-This toolhead improves the cooling of the Dragon HF hotend and provides much improved part cooling when printing filament that needs it (e.g. PLA). Designed to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
+This toolhead improves the cooling of the hotend and provides much improved part cooling when printing filament that needs it (e.g. PLA). Designed to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
 
 It supports Nozzle and Logo mounted LED's.
 
@@ -23,33 +23,38 @@ New X Carriage mod with built in microswitch for X available [here](https://www.
 
 The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
 
-You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/Old_Versions/v4).
+You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/Old_Versions/v4) for the v0.1
 
 ### Hotend support:
 
-- Dragon SF and HF hotend support
-- Dragonfly hotend support
-- Revo Voron hotend support
-- Rapido HF hotend support
-- NF Crazy hotend support
+- Dragon SF and HF
+- Dragonfly
+- Revo Voron
+- Rapido HF **
+- NF Crazy
+- Creality Spider Pro
+
+** The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead also supports the Rapido HF and has slightly better hotend cooling
 
 ### Extruder support:
 
-- LGX Lite extruder support
-- Sherpa Mini extruder support
-- Sherpa Micro extruder support
-- Sailfin/Sharkfin extruder support
-- Orbiter v1.5 extruder support
-- Orbiter v2 extruder support
-- [RoundHouse extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse) support
-- [RoundAbout extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout) support
-- [RoundTrip extruder](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) support
+- LGX Lite
+- Sherpa Mini
+- Sherpa Micro
+- Sailfin/Sharkfin
+- Orbiter v1.5
+- Orbiter v2
+- Vz-HextrudORT
+- [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse)
+- [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout)
+- [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip)
 
 ### Fan support:
 
 - Single 3010 24v hotend cooling fan
 - Twin 4010 24v blower part cooling fans
 - Screwless hotend fan attachment
+- Screwless part fooling fan attachement
 
 ### Probe support:
 
@@ -62,6 +67,8 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - ADXL345 front mount
 - Heatsink thermistor support
 - Neopixel support (nozzle and logo)
+- Adafruit Sequin support
+- [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequin support
 
 ## Printing:
 
@@ -70,13 +77,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Print the appropriate hotend mount
 - Print the extruder mount
 
-Note: If using an Orbiter v1.5 extruder, you will need the extruder mount and the hotend mounts from the STL Orbiter1.5 subdirectory. With this extruder you loose the addition of the heatbreak thermistor.
-
-Note: If using an Orbiter v2 extruder, you will need the extruder mount and the hotend mounts from the STL Orbiter2 subdirectory
-
-Note: If using an Sherpa Micro, you will need the extruder mount and the hotend mounts from the STL Sherpa Micro subdirectory
-
-Note: If using the Sherpa Mini or a derivative, you will need the Sherpa_Mini_Mount.stl to clear the X carriage
+There are extruder specific hotend mounts within the extruder specific sub directories.
 
 ## BOM:
 
@@ -84,7 +85,6 @@ Note: If using the Sherpa Mini or a derivative, you will need the Sherpa_Mini_Mo
 - 2x M3x5x4mm heat inserts (2 for extruder mount)
 - 2x M3x8mm SHCS/BHCS (2 for extruder mount)
 - 1x M3x20mm SHCS/BHCS (for the rear of the v0.2 X carriage mount)
-- 4x M2x10mm self tapping screws (for blower fans)
 - 2x 4010 blower fans (24v recommended)
 - 1x 3010 hotend fan (24v recommended)
 
@@ -158,7 +158,7 @@ It's a bit of a tight squeeze, but they should slot in with a little manipulatio
 
 ![](images/ledfitting.jpg)
 
-### Nozzle Sequins:
+### Nozzle Sequins & Neopixel Sequins:
 
 Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
 
@@ -178,15 +178,19 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 
 ## Fans:
 
-Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans.
+Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan as well as the left part cooling 4010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans. You can add cable relief with a dab of hot glue on the fan wire connections under the sticker.
 
-Fit the 3010 and 4010 fans that passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
+Fit the 3010 fan by passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
 ![cowl](images/cowl.png)
 
 The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
 
-Use 4x M2x10mm self tapping screws to secure the fans into the cowl.
+There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan:
+
+![](images/2510spacer.png)
+
+Slide the 4010 fans into the cowl from the rear into the provided slots. There is a slight rise near the ducts at the rear of the cowl that you will need to fit the fan over. Push them to the from of the cowl. You should not need to secure the 4010 fans further, however you can use M2x10mm self tapping screws if needed. Do _not_ overtighten them as there is no support between the fan hole tabs and the cowl and that could snap them.
 
 Attach the hotend to the hotend specific mount:
 
@@ -196,7 +200,7 @@ Attach the extruder to the extruder specific mount, shown here with the LGX Lite
 
 ![extrudermount](images/extrudermount.png)
 
-Mount the extruder to the hotend mount:
+Mount the extruder to the hotend mount and slide the assembly onto the cowl taking care to fit the 4010 part cooling fans into the slots:
 
 ![mountedfront](images/mountedfront.png)
 
@@ -208,7 +212,7 @@ Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
 
-## ## v1 Changelog:
+## v1 Changelog:
 
 - 2022-04-12 First release
 - 2022-04-12 Fixed issue with incorrect part placement
@@ -347,3 +351,31 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 ## v5 Changelog:
 
 - 2023-03-20 v5 released
+
+## Release v6:
+
+- Improved printability of the top front corners of the cowl
+
+- Added support for [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequins
+
+- Added part cooling fan guides to better seat the fan against the ducts
+
+- Removed the need for part cooling fan screws
+
+- Removed part cooling fan screw nubs to support a wider range of 4010 blowers
+
+- New ducts that are wider to help prevent melting when using v6 type heater blocks (e.g. Dragon hotends)
+
+- New ducts with improved airflow and concentration
+
+- Improved Neopixel fitting with cable routing cutout
+
+- Added Creality Spider Pro hotend support
+
+- Various cowl geometry fixes
+
+- Confirmed support for the Vz-HextrudORT extruder (uses the LGX Lite extruder mount)
+
+## v6 Changelog:
+
+- 2023-04-29 v6 released
