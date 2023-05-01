@@ -335,6 +335,8 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 
 - Improved geometry for the Goliath Air cowl
 
+- Added a 2015 hotend fan adapter
+
 ## v6 Changelog:
 
 - 2023-04-29 v6 released

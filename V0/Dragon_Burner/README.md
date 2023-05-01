@@ -376,6 +376,8 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 
 - Confirmed support for the Vz-HextrudORT extruder (uses the LGX Lite extruder mount)
 
+- Added a 2015 hotend fan adapter
+
 ## v6 Changelog:
 
 - 2023-04-29 v6 released
