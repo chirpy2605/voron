@@ -54,7 +54,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Single 3010 24v hotend cooling fan
 - Twin 4010 24v blower part cooling fans
 - Screwless hotend fan attachment
-- Screwless part fooling fan attachement
+- Screwless part cooling fan attachment
 
 ### Probe support:
 
