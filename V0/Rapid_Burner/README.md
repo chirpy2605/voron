@@ -190,7 +190,7 @@ There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan:
 
 ![](images/2510spacer.png)
 
-Slide the 4010 fans into the cowl from the rear into the provided slots. There is a slight rise near the ducts at the rear of the cowl that you will need to fit the fan over. Push them to the from of the cowl. You should not need to secure the 4010 fans further, however you can use M2x10mm self tapping screws if needed. Do *not* overtighten them as there is no support between the fan hole tabs and the cowl and that could snap them.
+Slide the 4010 fans into the cowl from the rear into the provided slots. There is a slight rise near the ducts at the rear of the cowl that you will need to fit the fan over. Push them to the front of the cowl. You should not need to secure the 4010 fans further, however you can use M2x10mm self tapping screws if needed. Do *not* overtighten them as there is no support between the fan hole tabs and the cowl and that could snap them.
 
 ## Mounting:
 
