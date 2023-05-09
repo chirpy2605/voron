@@ -4,7 +4,9 @@ This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprint
 
 It has been specifically designed for the Rapido UHF and Dragon UHF hotends. There are also alternative mounts for the Dragon + Volcano, Rapido HF, Dragon UHF without extender.
 
-It uses the standard Voron v0.2 X carriage. There's no loss in X, Y or Z.
+The Goliath Air and Goliath Water hotends are also supported.
+
+It uses the standard Voron v0.2 X carriage and also works on both MGN7H and MGN9C rail x-carriages. There's no loss in X, Y or Z.
 
 It supports Nozzle and Logo mounted LED's.
 
@@ -31,10 +33,8 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Rapido HF
 - Dragon + Volcano hotend
 - Dragon UHF without Extender
-- Goliath Air (experimental)**
-- Goliath Water (experimental)**
-
-** This is untested (I don't have either Goliath hotends), but support has been tested in CAD.
+- Goliath Air
+- Goliath Water (untested)
 
 ### Extruder support:
 
@@ -365,3 +365,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-05-09 New Goliath Air and Water updates to the cowls, hotend mounts and LED carriages
 - 2023-05-09 Goliath Air and Water ADXL carrier added
 - 2023-05-09 Goliath Air and Water ADXL additional instructions added
+- 2023-05-09 Updated CAD added
