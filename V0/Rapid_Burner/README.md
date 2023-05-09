@@ -214,6 +214,28 @@ Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will have changed.
 
+## Goliath Air / Water:
+
+This hotend needs some specific instructions that don't apply to the other hotends supported by Rapid Burner.
+
+To be able to fit the nichrome heater wires need to be bent in a specific way to fit into the restricted space of the cowl. This is how I've done it on the Goliath Air:
+
+![](images/goliathheaterwires.jpg)
+
+The wires have been twisted around the hotend following their natural angle of twist. They're then twisted back on themselves and the end of the wires coming out of the shrink-wrapper section are attached to the cowl at the lower zip tie.
+
+Twisting the nichrome wires puts stress on them. You should try and avoid twisted them too often as they could break! You have been warned!
+
+Make sure that the nichrome wire does not touch any part of the cowl, otherwise it will likely melt it almost immediately.
+
+Remember to leave space to push the sock onto the heater section.
+
+The Goliath cowls have their own carriages for the logo LED. The nozzle LED's use the standard ones from the standard Rapid Burner.
+
+You will likely need to unscrew the hotend from the heatbreak and rotate it to get the orientation as in the picture above.
+
+You will need to preload the M3 screws into the hotend mount for screwing onto the X carriage before screwing the hotend to the hotend mount, otherwise the screw heads will not be able to pass the hotend to the holes .
+
 ## v1 Changelog:
 
 - 2022-09-04 First beta release
@@ -340,3 +362,6 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 ## v6 Changelog:
 
 - 2023-04-29 v6 released
+- 2023-05-09 New Goliath Air and Water updates to the cowls, hotend mounts and LED carriages
+- 2023-05-09 Goliath Air and Water ADXL carrier added
+- 2023-05-09 Goliath Air and Water ADXL additional instructions added
