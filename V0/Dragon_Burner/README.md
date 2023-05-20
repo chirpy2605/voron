@@ -381,3 +381,9 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 ## v6 Changelog:
 
 - 2023-04-29 v6 released
+- 2023-05-23 Centred Logo correctly (for hartk)
+- 2023-05-23 Added sacrificial cutouts to the Sequin Cowls to allow installation and removal of sequins without damaging the cowl or sequin wiring
+- 2023-05-23 Added more space for the Dragon hotend sock
+- 2023-05-23 Added more space for the 3010 hotend fan to seat fully
+- 2023-05-23 Lengthened the hotend mount rails to help prevent the cowl sides from splitting easily
+- 2023-05-23 Improve channels for Neopixel cables so to help prevent plastic tabs from breaking off
