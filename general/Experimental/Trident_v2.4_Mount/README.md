@@ -4,8 +4,6 @@
 
 **NOTE: Printed parts are likely to change without notice or mention**
 
-
-
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
@@ -18,7 +16,7 @@ The main mount is based on the CW2 and allows you to use any of the probes that 
 
 - Probe_Bracket.stl (allows the probe to be affixed to the main mount through the probe support at the rear)
 
-The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8.
+The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. As of writing I have **not** tested the mount on the printer. It does fit as expected onto the Tap probe.
 
 If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the Dragon_Burner/Tap_or_Chain/ directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
 
