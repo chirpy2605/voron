@@ -1,8 +1,10 @@
 # Dragon and Rapid Burner Mounts for Trident and 2.4
 
-**NOTE**: All information and STL's in this directory are experimental. This means I cannot guarantee that they won't break something on the printer, including your flex sheet!
+**NOTE: All information and STL's in this directory are experimental. This means I cannot guarantee that they won't break something on the printer, including your flex sheet!**
 
-**NOTE:** Printed parts are likely to change without notice or mention
+**NOTE: Printed parts are likely to change without notice or mention**
+
+
 
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
 
@@ -26,4 +28,4 @@ I would recommend using the following mod to swap out your X carriage mount so t
 
 [VORON AB Belt Installation Helper (Clamp)](https://www.printables.com/model/479348-voron-ab-belt-installation-helper-clamp)
 
-Please provide feedback to my on Discord @chirpy#2605 whether positive or negative while testing these mounts.
+Please provide feedback to me on Discord @chirpy#2605 whether positive or negative while testing these mounts.
