@@ -2,6 +2,8 @@
 
 **NOTE**: All information and STL's in this directory are experimental. This means I cannot guarantee that they won't break something on the printer, including your flex sheet!
 
+**NOTE:** Printed parts are likely to change without notice or mention
+
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
