@@ -4,6 +4,10 @@
 
 **NOTE: Printed parts are likely to change without notice or mention**
 
+**NOTE: I would recommend using an old or scratched PEI/flex sheet when testing - just in case**
+
+**<mark>NOTE: Do not forget to adjust your nozzle offset if you need to!</mark>**
+
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
