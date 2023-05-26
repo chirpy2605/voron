@@ -44,6 +44,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Sailfin/Sharkfin
 - Orbiter v1.5
 - Orbiter v2
+- Double Folded Ascender (not for the Goliath Hotend)
 - [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse)
 - [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout)
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip)
@@ -366,3 +367,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-05-09 Goliath Air and Water ADXL carrier added
 - 2023-05-09 Goliath Air and Water ADXL additional instructions added
 - 2023-05-09 Updated CAD added
+- 2023-05-26 Added extruder support for Double Folded Ascender
