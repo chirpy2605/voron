@@ -45,6 +45,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Orbiter v1.5
 - Orbiter v2
 - Vz-HextrudORT
+- Double Folded Ascender
 - [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse)
 - [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout)
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip)
@@ -388,3 +389,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-05-23 Lengthened the hotend mount rails to help prevent the cowl sides from splitting easily
 - 2023-05-23 Improve channels for Neopixel cables to help prevent plastic tabs from breaking off
 - 2023-05-23 Updated CAD
+- 2023-05-26 Added extruder support for Double Folded Ascender
