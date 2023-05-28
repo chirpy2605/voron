@@ -34,7 +34,7 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 ## Considerations:
 
-- Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount
+- Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount. Tap RC8 moves the nozzle 3mm forward, so this mount adds a further 7mm to that
 
 - The taller the toolhead (i.e. if using chains or a Rapid Burner) the closer it is going to get to the top of the printer
 
