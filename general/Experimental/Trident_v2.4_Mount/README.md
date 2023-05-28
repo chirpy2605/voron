@@ -34,7 +34,7 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 ## Considerations:
 
-- When using the Tap mount you will lose ~9.3mm on the Y axis
+- Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount
 
 - The taller the toolhead (i.e. if using chains or a Rapid Burner) the closer it is going to get to the top of the printer
 
