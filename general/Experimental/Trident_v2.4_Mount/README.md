@@ -6,11 +6,13 @@
 
 **NOTE: I would recommend using an old or scratched PEI/flex sheet when testing - just in case**
 
-**<mark>NOTE: Do not forget to adjust your nozzle offset if you need to!</mark>**
+**<mark>NOTE: Do not forget to adjust your nozzle offset!</mark>**
 
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
+
+## Main Mount:
 
 The main mount is based on the CW2 and allows you to use any of the probes that mount can use. This mount uses:
 
@@ -20,14 +22,24 @@ The main mount is based on the CW2 and allows you to use any of the probes that 
 
 - Probe_Bracket.stl (allows the probe to be affixed to the main mount through the probe support at the rear)
 
-The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. As of writing I have **not** tested the mount on the printer. It does fit as expected onto the Tap probe.
+### Tap probe:
+
+The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. I currently have this Tap version running on my Trident with no problems.
+
+When using the Tap mount you will lose ~9.3mm on the Y axis.
+
+## Additional Info:
 
 If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the Dragon_Burner/Tap_or_Chain/ directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
 
 You will need longer screws to go through these mounts.
 
+## Belt Help:
+
 I would recommend using the following mod to swap out your X carriage mount so that you do not have to re-tension your belts:
 
 [VORON AB Belt Installation Helper (Clamp)](https://www.printables.com/model/479348-voron-ab-belt-installation-helper-clamp)
+
+## Contact:
 
 Please provide feedback to me on Discord @chirpy#2605 whether positive or negative while testing these mounts.
