@@ -26,7 +26,11 @@ The main mount is based on the CW2 and allows you to use any of the probes that 
 
 The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. I currently have this Tap version running on my Trident with no problems.
 
-When using the Tap mount you will lose ~9.3mm on the Y axis.
+## Considerations:
+
+- When using the Tap mount you will lose ~9.3mm on the Y axis
+
+- The taller the toolhead (i.e. if using chains or a Rapid Burner) the closer it is going to get to the top of the printer
 
 ## Additional Info:
 
