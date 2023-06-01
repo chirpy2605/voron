@@ -6,11 +6,11 @@ I hope you find some of them useful:
 
 ## [Dragon Burner Toolhead](V0/Dragon_Burner)
 
-v0.1, v0.2 and  [Printers for Ants](https://3dprintersforants.com/) toolhead using 2 4010 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
+v0.1, v0.2, [Printers for Ants](https://3dprintersforants.com/), and 2.4/Trident (still experimental) toolhead using 2 4010 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
 
 ## [Rapid Burner Toolhead](V0/Rapid_Burner)
 
-v0.1, V0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF, Dragon UHF, Goliath Air and Goliath Water hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
+v0.1, V0.2 and [Printers for Ants](https://3dprintersforants.com/) and 2.4/Trident (still extperimental) toolhead has been specifically designed for the Rapido UHF, Dragon UHF, Goliath Air and Goliath Water hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
 
 ## [Mailbox Toolhead](V0/Mailbox)
 
