@@ -40,7 +40,7 @@ This mount replaces the Tap Front piece reducing the Y loss from the official mo
 
 ![](images/Tap.png)
 
-The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. I currently have this Tap version running on my Trident with no problems.
+The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8.
 
 ![](images/Tap_Mount.png)
 
