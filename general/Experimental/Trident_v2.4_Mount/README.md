@@ -12,7 +12,7 @@ The series of mounts in this section have been designed to allow mounting of any
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
-## MGN12 Mount:
+## 1. MGN12 Mount:
 
 ![](images/Dragon_Burner_MGN12.png)
 
@@ -24,7 +24,21 @@ The main mount is based on the CW2 and allows you to use any of the probes that 
 
 - Probe_Bracket.stl (allows the probe to be affixed to the main mount through the probe support at the rear)
 
-### Tap probe:
+
+
+### 2. Tap probe front:
+
+![](images/Tap_Probe_Front.png)
+
+This mount replaces the Tap Front piece reducing the Y loss from the official mount and adding extra contact face area with these toolheads. Y loss is only 1.3mm compared to the CWS mount. The rest of Tap needs to be RC8. This mount uses:
+
+- Tap_Front.stl
+
+![](images/tapfrontrear.png)
+
+![](images/tapfront.png)
+
+### 3. Tap probe plate:
 
 ![](images/Tap.png)
 
@@ -35,6 +49,10 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 ## Considerations:
 
 - Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount. Tap RC8 moves the nozzle 3mm forward, so this mount adds a further 7mm to that
+
+- Using the replacement Tap front part only moves the nozzle 1.3mm forwards compared to using the non-tap mount
+
+- Using the replacement Tap front part on Rapid Burner, you must trim off the 4010 fan screw lugs at the top rear of each fan to be flush
 
 - The taller the toolhead (i.e. if using chains or a Rapid Burner) the closer it is going to get to the top of the printer
 
