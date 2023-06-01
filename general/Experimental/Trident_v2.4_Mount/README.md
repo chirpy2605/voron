@@ -12,7 +12,7 @@ The series of mounts in this section have been designed to allow mounting of any
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
-## 1. MGN12 Mount:
+## Option 1: MGN12 Mount
 
 ![](images/Dragon_Burner_MGN12.png)
 
@@ -24,9 +24,7 @@ The main mount is based on the CW2 and allows you to use any of the probes that 
 
 - Probe_Bracket.stl (allows the probe to be affixed to the main mount through the probe support at the rear)
 
-
-
-### 2. Tap probe front:
+## Option 2: Tap probe front
 
 ![](images/Tap_Probe_Front.png)
 
@@ -38,7 +36,7 @@ This mount replaces the Tap Front piece reducing the Y loss from the official mo
 
 ![](images/tapfront.png)
 
-### 3. Tap probe plate:
+## Option 3: Tap probe plate
 
 ![](images/Tap.png)
 
