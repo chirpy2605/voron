@@ -1,28 +1,96 @@
 # Dragon and Rapid Burner Mounts for Trident and 2.4
 
-**NOTE: All information and STL's in this directory are experimental. This means I cannot guarantee that they won't break something on the printer, including your flex sheet!**
+**NOTE: All information and STL's in this directory are a Work In Progress. This means I cannot guarantee that they won't break something on the printer or damage your flex sheet!**
 
-**NOTE: Printed parts are likely to change without notice or mention**
+**<mark>NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts </mark>**
 
-**NOTE: I would recommend using an old or scratched PEI/flex sheet when testing - just in case**
+The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4.
 
-**<mark>NOTE: Do not forget to adjust your nozzle offset!</mark>**
+There are 3 separate designs:
 
-The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4
+1. An [MGN12 mount](#option-1-mgn12-mount) that is based on the CW2 mount
+
+2. A replacement [Tap front part](#option-2-tap-probe-front) that is based on the Tap RC8
+
+3. A [Tap spacer](#option-3-tap-probe-plate) which goes between Tap and the toolhead, compatible with the Tap RC8
 
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
+
+### Supported Hotends (for the various toolhead combinations):
+
+- Dragon SF
+
+- Dragon HF
+
+- Dragon UHF (volcano)
+
+- Dragon UHF
+
+- Rapido HF
+
+- Rapido UHF
+
+- Revo Voron
+
+- Dragonfly
+
+- Creality Spider Pro
+
+- NF Crazy
+
+### Supported Extruders:
+
+- LGX
+
+- LGX Lite
+
+- Sherpa Mini
+
+- Sherpa Micro
+
+- Sharkfin
+
+- Sailfin
+
+- Vz-HextrodORT
+
+- Roundtrip
+
+- Roundabout
+
+- Orbiter v1.5
+
+- Orbiter v2.0
+
+- Double Folded Ascender
+
+### Supported Probes:
+
+- Voron Tap
+
+- Omron TL-Q5MC2 (or similar) Inductive Probe
+
+- Beacon
+
+- Klicky
+
+- UnKlicky
+
+- Voron PCB Klicky
 
 ## Option 1: MGN12 Mount
 
 ![](images/Dragon_Burner_MGN12.png)
 
-The main mount is based on the CW2 and allows you to use any of the probes that mount can use. This mount uses:
+This mount is based on the CW2 and allows you to use any of the probes that mount can use. This mount uses:
 
 - MGN12_X_Carriage.stl (the main mount)
 
 - Probe_Support.stl (provides support for probes inside the main mount)
 
 - Probe_Bracket.stl (allows the probe to be affixed to the main mount through the probe support at the rear)
+
+You need to put 2 brass heat inserts into the front of the mount for the toolhead to screw on to. You will need an additional 2 brass heat inserts for the Probe_Bracket.
 
 ## Option 2: Tap probe front
 
@@ -40,11 +108,11 @@ This mount replaces the Tap Front piece reducing the Y loss from the official mo
 
 ![](images/Tap.png)
 
-The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8.
+The Tap directory contains a spacer to be used on the back of the Tap probe. It is based on Tap RC8. This is useful if you prefer to use the stock Tap setup and want to simply add the toolheads to a working configuration. It does result in a loss of Y of ~7mm in addition to Tap Y loss.
 
 ![](images/Tap_Mount.png)
 
-## Considerations:
+## Notes:
 
 - Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount. Tap RC8 moves the nozzle 3mm forward, so this mount adds a further 7mm to that
 
@@ -54,11 +122,13 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 - The taller the toolhead (i.e. if using chains or a Rapid Burner) the closer it is going to get to the top of the printer
 
+- You will need longer screws to go through these mounts
+
+- None of the Dragon or Rapid Burner probe mounts on the fan ducts will work on these supported printers unless you design your own probe frame mounts. the intention is for probes supported by the CW2 to be used
+
 ## Additional Info:
 
 If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the Dragon_Burner/Tap_or_Chain/ directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
-
-You will need longer screws to go through these mounts.
 
 ## Belt Help:
 
