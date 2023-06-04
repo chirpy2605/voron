@@ -4,7 +4,7 @@
 
 **<mark>NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts </mark>**
 
-The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner or Rapid Burner toolheads to the Voron Trident and Voron 2.4.
+The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner, Rapid Burner and Mailbox toolheads to the Voron Trident and Voron 2.4.
 
 There are 3 separate designs:
 
