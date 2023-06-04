@@ -2,6 +2,8 @@
 
 This is a toolhead for the v0.2 Voron printer. It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
+[Mounts]([voron/general/Large_Voron_Mounts at main · chirpy2605/voron · GitHub](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts)) are also available to mount this toolhead to the Voron Trident and v2.4 printers.
+
 This toolhead improves the cooling of the hotend and provides much improved part cooling when printing filament that needs it (e.g. PLA). Designed to use 2 4010 blower fans for part cooling and a 3010 fan for hotend cooling.
 
 It supports Nozzle and Logo mounted LED's.

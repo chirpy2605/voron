@@ -16,6 +16,10 @@ v0.1, V0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead has 
 
 v0.1, v0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
 
+## [Voron Large Printer Mounts](general/Large_Voron_Mounts)
+
+A series of mounts designed to allow mounting of any of the Dragon Burner, Rapid Burner or Mailbox toolheads to the Voron Trident and Voron 2.4
+
 ## [StovePipe Toolhead](V0/StovePipe)
 
 v0.1 and [Printers for Ants](https://3dprintersforants.com/) toolhead using a 7040 CPAP fan for part cooling

@@ -126,6 +126,8 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 - None of the Dragon or Rapid Burner probe mounts on the fan ducts will work on these supported printers unless you design your own probe frame mounts. the intention is for probes supported by the CW2 to be used
 
+- CAD will be released once this mod is out of the Work In Progress state
+
 ## Additional Info:
 
 If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the Dragon_Burner/Tap_or_Chain/ directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.

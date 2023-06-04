@@ -4,6 +4,8 @@ This is a Voron v0 toolhead for the v0.1 and v0.2 that uses the guts of a 5015 f
 
 It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
+[Mounts]([voron/general/Large_Voron_Mounts at main · chirpy2605/voron · GitHub](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts)) are also available to mount this toolhead to the Voron Trident and v2.4 printers.
+
 It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carriages).
 
 This toolhead should not lose any X or Z axis travel. There should be no Y axis loss on the v0.2, but on the v0.1 it may tap the door/tophat. Those with raised/square tophat/top frames should have no issues.
