@@ -22,7 +22,7 @@ There are 3 separate designs:
 
 - Dragon HF
 
-- Dragon UHF (volcano)
+- Dragon UHF (volcano length)
 
 - Dragon UHF
 
@@ -37,6 +37,10 @@ There are 3 separate designs:
 - Creality Spider Pro
 
 - NF Crazy
+
+- Goliath Air
+
+- Goliath Water (not tested)
 
 ### Supported Extruders:
 
