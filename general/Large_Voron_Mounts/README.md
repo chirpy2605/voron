@@ -98,6 +98,8 @@ This mount is based on the CW2 and allows you to use any of the probes that moun
 
 You need to put 2 brass heat inserts into the front of the mount for the toolhead to screw on to. You will need an additional 2 brass heat inserts for the Probe_Bracket.
 
+**Note:** If you are going to use a Euclid probe, you will need to print MGN12_X_Carriage_Euclid.stl and do not need either the Probe_Support.stl nor the Probe_Bracket.stl
+
 ## Option 2: Tap probe front
 
 ![](images/Tap_Probe_Front.png)
