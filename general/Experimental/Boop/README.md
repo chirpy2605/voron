@@ -2,6 +2,10 @@
 
 This mount is designed to be used with Boop v4 Beta. It is a modification of the stock boop_front.stl so that it will work with the Dragon Burner and Rapid Burner toolheads.
 
+**NOTE: This is currently experimental until I get more feedback. This means that there is the possibility it might not work as expected**
+
+
+
 ![](images/boop_front.png)
 
 ![](images/boop_rear.png)
