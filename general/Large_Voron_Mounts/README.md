@@ -82,6 +82,8 @@ There are 3 separate designs:
 
 - Voron PCB Klicky
 
+- Euclid (developed by @QUINX#7278 on Discord)
+
 ## Option 1: MGN12 Mount
 
 ![](images/Dragon_Burner_MGN12.png)
@@ -145,3 +147,7 @@ I would recommend using the following mod to swap out your X carriage mount so t
 ## Contact:
 
 Please provide feedback to me on Discord @chirpy#2605 whether positive or negative while testing these mounts.
+
+## v1 Changelog:
+
+2023/06/06 Added MGN12_X_Carriage_Euclid.stl developed by @QUINX#7278 on Discord
