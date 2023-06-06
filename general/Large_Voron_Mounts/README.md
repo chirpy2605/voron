@@ -2,7 +2,7 @@
 
 **NOTE: All information and STL's in this directory are a Work In Progress. This means I cannot guarantee that they won't break something on the printer or damage your flex sheet!**
 
-**<mark>NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts </mark>**
+**NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts**
 
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner, Rapid Burner and Mailbox toolheads to the Voron Trident and Voron 2.4.
 
@@ -98,7 +98,7 @@ This mount is based on the CW2 and allows you to use any of the probes that moun
 
 You need to put 2 brass heat inserts into the front of the mount for the toolhead to screw on to. You will need an additional 2 brass heat inserts for the Probe_Bracket.
 
-**Note:** If you are going to use a Euclid probe, you will need to print MGN12_X_Carriage_Euclid.stl and do not need either the Probe_Support.stl nor the Probe_Bracket.stl
+**Note:** If you are going to use a Euclid probe, you will need to print MGN12_X_Carriage_Euclid.stl and do not need either the Probe_Support.stl or the Probe_Bracket.stl
 
 ## Option 2: Tap probe front
 
