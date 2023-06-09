@@ -65,6 +65,12 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
 
+For Klick support see following sites for implementation:
+
+[Klicky-Probe/Printers/Voron/v0 at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v0#integrated-cowling-v01)
+
+[Klicky-Probe/Probes/KlickyNG at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Probes/KlickyNG)
+
 ### Extras:
 
 - ADXL345 front mount
@@ -171,10 +177,6 @@ Feed the sequin cables through the back of the sequin mount holes and then up an
 
 ![](images/sequin.png)
 
-> **Credit to [MapleLeafMakers (Maple Leaf Makers) · GitHub](https://github.com/MapleLeafMakers) ("So I Says..." on the Voron Discord) for doing all the work on the Sequin integration.**
-
-> **Credit to actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED.**
-
 ### LED Software:
 
 To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julianschill/klipper-led_effect: LED effects plugin for klipper](https://github.com/julianschill/klipper-led_effect).
@@ -214,6 +216,14 @@ Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x
 Zip-tie the wires at the back of the assembly.
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
+
+## Credits:
+
+- [MapleLeafMakers](https://github.com/MapleLeafMakers) for doing all the work on the Sequin integration
+
+- actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED
+
+- [jlsa1](https://github.com/jlas1/Klicky-Probe/tree/main/Probes) and [MapleLeafMakers](https://github.com/MapleLeafMakers) and for the Integrated Klicky and KlickyNG probe ducts
 
 ## v1 Changelog:
 
@@ -392,3 +402,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-05-23 Improve channels for Neopixel cables to help prevent plastic tabs from breaking off
 - 2023-05-23 Updated CAD
 - 2023-05-26 Added extruder support for Double Folded Ascender
+- 2023 06-23 Added integrated Klicky probe cowls
+- 2023 06-23 Added KlickyNG probe cowls
