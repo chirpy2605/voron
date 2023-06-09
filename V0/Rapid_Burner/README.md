@@ -65,12 +65,17 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
 
+For Klick support see following sites for implementation:
+
+[Klicky-Probe/Printers/Voron/v0 at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v0#integrated-cowling-v01)
+
+[Klicky-Probe/Probes/KlickyNG at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Probes/KlickyNG)
+
 ## Extras:
 
 - ADXL345 front mount
 - Heatsink thermistor support
 - Neopixel support (nozzle and logo)
-- 
 - Adafruit Sequin support
 - [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequin support
 
@@ -237,7 +242,15 @@ The Goliath cowls have their own carriages for the logo LED. The nozzle LED's us
 
 You will likely need to unscrew the hotend from the heatbreak and rotate it to get the orientation as in the picture above.
 
-You will need to preload the M3 screws into the hotend mount for screwing onto the X carriage before screwing the hotend to the hotend mount, otherwise the screw heads will not be able to pass the hotend to the holes .
+You will need to preload the M3 screws into the hotend mount for screwing onto the X carriage before screwing the hotend to the hotend mount, otherwise the screw heads will not be able to pass the hotend to the holes.
+
+## Credits:
+
+- [MapleLeafMakers](https://github.com/MapleLeafMakers) for doing all the work on the Sequin integration
+
+- actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED
+
+- [jlsa1](https://github.com/jlas1/Klicky-Probe/tree/main/Probes) and [MapleLeafMakers](https://github.com/MapleLeafMakers) and for the Integrated Klicky and KlickyNG probe ducts
 
 ## v1 Changelog:
 
@@ -370,3 +383,5 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-05-09 Goliath Air and Water ADXL additional instructions added
 - 2023-05-09 Updated CAD added
 - 2023-05-26 Added extruder support for Double Folded Ascender
+- 2023 06-23 Added integrated Klicky probe cowls
+- 2023 06-23 Added KlickyNG probe cowls
