@@ -16,27 +16,31 @@ It supports Nozzle and Logo mounted LED's.
 
 ### Notes:
 
-This version no longer supports the v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
+- This version no longer supports the v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
+  
+  New X Carriage, new X/Y joint tops and sensorless homing
+  
+  or:
+  
+  New X Carriage mod with built in microswitch for X available [here](https://www.printables.com/model/388228-voron-v02-x-carriage-w-endstop)
+  
+  The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
+  
+  You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner/Old_Versions/v4)
 
-New X Carriage, new X/Y joint tops and sensorless homing
-
-or:
-
-New X Carriage mod with built in microswitch for X available [here](https://www.printables.com/model/388228-voron-v02-x-carriage-w-endstop).
-
-The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
-
-You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner/Old_Versions/v4).
+- If you are going to use the Rapido HF, or the Dragon + Volcano, you need to print the Volcano parts in this repo
 
 ### Hotend support:
 
 - Rapido UHF hotend
 - Dragon UHF hotend
-- Rapido HF
+- Rapido HF hotend (use the Volcano parts in this repo)
 - Dragon + Volcano hotend
 - Dragon UHF without Extender
 - Goliath Air
 - Goliath Water (untested)
+
+###### NOTE: If you are going to use the Rapido HF, or the Dragon + Volcano, you need to print the Volcano parts in this repo
 
 ### Extruder support:
 
