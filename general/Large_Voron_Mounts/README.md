@@ -16,6 +16,8 @@ There are 3 separate designs:
 
 4. A Switchwire mount
 
+5. A Legacy mount
+
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
 ### Supported Hotends (for the various toolhead combinations):
@@ -125,6 +127,10 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 ## Option 4: Switchwire Mount
 
 ![](images/Switchwire.png)
+
+## Option 4: Legacy Mount
+
+![](images/Legacy.png)
 
 ## Notes:
 
