@@ -14,6 +14,8 @@ There are 3 separate designs:
 
 3. A [Tap spacer](#option-3-tap-probe-plate) which goes between Tap and the toolhead, compatible with the Tap RC8
 
+4. A Switchwire mount
+
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
 ### Supported Hotends (for the various toolhead combinations):
@@ -120,6 +122,10 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 ![](images/Tap_Mount.png)
 
+## Option 4: Switchwire Mount
+
+![](images/Switchwire.png)
+
 ## Notes:
 
 - Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount. Tap RC8 moves the nozzle 3mm forward, so this mount adds a further 7mm to that
@@ -153,3 +159,5 @@ Please provide feedback to me on Discord @chirpy#2605 whether positive or negati
 ## v1 Changelog:
 
 2023/06/06 Added MGN12_X_Carriage_Euclid.stl developed by @QUINX#7278 on Discord
+
+2023/06/23 Added Switchwire mount
