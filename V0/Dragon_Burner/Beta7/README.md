@@ -2,8 +2,6 @@
 
 This is the BETA release for the next iteration of the Dragon Burner toolhead.
 
-
-
 Assembly is much the same as for the v6, so you can follow the instructions for that version.
 
 NOTE: This is a BETA version. Parts and their assembly can change and may require the reprinting of the whole toolhead. CAD will not be available until release. If you only have a single printer, please be sure to keep your old toolhead in case of issues with this one.
@@ -34,7 +32,7 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Improved Bowden mount that uses ECAS 4mm PTFE retainer and improved strain relief
 
-- To provide more space for cables snip of the screw logs at the top rear of the 4010 fans as shown in the second picture above
+- To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans as shown in the second picture above
 
 - Removed the 4010 retainer lug on the cowl and lengthened to retaining guides to hole those fans in place
 
@@ -53,7 +51,5 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 - Take care when handling the new cowl. There are thin sections that can be easily broken without care. The toolhead will become much more rigid once the fans ar mounted
 
 - Rapid Burner v7 BETA will be released when I'm finished with it
-
-
 
 **Please contact me on Discord to provide feedback (@chirpy___) good or bad. I can't promise to make suggested changes but will try and accommodate what I believe will improve the toolhead**
