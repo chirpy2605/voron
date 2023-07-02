@@ -18,6 +18,10 @@ There are 3 separate designs:
 
 5. A Legacy mount
 
+6. A CW2 adapter plate
+
+
+
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
 ### Supported Hotends (for the various toolhead combinations):
@@ -128,9 +132,15 @@ The Tap directory contains a spacer to be used on the back of the Tap probe. It 
 
 ![](images/Switchwire.png)
 
-## Option 4: Legacy Mount
+## Option 5: Legacy Mount
 
 ![](images/Legacy.png)
+
+## Option 6: CW2 Adapter Plate
+
+If you would rather leave the stock CW2 carriage mount in place you can use this adapter plate instead. It requires two brass heat inserts:
+
+![](images/cw2adapterplate.png)
 
 ## Notes:
 
