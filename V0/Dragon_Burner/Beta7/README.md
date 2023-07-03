@@ -36,6 +36,12 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Removed the 4010 retainer lug on the cowl and lengthened to retaining guides to hole those fans in place
 
+- Removed unnecessary self tapping screw holes from the cowls
+
+- Updated the KlickyNG cowl orientation
+
+- Modified the ZeroClick cowl to have an integrated mount and include replacement shorter Z rail endstops
+
 ## Notes:
 
 - Moving the hotend back 2mm means that you should redefine your X and Y limits to account for the new position
