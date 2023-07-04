@@ -46,4 +46,4 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Take care when handling the new cowl. There are thin sections that can be easily broken without care. The toolhead will become much more rigid once the fans ar mounted
   
-  **Please contact me on Discord to provide feedback (@chirpy___) good or bad. I can't promise to make suggested changes but will try and accommodate what I believe will improve the toolhead**
+  **Please contact me on Discord to provide feedback (@chirpy__) good or bad. I can't promise to make suggested changes but will try and accommodate what I believe will improve the toolhead**

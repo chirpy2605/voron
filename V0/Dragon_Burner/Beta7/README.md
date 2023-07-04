@@ -58,4 +58,4 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Rapid Burner v7 BETA will be released when I'm finished with it
 
-**Please contact me on Discord to provide feedback (@chirpy___) good or bad. I can't promise to make suggested changes but will try and accommodate what I believe will improve the toolhead**
+**Please contact me on Discord to provide feedback (@chirpy__) good or bad. I can't promise to make suggested changes but will try and accommodate what I believe will improve the toolhead**
