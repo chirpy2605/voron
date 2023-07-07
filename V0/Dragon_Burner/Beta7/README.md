@@ -46,7 +46,7 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Modified SlideSwipe cowl to have matching ducts
 
-- Addedfan air redirection fins to all cowls to help with hotend cooling
+- Added fan air redirection fins to all cowls to help with hotend cooling
 
 - Added E3D V6 hotend support
 
