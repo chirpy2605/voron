@@ -42,6 +42,28 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Modified the ZeroClick cowl to have an integrated mount and include replacement shorter Z rail endstops
 
+## Changes 2023-07-07
+
+- Modified SlideSwipe cowl to have matching ducts
+
+- Addedfan air redirection fins to all cowls to help with hotend cooling
+
+- Added E3D V6 hotend support
+
+- Added Orbiter v1.5 2.85mm filament support for E3D V6 hotend
+
+- Added shortened rail stops for ZeroClick cowl
+
+- Improved printability of the neopixel mount
+
+- Improved retention of the LED mounts
+
+- Modified LED mounts to allow more room for hotends
+
+- Modified Bambu and Taichi hotend mounts to cater for the cowling fins
+
+- Shifted the 3010 hotend fan up a little more
+
 ## Notes:
 
 - Moving the hotend back 2mm means that you should redefine your X and Y limits to account for the new position
