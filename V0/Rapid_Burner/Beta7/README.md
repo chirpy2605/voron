@@ -34,6 +34,18 @@ NOTE: This is a BETA version. Parts and their assembly can change and may requir
 
 - Modified the ZeroClick cowl to have an integrated mount and include replacement shorter Z rail endstops
 
+### Changes 2023-07-07
+
+- Modified SlideSwipe cowl to have matching ducts
+
+- Added fan air redirection fins to all cowls to help with hotend cooling
+
+- Added shortened rail stops for ZeroClick cowl
+
+- Modified LED mounts to allow more room for hotends
+
+- Shifted the 3010 hotend fan up a little more
+
 ## Notes:
 
 - Moving the hotend back 2mm means that you should redefine your X and Y limits to account for the new position
