@@ -1,4 +1,4 @@
-# Dragon Burner v6
+# Dragon Burner v7
 
 This is a toolhead for the v0.2 Voron printer. It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
@@ -15,28 +15,26 @@ Review by Maple Leaf Makers:
 
 ## Notes:
 
-This version no longer supports the v0.1 X -carriage. This means that to use this release you will need to do the minimal upgrade from v0.1 to v0.2 of either:
+On the Voron V0, this version only supports the v0.2 X -carriage.
 
-New X Carriage, new X/Y joint tops and sensorless homing
-
-or:
-
-New X Carriage mod with built in microswitch for X available [here](https://www.printables.com/model/388228-voron-v02-x-carriage-w-endstop).
-
-The toolhead currently stays within the v0.1 width measurements, so there's no loss in X if you don't change the X/Y joint tops.
-
-You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/Old_Versions/v4) for the v0.1
+You can also continue to use the [Dragon Burner v4](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner/Old_Versions/v4) for the v0.1 X -carriage.
 
 ### Hotend support:
 
 - Dragon SF and HF
+- Dragon + Volcano (Rapido HF mount)
 - Dragonfly
 - Revo Voron
-- Rapido HF **
+- Rapido HF
 - NF Crazy
 - Creality Spider Pro
+- Bambu Labs X1C
+- TaiChi
+- E3D V6 Groove Mount
+- Red Lizard K1 Pro (Dragon mount)
+- Red Lizard K1 UHF (Rapido HF mount)
 
-** The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead also supports the Rapido HF and has slightly better hotend cooling
+Note: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon Burner UHF hotends
 
 ### Extruder support:
 
@@ -46,11 +44,9 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Sailfin/Sharkfin
 - Orbiter v1.5
 - Orbiter v2
-- Vz-HextrudORT
+- Vz-HextrudORT (LGX Lite mount)
 - Double Folded Ascender
-- [RoundHouse](https://github.com/waytotheweb/voron/tree/main/general/RoundHouse)
-- [RoundAbout](https://github.com/waytotheweb/voron/tree/main/general/RoundAbout)
-- [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip)
+- [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) (Gears from the LGX Lite, TBG Lite, Orbiter v1.5, Orbiter v2)
 
 ### Fan support:
 
@@ -74,7 +70,7 @@ For Klick support see following sites for implementation:
 ### Extras:
 
 - ADXL345 front mount
-- Heatsink thermistor support
+- Heatsink thermistor support on most hotend mounts
 - Neopixel support (nozzle and logo)
 - Adafruit Sequin support
 - [Lab4450]([Shop - RGB Neopixel Sequins for Voron Mini SB - Lab4450.com](https://lab4450.com/product/rgb-neopixel-sequins/)) Neopixel Sequin support
@@ -86,14 +82,9 @@ For Klick support see following sites for implementation:
 - Print the appropriate hotend mount
 - Print the extruder mount
 
-There are extruder specific hotend mounts within the extruder specific sub directories.
-
 ## BOM:
 
-- 2x M3x35mm SHCS/BHCS (2 for the X carriage mount)
-- 2x M3x5x4mm heat inserts (2 for extruder mount)
-- 2x M3x8mm SHCS/BHCS (2 for extruder mount)
-- 1x M3x20mm SHCS/BHCS (for the rear of the v0.2 X carriage mount)
+- A variety of M3 SHCS or BHCS screws
 - 2x 4010 blower fans (24v recommended)
 - 1x 3010 hotend fan (24v recommended)
 
@@ -151,29 +142,15 @@ The logo unit is pushed into the cowl from the rear:
 
 ![](images/logofitting.png)
 
-The cables route to the side of the inside of the cowl and then out through the cable channels to the rear:
-
-![](images/logowiring.png)
-
 ### Nozzle Neopixels:
 
-The LEDs can be fitted in series or parallel. If fitting in parallel, pass each one through from the wire channel into the cowling. Then twist the cables so that they are at 90 degrees from their pads (make sure the wires do not short themselves over each other) and push the LEDs into the slow with the wires coming out of the edge closest to the cable channels.
+Fit the neopixels into the neopixel carrier and then slot into the cowl being careful not to pinch any wires:
 
-To fit in series, simply place an LED in each slot with the cable between them going across the bridge.
-
-It's a bit of a tight squeeze, but they should slot in with a little manipulation and hold in place with friction and the wires once the fans have been attached.
-
-![](images/ledcables.png)
-
-![](images/ledfitting.jpg)
+![](images/ledfitting.png)
 
 ### Nozzle Sequins & Neopixel Sequins:
 
-Note: Use the Cowl_[probe]_Sequins.stl file for your chosen probe/noprobe
-
-Sequins are fitted after soldering the cables to the sequins, but before crimping the cables. They can be fitted in series or parallel as explained in the Nozzle Neopixels section above.
-
-Feed the sequin cables through the back of the sequin mount holes and then up and out through the cable channels in the cowl. You will need to secure the sequins with a dab of glue to prevent them from coming loose. Fitting the 4010 fans will then hold the cables in the channels in the cowl.
+Fit the sequins into the sequin carrier and then slot into the cowl being careful not to pinch any wires:
 
 ![](images/sequin.png)
 
@@ -185,35 +162,35 @@ To configure the Neopixels in Klipper, I'd suggest using the [[GitHub - julians
 
 Insert the fans. You will need to release the cable from the tabs on the front-end 3010 fan as well as the left part cooling 4010 fan. This is to allow the cable to be routed correctly. Care should be taken with the cables after doing this as too much movement could break off the wires from the fans. You can add cable relief with a dab of hot glue on the fan wire connections under the sticker.
 
-Fit the 3010 fan by passing the connector and cable through the provided hole and along the outer channel. The 4010 fans will hold the wires in place in the channels:
+Fit the 3010 fan by passing the connector and cable through the provided hole on the right and along the outer channel. The 4010 fans will hold the wires in place in the channels:
 
 ![cowl](images/cowl.png)
 
-The 3010 hotend fan is meant to be press fit. If it's too tight, sand or file the opening but don't force it in otherwise it can deform and the blades will hit the casing. If it's too lose or rattles, use electrical tape to slightly widen the fan. If the gap is too tight, file/sand down the ridges on the inside of the cowl opening to give the fan more room.
+The 3010 hotend fan is meant to slide up from the bottom of the cowl and is friction fit in place. Once the toolhead is fully built it will be held sturdily in place.
 
-There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan:
+There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan.
 
-![](images/2510spacer.png)
+Slide the 4010 fans into the cowl from the rear into the provided slots.
 
-Slide the 4010 fans into the cowl from the rear into the provided slots. There is a slight rise near the ducts at the rear of the cowl that you will need to fit the fan over. Push them to the front of the cowl. You should not need to secure the 4010 fans further, however you can use M2x10mm self tapping screws if needed. Do _not_ overtighten them as there is no support between the fan hole tabs and the cowl and that could snap them.
+To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans.
 
 Attach the hotend to the hotend specific mount:
 
 ![hotendmount](images/hotendmount.png)
 
-Attach the extruder to the extruder specific mount, shown here with the LGX Lite:
+Attach the extruder to the extruder specific mount into the hotend mount:
 
 ![extrudermount](images/extrudermount.png)
 
 Mount the extruder to the hotend mount and slide the assembly onto the cowl taking care to fit the 4010 part cooling fans into the slots:
 
+![](C:\Users\sales\AppData\Roaming\marktext\images\2023-07-08-16-34-57-image.png)
+
 ![mountedfront](images/mountedfront.png)
 
-![mountedback](images/mountedback.png)
-
-Offer up the cowl and extruder assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1). Also check that the X axis can move completely to the left:
-
 Zip-tie the wires at the back of the assembly.
+
+Offer up the toolhead assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1). 
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
 
@@ -404,3 +381,45 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-05-26 Added extruder support for Double Folded Ascender
 - 2023 06-23 Added integrated Klicky probe cowls
 - 2023 06-23 Added KlickyNG probe cowls
+
+## Release v7:
+
+- New aesthetic for the toolhead
+
+- Hotend moved back by 2mm to be closer to the stock toolhead position
+
+- All new fan ducts. Size increase by 60% and tuned with CFD to improve part cooling
+
+- Bambu Labs X1 hotend support
+
+- Phaetus Taichi hotend support
+
+- LED mounts separated from cowl to reduce number of cowls required and improve ease of installation and removal of the LEDs
+
+- 3010 hotend fan placed inside of the cowl
+
+- 3010 hotend fan position raise to better target cooling and improve support for volcano height hotends such as the Rapido HF and the Dragon + volcano heat block (without extender). This replaces the support for those hotends from the Rapid Burner
+
+- Right hand cable channel reduced in width to allow support for the Bambu Labs X1 hotend. This means that bundles of wire, e.g. LED wires, should be routed through the left hand channel
+
+- Improved Bowden mount that uses ECAS 4mm PTFE retainer and improved strain relief
+
+- Removed the 4010 retainer lug on the cowl and lengthened to retaining guides to hold those fans in place
+
+- Removed unnecessary self tapping screw holes from the cowls
+
+- Updated the KlickyNG cowl orientation
+
+- Modified the ZeroClick cowl to have an integrated mount and include replacement shorter Z rail stops
+
+- Added fan air redirection fins to all cowls to help with hotend cooling
+
+- Added E3D V6 hotend support
+
+- Added Orbiter v1.5 2.85mm filament support for E3D V6 hotend
+
+- Added shortened rail stops for ZeroClick cowl
+
+## v7 Changelog:
+
+- 2023-07-08 v7 released
