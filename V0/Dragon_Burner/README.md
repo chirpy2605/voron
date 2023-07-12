@@ -423,3 +423,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 ## v7 Changelog:
 
 - 2023-07-08 v7 released
+- 2023-07-11 Fixed hotend mount geometry
+- 2023-07-12 Updated CAD
