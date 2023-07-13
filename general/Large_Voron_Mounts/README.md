@@ -20,8 +20,6 @@ There are 3 separate designs:
 
 6. A CW2 adapter plate
 
-
-
 [![POC Video](images/poc.png)](https://youtu.be/MVF9AVeywRU)
 
 ### Supported Hotends (for the various toolhead combinations):
@@ -160,7 +158,7 @@ If you would rather leave the stock CW2 carriage mount in place you can use this
 
 ## Additional Info:
 
-If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the Dragon_Burner/Tap_or_Chain/ directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
+If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the [Extended_Mounts](Extended_Mounts/) directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
 
 ## Belt Help:
 
@@ -174,6 +172,8 @@ Please provide feedback to me on Discord @chirpy#2605 whether positive or negati
 
 ## v1 Changelog:
 
-2023/06/06 Added MGN12_X_Carriage_Euclid.stl developed by @QUINX#7278 on Discord
+2023-06-06 Added MGN12_X_Carriage_Euclid.stl developed by @QUINX#7278 on Discord
 
-2023/06/23 Added Switchwire mount
+2023-06-23 Added Switchwire mount
+
+2023-07-13 Modified the Extended Mounts to match the hole position and aesthetic of the Dragon Burner v7
