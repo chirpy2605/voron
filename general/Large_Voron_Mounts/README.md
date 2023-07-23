@@ -1,12 +1,10 @@
 # Dragon and Rapid Burner Mounts for Trident and 2.4
 
-**NOTE: All information and STL's in this directory are a Work In Progress. This means I cannot guarantee that they won't break something on the printer or damage your flex sheet!**
-
-**NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts**
+**NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts or you will damage your flex plate**
 
 The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner, Rapid Burner and Mailbox toolheads to the Voron Trident and Voron 2.4.
 
-There are 3 separate designs:
+There are several separate designs:
 
 1. An [MGN12 mount](#option-1-mgn12-mount) that is based on the CW2 mount
 
@@ -154,8 +152,6 @@ If you would rather leave the stock CW2 carriage mount in place you can use this
 
 - None of the Dragon or Rapid Burner probe mounts on the fan ducts will work on these supported printers unless you design your own probe frame mounts. the intention is for probes supported by the CW2 to be used
 
-- CAD will be released once this mod is out of the Work In Progress state
-
 ## Additional Info:
 
 If you are going to use the Dragon Burner on a printer that is using an X cable chain, or a printer using the Tap probe, you may need to use the extruder mounts listed in the [Extended_Mounts](Extended_Mounts/) directory so that they clear the chain or probe. These mounts are extruder specific and replace their equivalents in the Dragon Burner repo.
@@ -168,7 +164,7 @@ I would recommend using the following mod to swap out your X carriage mount so t
 
 ## Contact:
 
-Please provide feedback to me on Discord @chirpy#2605 whether positive or negative while testing these mounts.
+Please provide feedback to me on Discord @chirpy__ 
 
 ## v1 Changelog:
 
@@ -177,3 +173,5 @@ Please provide feedback to me on Discord @chirpy#2605 whether positive or negati
 2023-06-23 Added Switchwire mount
 
 2023-07-13 Modified the Extended Mounts to match the hole position and aesthetic of the Dragon Burner v7
+
+2023-07-23 CAD published
