@@ -63,3 +63,7 @@ Feed some filament through the extruder and check that the hobbed gears pull the
 - 2023-03-12 Reduced the number of heat inserts by one
 - 2023-03-12 Angled the motor and added PCB mountpoints. Use standoffs from these points to mount a PCB behind the motor
 - 2023-03-12 Moved the backlash adjustment to the front and increased the amount of adjustment
+
+## Release v2:
+
+- 2023-07-26 Updated geometry tolerances of all parts
