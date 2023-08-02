@@ -4,6 +4,10 @@ This mount is for a common set of extruders, plus the [RoundTrip](https://github
 
 This mod is currently in BETA to ensure any fitment issues are ironed out before the CAD is provided.
 
+**NOTE: These are currently for the Dragon Burner. Rapid Burner ones will follow once these have had a bit of testing.**
+
+
+
 ![](images/pcb_toolhead.png)
 
 Each mount is made up of a PCB carrier plus at least 2 stand-offs.
