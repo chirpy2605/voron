@@ -1,18 +1,14 @@
-# PCB Carrier and Strain Relief Mount (BETA)
+# PCB Carrier and Strain Relief Mounts (BETA)
 
-This mount is for a common set of extruders, plus the [RoundTrip](https://github.com/chirpy2605/voron/tree/main/general/RoundTrip) series of extruders that I have made.
+This mount is for a common set of extruders, plus the [RoundTrip](https://github.com/chirpy2605/voron/tree/main/general/RoundTrip) series of extruders that I have made. There are variants for the Dragon Burner (_DB) and the Rapid Burner (_RB).
 
 This mod is currently in BETA to ensure any fitment issues are ironed out before the CAD is provided.
-
-**NOTE: These are currently for the Dragon Burner. Rapid Burner ones will follow once these have had a bit of testing.**
-
-
 
 ![](images/pcb_toolhead.png)
 
 Each mount is made up of a PCB carrier plus at least 2 stand-offs.
 
-The carriers allow you to attach a PCB board meant to attach to the screws on a Nema14 36mm pancake motor. This is then also connected on a Voron v0 to the rear X carriage brass inserts for additional stability.
+The carriers allow you to attach a PCB board meant to attach to the screws on a Nema14 36mm pancake motor (a universal 42mm PCB mount is also available). This is then also connected on a Voron v0 to the rear X carriage brass inserts for additional stability.
 
 ## Supported Extruders:
 
@@ -59,3 +55,11 @@ You should use BHCS screws with this Mount to ensure there is no contact with th
 ![](images/strain_relief.png)
 
 The PCB carrier also has a vertical strain relief for the cable coming from the toolhead PCB. The cable is restrained by using 1 or 2 cable ties.
+
+## ChangeLog:
+
+- 2023-08-03 BETA release
+
+- 2023-08-03 Added Universal 42mm Dragon Burner PCB Mount
+
+- 2023-08-04 Released PCB Mounts for the Rapid Burner toolhead
