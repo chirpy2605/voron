@@ -6,7 +6,7 @@ There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/La
 
 It has been specifically designed for the Rapido UHF and Dragon UHF hotends.
 
-The Goliath Air and Goliath Water hotends are also supported (currently in the [Rapid Burner v6](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner/Old_Versions/v6) directory).
+The Goliath Air and Goliath Water hotends are also supported.
 
 It uses the standard Voron v0.2 X carriage and also works on both MGN7H and MGN9C rail x-carriages. There's no loss in X, Y or Z.
 
@@ -27,7 +27,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Rapido UHF hotend
 - Dragon UHF hotend
 - Goliath Air
-- Goliath Water (untested)
+- Goliath Water
 
 ### Extruder support:
 
