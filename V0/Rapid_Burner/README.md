@@ -14,8 +14,6 @@ It supports Nozzle and Logo mounted LED's.
 
 ![](images/front.png)
 
-
-
 ![](images/back.png)
 
 ### Notes:
@@ -194,8 +192,6 @@ Plugin, test the fans and redo your X offset as it will have changed.
 
 This hotend needs some specific instructions that don't apply to the other hotends supported by Rapid Burner.
 
-The files are currently in the [Rapid Burner v6](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner/Old_Versions/v6) directory.
-
 To be able to fit the nichrome heater wires need to be bent in a specific way to fit into the restricted space of the cowl. This is how I've done it on the Goliath Air:
 
 ![](images/goliathheaterwires.jpg)
@@ -221,6 +217,8 @@ You will need to preload the M3 screws into the hotend mount for screwing onto t
 - actualbigbobin (on the Voron Discord) for the original development and inspiration for the Logo LED
 
 - [jlsa1](https://github.com/jlas1/Klicky-Probe/tree/main/Probes) and [MapleLeafMakers](https://github.com/MapleLeafMakers) and for the Integrated Klicky and KlickyNG probe ducts
+
+- Blargedy (on the Voron Discord) for help testing the Goliath Water toohead
 
 ## v1 Changelog:
 
@@ -387,3 +385,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 ## v7 Changelog:
 
 - 2023-07-08 v7 released
+- 2023-08-06 v7 Goliath Air and Water toolheads updated and released from BETA
