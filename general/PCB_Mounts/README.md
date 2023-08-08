@@ -63,3 +63,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-08-03 Added Universal 42mm Dragon Burner PCB Mount
 
 - 2023-08-04 Released PCB Mounts for the Rapid Burner toolhead
+
+- 2023-08-08 Added chamfer and countersink to the x carriage mount points
