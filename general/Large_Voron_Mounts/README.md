@@ -175,3 +175,7 @@ Please provide feedback to me on Discord @chirpy__
 2023-07-13 Modified the Extended Mounts to match the hole position and aesthetic of the Dragon Burner v7
 
 2023-07-23 CAD published
+
+2023-08-09 Modified Extended Extruder Mounts to avoid binding when using Tap
+
+2023-08-09 Modified Tap Front mount to avoid compression issues causing binding between the Tap Front and Tap Center bodies
