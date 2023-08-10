@@ -10,8 +10,6 @@ It supports Nozzle and Logo mounted LED's.
 
 **Having trouble choosing the right STL's?** Tryout the [**Online STL Configurator**](https://chirpy2605.github.io/DragonBurnerConfig/#/) created by [Maple Leaf Makers](https://github.com/MapleLeafMakers)
 
-
-
 ![Dragon Burner](images/DragonBurner.gif)
 
 Review by Maple Leaf Makers:
@@ -430,3 +428,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-07-11 Fixed hotend mount geometry
 - 2023-07-12 Updated CAD
 - 2023-07-15 Added link to the [**Online STL Configurator**](https://chirpy2605.github.io/DragonBurnerConfig/#/)
+- 2023-08-10 Added Cat NoProbe Cowl :D
