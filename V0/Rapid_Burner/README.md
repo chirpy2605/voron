@@ -2,7 +2,7 @@
 
 This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
-There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident and v2.4 printers.
+There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident, v2.4, Switchwire and Legacy printers.
 
 It has been specifically designed for the Rapido UHF and Dragon UHF hotends.
 

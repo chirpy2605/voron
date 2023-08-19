@@ -4,7 +4,7 @@ This is a Voron v0 toolhead for the v0.1 and v0.2 that uses the guts of a 5015 f
 
 It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
-There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident and v2.4 printers.
+There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident, v2.4, Switchwire and Legacy printers.
 
 It fits the standard Voron v0.1 and v0.2 X carriages (and the MGN9C mod X carriages).
 

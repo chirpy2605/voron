@@ -6,19 +6,21 @@ I hope you find some of them useful:
 
 ## [Dragon Burner Toolhead](V0/Dragon_Burner)
 
-v0.1, v0.2 and  [Printers for Ants](https://3dprintersforants.com/) toolhead using 2 4010 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
+Voron and  [Printers for Ants](https://3dprintersforants.com/) toolhead using 2 4010 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
 
 ## [Rapid Burner Toolhead](V0/Rapid_Burner)
 
-v0.1, V0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF, Dragon UHF, Goliath Air and Goliath Water hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
+Voron and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF, Dragon UHF, Goliath Air and Goliath Water hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
 
 ## [Mailbox Toolhead](V0/Mailbox)
 
-v0.1, v0.2 and [Printers for Ants](https://3dprintersforants.com/) toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
+Voron and [Printers for Ants](https://3dprintersforants.com/) toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
 
 ## [Voron Large Printer Mounts](general/Large_Voron_Mounts)
 
 A series of mounts designed to allow mounting of any of the Dragon Burner, Rapid Burner or Mailbox toolheads to the Voron Trident and Voron 2.4
+
+## [Rainbow Dragon](V0/Rainbow_Dragon)
 
 ## [StovePipe Toolhead](V0/StovePipe)
 
@@ -26,15 +28,15 @@ v0.1 and [Printers for Ants](https://3dprintersforants.com/) toolhead using a 70
 
 ## [RoundHouse Extruder](general/RoundHouse)
 
-v0.1  and [Printers for Ants](https://3dprintersforants.com/) Extruder to complement the 5015 Toolhead using BMG parts
+Voron and [Printers for Ants](https://3dprintersforants.com/) Extruder to complement the 5015 Toolhead using BMG parts
 
 ## [RoundAbout Extruder](general/RoundAbout)
 
-v0.1 and [Printers for Ants](https://3dprintersforants.com/) Extruder to complement the 5015 Toolhead using Orbiter v2.0 parts
+Voron and [Printers for Ants](https://3dprintersforants.com/) Extruder to complement the 5015 Toolhead using Orbiter v2.0 parts
 
 ## [RoundTrip Extruder](general/RoundTrip)
 
-This extruder uses either the LGX Lite, TBG Lite, Orbiter v1.5 or Orbiter v2.0 extruder gears. It can be used on any printer that uses the Sherpa Mini mounting pattern
+Voron and [Printers for Ants Extruder uses either the LGX Lite, TBG Lite, Orbiter v1.5 or Orbiter v2.0 extruder gears. It can be used on any printer that uses the Sherpa Mini mounting pattern
 
 ## [NozzleWiper](V0/NozzleWiper)
 

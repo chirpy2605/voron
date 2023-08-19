@@ -1,10 +1,8 @@
 # Rainbow Dragon Extruder (WIP/BETA)
 
-This toolhead is for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
+This toolhead is a dual filament extruder for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/). It has been specifically designed for the Phaetus TaiChi dual filament hotend and is exclusively developed for use with the [Dragon Burner](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner) v7+ toolhead.
 
-There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident and v2.4 printers.
-
-It has been specifically designed for the Phaetus TaiChi dual filament hotend and is exclusively developed for use with the [Dragon Burner](https://github.com/chirpy2605/voron/tree/main/V0/Dragon_Burner) v7+ toolhead.
+There are also [Mounts](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts) available to use this toolhead to the Voron Trident, v2.4, Switchwire and Legacy printers.
 
 There should be no loss in X, Y or Z.
 
