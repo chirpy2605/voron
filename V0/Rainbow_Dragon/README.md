@@ -16,6 +16,8 @@ There should be no loss in X, Y or Z.
 
 ![](images/benchy.jpg)
 
+## [Youtube Video](https://www.youtube.com/shorts/N7MiNEfDpDQ)
+
 ## Warnings:
 
 This is not a plug and play solution. The extruder is a work in progress, as are the klipper code and slicer settings.
