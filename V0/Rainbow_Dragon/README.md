@@ -16,7 +16,11 @@ There should be no loss in X, Y or Z.
 
 ![](images/benchy.jpg)
 
-## [Youtube Video](https://www.youtube.com/shorts/N7MiNEfDpDQ)
+## Videos:
+
+https://youtube.com/shorts/RDY6YZnVqHI
+
+https://www.youtube.com/shorts/N7MiNEfDpDQ
 
 ## Warnings:
 
