@@ -22,6 +22,8 @@ A series of mounts designed to allow mounting of any of the Dragon Burner, Rapid
 
 ## [Rainbow Dragon](V0/Rainbow_Dragon)
 
+This toolhead is a dual filament extruder for Voron and various [Printers for Ants](https://3dprintersforants.com/). It has been specifically designed for the Phaetus TaiChi dual filament hotend
+
 ## [StovePipe Toolhead](V0/StovePipe)
 
 v0.1 and [Printers for Ants](https://3dprintersforants.com/) toolhead using a 7040 CPAP fan for part cooling
