@@ -1,8 +1,8 @@
-# PCB Carrier and Strain Relief Mounts (BETA)
+# PCB Carrier and Strain Relief Mounts
 
 This mount is for a common set of extruders, plus the [RoundTrip](https://github.com/chirpy2605/voron/tree/main/general/RoundTrip) series of extruders that I have made. There are variants for the Dragon Burner (_DB) and the Rapid Burner (_RB).
 
-This mod is currently in BETA to ensure any fitment issues are ironed out before the CAD is provided.
+
 
 ![](images/pcb_toolhead.png)
 
@@ -65,3 +65,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-08-04 Released PCB Mounts for the Rapid Burner toolhead
 
 - 2023-08-08 Added chamfer and countersink to the x carriage mount points
+
+- 2023-08-22 Published CAD
