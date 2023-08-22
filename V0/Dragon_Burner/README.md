@@ -196,6 +196,10 @@ Offer up the toolhead assembly to the X carriage and secure using 2 M3x35mm scre
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
 
+## PCB Mounts:
+
+Mounts for various extruders and PCB mounts are [available](https://github.com/chirpy2605/voron/tree/main/general/PCB_Mounts).
+
 ## Credits:
 
 - [MapleLeafMakers](https://github.com/MapleLeafMakers) for doing all the work on the Sequin integration

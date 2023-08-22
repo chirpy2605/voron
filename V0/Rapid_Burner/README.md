@@ -210,6 +210,10 @@ You will likely need to unscrew the hotend from the heatbreak and rotate it to g
 
 You will need to preload the M3 screws into the hotend mount for screwing onto the X carriage before screwing the hotend to the hotend mount, otherwise the screw heads will not be able to pass the hotend to the holes.
 
+## PCB Mounts:
+
+Mounts for various extruders and PCB mounts are [available](https://github.com/chirpy2605/voron/tree/main/general/PCB_Mounts).
+
 ## Credits:
 
 - [MapleLeafMakers](https://github.com/MapleLeafMakers) for doing all the work on the Sequin integration
