@@ -2,8 +2,6 @@
 
 This mount is for a common set of extruders, plus the [RoundTrip](https://github.com/chirpy2605/voron/tree/main/general/RoundTrip) series of extruders that I have made. There are variants for the Dragon Burner (_DB) and the Rapid Burner (_RB).
 
-
-
 ![](images/pcb_toolhead.png)
 
 Each mount is made up of a PCB carrier plus at least 2 stand-offs.
@@ -17,6 +15,8 @@ The carriers allow you to attach a PCB board meant to attach to the screws on a 
 - Orbiter v1.5
 
 - Orbiter v2
+
+- Sharkfin
 
 - Sherpa Mini
 
@@ -36,7 +36,7 @@ The carriers allow you to attach a PCB board meant to attach to the screws on a 
 
 - RoundTrip OB2 Reverse
 
-There are individual carriers for each extruder plus a universal carrier if the aesthetics are not important to you (does not include the Hextrudort mount holes).
+There are individual carriers for each extruder plus a universal carrier if the aesthetics are not important to you (does not include the Hextrudort or Sharkfin mount holes).
 
 Each extruder requires at least 2 stand-offs (_long) between the motor and the PCB carrier. Some of the extruders require 2 additional (_short) spacers between the X carriage and the rear of the PCB carrier where the motors extend beyond the X carriage.
 
