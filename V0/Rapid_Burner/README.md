@@ -390,3 +390,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 
 - 2023-07-08 v7 released
 - 2023-08-06 v7 Goliath Air and Water toolheads updated and released from BETA
+- 2023-08-23 Uploaded fixed hotend mounts for the Sherpa Micro, Orbiter v1.4 and Orbiter v2
