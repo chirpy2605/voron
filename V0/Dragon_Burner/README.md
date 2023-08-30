@@ -192,7 +192,9 @@ Mount the extruder to the hotend mount and slide the assembly onto the cowl taki
 
 Zip-tie the wires at the back of the assembly.
 
-Offer up the toolhead assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1). 
+Offer up the toolhead assembly to the X carriage and secure using 2 M3x35mm screws. Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered if you use them (e.g. on the stock v0.1).
+
+On the v0.2 X carriage you can use a 20mm screw from the rear of the carriage into the corresponding  m3 nut inside the toolhead.
 
 Plugin, test the fans and redo your X offset as it will likely have changed.
 
