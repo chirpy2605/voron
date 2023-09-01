@@ -40,7 +40,7 @@ Note: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_
 
 ### Extruder support:
 
-- LGX Lite
+- LGX Lite (use the Sherpa Mini hotend mount)
 - Sherpa Mini
 - Sherpa Micro
 - Sailfin/Sharkfin
@@ -174,7 +174,8 @@ There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan.
 
 Slide the 4010 fans into the cowl from the rear into the provided slots.
 
-To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans.
+To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans. On some makes of fan you can also trim more of the fan shroud if you look at the inside of the fan shroud, e.g. on the GDStime. This can make cable routing easier if you have problems.
+
 
 Attach the hotend to the hotend specific mount:
 
