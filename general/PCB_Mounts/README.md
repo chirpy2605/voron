@@ -67,3 +67,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-08-08 Added chamfer and countersink to the x carriage mount points
 
 - 2023-08-22 Published CAD
+
+- 2023-09-08 Updated Sherpa Mini mounts to allow for backlash adjustment
