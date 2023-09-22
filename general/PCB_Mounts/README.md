@@ -69,3 +69,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-08-22 Published CAD
 
 - 2023-09-08 Updated Sherpa Mini mounts to allow for backlash adjustment
+
+- 2023-09-22 Added G2SA mounts
