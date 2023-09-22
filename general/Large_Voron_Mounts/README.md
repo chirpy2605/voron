@@ -1,8 +1,8 @@
-# Dragon and Rapid Burner Mounts for Trident and 2.4
+# Dragon and Rapid Burner Mounts all Voron Printers
 
 **NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts or you will damage your flex plate**
 
-The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner, Rapid Burner and Mailbox toolheads to the Voron Trident and Voron 2.4.
+The series of mounts in this section have been designed to allow mounting of any of the Dragon Burner, Rapid Burner and Mailbox toolheads to the Voron Trident, Voron 2.4, Voron Legacy and Voron Switchwire
 
 There are several separate designs:
 
