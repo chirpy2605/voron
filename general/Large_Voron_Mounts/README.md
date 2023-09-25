@@ -138,6 +138,8 @@ If you would rather leave the stock CW2 carriage mount in place you can use this
 
 ![](images/cw2adapterplate.png)
 
+You will likely need to use the extruder mounts mentioned in [here](#additional-info).
+
 ## Notes:
 
 - Using Tap plus the spacer, the nozzle will move 10mm forwards compared to using the non-tap mount which places the nozzle at the same place when using CW2 mount. Tap RC8 moves the nozzle 3mm forward, so this mount adds a further 7mm to that
