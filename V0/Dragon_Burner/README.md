@@ -437,24 +437,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-08-10 Added Cat NoProbe Cowl
 - 2023-08-26 Added other Cat Cowl variants
 
-## v8 Release:
-
-- New CFD tuned ducts
-
-- Through holes in extruder mounts to screw mount to the cowl to the front to improve rigidity (except LGX Lite / Vz-HextrudORT and Sherpa Micro)
-
-- Rear lower brace to improve rigidity
-
-- Recreated Cowl geometry
-
-- Cable duct through top of hotend mounts for logo led
-
-- Reduced left side cable duct to allow Bambu Labs hotend to mount with the cables to the rear. Increased right side cable duct
-
-- Added fillets to inner sides of the cowl to help with front to split from sides when inserting HE fan
-
-- Modified toolhead mount through rear of X carriage to use square and hex M3 nuts (square preferred)
-
-- Dragonfly BMS (7 fin) hotend support added
-
-- Improved printability of the Neopixel nozzle carrier
+# 
