@@ -1,4 +1,6 @@
-# Rapid Burner v7
+# Rapid Burner v8 (BETA Release)
+
+**NOTE:** This is the v8 BETA release of this toolhead. There may be problems with STLs, documentation and fitment. Final release with CAD will come as soon as everything is stable
 
 This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
@@ -12,9 +14,55 @@ It uses the standard Voron v0.2 X carriage and also works on both MGN7H and MGN9
 
 It supports Nozzle and Logo mounted LED's.
 
-![](images/front.png)
+![](images/rapidburner.png)
 
-![](images/back.png)
+---
+
+- [CFD Analysis](#cfd-analysis)
+
+- [Notes](#notes)
+
+- [Hotend support](#hotend-support)
+
+- [Extruder support](#extruder-support)
+
+- [Fan support](#fan-support)
+
+- [Probe support](#probe-support)
+
+- [Extras](#extras)
+
+- [Printing](#printing)
+
+- [BOM](#bom)
+  
+  - [Hotend specific BOM](#hotend-specific-bom)
+
+- [Fans](#fans)
+
+- [Heatsink Thermistor](#heatsink-thermistor)
+
+- [Assembly](#assembly)
+  
+  - [Heat Inserts](#heat-inserts)
+  - [LEDs](#leds)
+  - [Logo LED](#logo-led)
+  - [Nozzle Neopixels](#nozzle-neopixels)
+  - [Nozzle Sequins & Neopixel Sequins](#nozzle-sequins-neopixel-sequins)
+  - [LED Software](#led-software)
+  - [Fans](#fans-1)
+
+- [PCB Mounts](#pcb-mounts)
+
+- [Alternative Mounts](#alternative-mounts)
+
+<!-- **Having trouble choosing the right STL's?** Tryout the [**Online STL Configurator**](https://chirpy2605.github.io/DragonBurnerConfig/#/) created by [Maple Leaf Makers](https://github.com/MapleLeafMakers) -->
+
+---
+
+## CFD Analysis:
+
+There is a [document](cfd/) showing the development of the v8 part cooling ducts, describing the CFD analysis and test prints that went into making them.
 
 ### Notes:
 
@@ -28,6 +76,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Dragon UHF hotend
 - Goliath Air
 - Goliath Water
+- E3D V6 Groove Mount Volcano
 
 ### Extruder support:
 
@@ -40,6 +89,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Vz-HextrudORT (LGX Lite mount)
 - Double Folded Ascender (not for the Goliath Hotend)
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) (Gears from the LGX Lite, TBG Lite, Orbiter v1.5, Orbiter v2)
+- Galileo v2 Standalone (G2SA) with specific mounts for Sherpa Mini and Orbiter v2 mount hole configurations
 
 ### Fan support:
 
@@ -78,9 +128,26 @@ For Klick support see following sites for implementation:
 
 ## BOM:
 
-- A variety of M3 SHCS or BHCS screws
-- 2x 4010 blower fans (24v recommended)
-- 1x 3010 hotend fan (24v recommended)
+- 2 x M3x12mm BHCS/SHCS to secure cowl to X carriage
+- 2 x M3x8mm BHCS/SHCS to secure cowl to hotend mount
+- 1 x M3x20mm BHCS/SHCS to secure X carriage to toolhead from the rear
+- 2 x M3x6mm BHCS to secure rear brace to lower cowl
+- 2 x M3x(20mm or 18mm or 14mm) BHCS to secure extruder to hotend mount. Screw length depends on extruder and hotend mount
+- 1 x M3 nut preferably square over hexagonal to secure the 20mm screw through the X carriage to the rear of the toolhead
+- 2 x M3x25mm BHCS/SHCS to secure ADXL mount through cowl to X carriage (optional, preference would be for a nozzle mounted ADXL)
+- 2 x M3 brass heat inserts to secure cowl to hotend mount
+- 2 x M3 brass heat inserts to secure extruder to hotend mount
+- 2 x 4010 24v blower fans for part cooling
+- 1 x 3010 24v axial fan for hotend cooling
+- 3 x LEDs for logo and nozzle lights (optional, can be a mixture of NeoPixels and/or Sequins)
+- 2 x 2.5mm nylon zip ties for cable management
+
+#### Hotend specific BOM:
+
+v6:
+
+- 2 x M3 brass heat inserts
+- 2 x M3x16mm BHCS/SHCS
 
 The cowls support a no probe setup, [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe), [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) and [ZeroClick probe](https://github.com/zruncho3d/ZeroClick)
 
@@ -106,11 +173,15 @@ Klipper will shutdown if the top of the heatsink hits 85C. You can use thermal p
 
 ## Assembly:
 
+![](images/explode.png)
+
 ![front](images/front.png)
 
 ![front](images/back.png)
 
-Add heat inserts into the cowl and hotend mount:
+## Heat Inserts:
+
+Add 4 heat inserts into the hotend mount. Most hotend mounts accept them from underneath, some need them from the top:
 
 ![hotend_mount](images/hotendinserts.png)
 
@@ -120,7 +191,17 @@ Support has been added for either standard Neopixels or Sequins for the nozzle L
 
 If you do not want to use the Logo LED you can fit the [a]_Carrier_Dummy.STL instead and print an opaque diffuser.
 
-LED's are best cabled in series if they are addressable to allow independent control. For example, start with the (as seen from the front) right nozzle LED going to the left nozzle LED through the connecting gap, then up to the logo LED and back down and through the left cable channel to the back of the toolhead with the wire then extending up to the toolhead if you are using one.
+LED's are best cabled in series if they are addressable to allow independent control.
+
+There are 2 soldering jigs included in the repo, one for Neopixels and one for Sequins. They should help with soldering the wires for the nozzle lights with the correct gap space and can be used for the Logo LED as well.
+
+The following is one solution to wiring the LEDs. There are a myriad of others, but this works relatively easily:
+
+![](images/ledleft.png)
+
+![](images/ledright.png)
+
+# 
 
 ### Logo LED:
 
@@ -140,7 +221,7 @@ The logo unit is pushed into the cowl from the rear:
 
 Fit the neopixels into the neopixel carrier and then slot into the cowl being careful not to pinch any wires:
 
-![](H:\Distributions\voron\V0\Dragon_Burner\images\ledfitting.png)
+![](images/ledfitting.png)
 
 ### Nozzle Sequins & Neopixel Sequins:
 
@@ -164,7 +245,13 @@ There is also a 2510 fan spacer if you would prefer to use a smaller hotend fan.
 
 Slide the 4010 fans into the cowl from the rear into the provided slots.
 
-To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans. On some makes of fan you can also trim more of the fan shroud if you look at the inside of the fan shroud, e.g. on the GDStime. This can make cable routing easier if you have problems.
+To provide more space for cables snip off the screw lugs at the top rear of the 4010 fans. On some makes of fan you can also trim more of the fan shroud if you look at the inside of the fan shroud, e.g. on the GDStime. This can make cable routing easier if you have problems:
+
+![](images/gdstime.png)
+
+The rear brace should be fitted to the rear of the ducts using 2 x M3x6mm screws. These screw into plastic, so only lightly tighten. The screws don't provide the rigidity, the brace does, so no need to tighten much at all. Choose between the straight and the curved brace depending on which will better fit with your hotend. Not all hotend and carriage mounts will support using the rear brace:
+
+![](images/brace.png)
 
 ## Mounting:
 
@@ -180,9 +267,11 @@ The hotend mount needs to be mounted to the X Carriage using 2x M3x10mm screws:
 
 ![cowl_back](images/gantrymount.png)
 
-Offer the cowl to the hotend mount and from the front use 2 M3x10mm screws to secure the cowl and the hotend mount together.
+Offer the cowl to the hotend mount and from the front use 2 M3x10mm screws to secure the cowl and the hotend mount together:
 
-On the v0.2 X carriage you can use a 20mm screw from the rear of the carriage into the corresponding  m3 nut inside the toolhead.
+![](images/cowlmount.png)
+
+![](images/cowlmountback.png)
 
 Zip-tie the wires at the back of the assembly.
 
@@ -191,6 +280,10 @@ Be careful not to catch any wires between the surfaces and that when the toolhea
 Plugin, test the fans and redo your X offset as it will have changed.
 
 ## Goliath Air / Water:
+
+![](images/goliathairfront.png)
+
+![](images/goliathwaterfront.png)
 
 This hotend needs some specific instructions that don't apply to the other hotends supported by Rapid Burner.
 
@@ -216,6 +309,10 @@ You will need to preload the M3 screws into the hotend mount for screwing onto t
 
 Mounts for various extruders and PCB mounts are [available](https://github.com/chirpy2605/voron/tree/main/general/PCB_Mounts).
 
+## Alternative Mounts:
+
+Mounts are available for [boop](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Boop) as well as the [Large Vorons](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts), including mounts for [Tap](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts#option-2-tap-probe-front).
+
 ## Credits:
 
 - [MapleLeafMakers](https://github.com/MapleLeafMakers) for doing all the work on the Sequin integration
@@ -224,7 +321,9 @@ Mounts for various extruders and PCB mounts are [available](https://github.com/c
 
 - [jlsa1](https://github.com/jlas1/Klicky-Probe/tree/main/Probes) and [MapleLeafMakers](https://github.com/MapleLeafMakers) and for the Integrated Klicky and KlickyNG probe ducts
 
-- Blargedy (on the Voron Discord) for help testing the Goliath Water toohead
+- Blargedy (on the Voron Discord) for help testing the Goliath Water toolhead
+
+- A big Thank you! to all those who sacrificed many prints and helped to develop v8 in the closed Beta
 
 ## v1 Changelog:
 
@@ -394,3 +493,43 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-08-06 v7 Goliath Air and Water toolheads updated and released from BETA
 - 2023-08-23 Uploaded fixed hotend mounts for the Sherpa Micro, Orbiter v1.4 and Orbiter v2
 - 2023-09-13 Updated Goliath hotend mounts to fix rear mount point dimensions
+
+## Release v8 BETA:
+
+- New CFD tuned ducts - significant improvement in part cooling! See [CFD](cfd/)
+
+- Modified the rear duct inner faces to improve overhang printability
+
+- Rear lower brace to improve rigidity
+
+- Cable duct through top of hotend mounts for logo led (except Sherpa Micro)
+
+- Added fillets to inner sides of the cowl to help with front splitting from sides when inserting HE fan
+
+- Modified nut hole to better support using square nuts for toolhead mount through rear of X carriage
+
+- Extruder mounts modified to flow into extruder design where needed
+
+- Added G2SA support (Sherpa Mini and Orbiter v2 mounts)
+
+- New NeoPixel mount (backwards compatible)
+
+- New Sequin mount (backwards compatible)
+
+- Added a NeoPixel soldering jig to aid wiring
+
+- Added a Sequin soldering jig to aid wiring
+
+- Modified the ZeroClick mounts for better magnet retention
+
+- Fix for Rapid Burner 3010 fan fitment issues
+
+- Added v6 Volcano hotend support
+
+- 4010 Fans lowered to the same height as Dragon Burner for a shorter duct length
+
+- Added cat ear cowls
+
+## v8 Changelog:
+
+- 2027-10-?? v8 BETA released
