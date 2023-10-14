@@ -10,7 +10,7 @@ This toolhead improves the cooling of the hotend and provides much improved part
 
 It supports Nozzle and Logo mounted LED's.
 
-![](images/dbv8.png)
+![](images/dragonburner.png)
 
 ---
 
