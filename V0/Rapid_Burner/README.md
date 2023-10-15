@@ -77,6 +77,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Goliath Air
 - Goliath Water
 - E3D V6 Groove Mount Volcano
+- CHC Pro Volcano 115W (Use V6 Groove Mount)
 
 ### Extruder support:
 
