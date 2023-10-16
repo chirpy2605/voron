@@ -606,4 +606,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 
 ## v8 Changelog:
 
-- 2027-10-?? v8 BETA released
+- 2023-10-14 v8 BETA released
+- 2023-10-14 Modified 2510 hotend fan spacer

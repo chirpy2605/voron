@@ -532,4 +532,5 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 
 ## v8 Changelog:
 
-- 2027-10-?? v8 BETA released
+- 2023-10-14 v8 BETA released
+- 2023-10-14 Modified 2510 hotend fan spacer
