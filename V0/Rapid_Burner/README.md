@@ -534,3 +534,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 
 - 2023-10-14 v8 BETA released
 - 2023-10-14 Modified 2510 hotend fan spacer
+- 2023-10-18 Added heat inserts to the rear of the ducts on the NoProbe ducts
