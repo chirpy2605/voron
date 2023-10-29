@@ -608,4 +608,6 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 
 - 2023-10-14 v8 BETA released
 - 2023-10-14 Modified 2510 hotend fan spacer
-- 2023-10-18 Added heat inserts to the rear of the ducts on the NoProbe ducts
+- 2023-10-18 Added heat inserts to the rear of the ducts on the NoProbe cowls
+- 2023-10-29 Added heat inserts to the rear of the ducts on the most cowls (not ZeroClick)
+- 2023-10-29 Added Micron cowl and logo diffuser (thanks to Kyle GB for designing it)
