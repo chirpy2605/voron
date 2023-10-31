@@ -73,3 +73,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-09-22 Added G2SA mounts
 
 - 2023-10-05 Fixed Sharkfin Rapid Burner mount
+
+- 2023-10-31 Updated Hextrudort mounts to allow for backlash adjustment
