@@ -628,3 +628,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-10-29 Added Micron cowl and logo diffuser (thanks to Kyle GB for designing it)
 - 2023-10-31 Added note regarding HoneyBadger fans together with klipper workaround. Thanks to PiotrK for supplying the information for this
 - 2023-10-31 Added Wristwatch extruder mount
+- 2023-11-01 Fixed cat cowls inner ears
