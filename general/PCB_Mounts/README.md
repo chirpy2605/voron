@@ -75,3 +75,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-10-05 Fixed Sharkfin Rapid Burner mount
 
 - 2023-10-31 Updated Hextrudort mounts to allow for backlash adjustment
+
+- 2023-11-01 Added WristWatch BMG and G2 mounts
