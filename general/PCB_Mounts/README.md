@@ -36,6 +36,12 @@ The carriers allow you to attach a PCB board meant to attach to the screws on a 
 
 - RoundTrip OB2 Reverse
 
+- Galileo 2 Standalone (G2SA)
+
+- WristWatch BMG
+
+- WristWatch G2
+
 There are individual carriers for each extruder plus a universal carrier if the aesthetics are not important to you (does not include the Hextrudort or Sharkfin mount holes).
 
 Each extruder requires at least 2 stand-offs (_long) between the motor and the PCB carrier. Some of the extruders require 2 additional (_short) spacers between the X carriage and the rear of the PCB carrier where the motors extend beyond the X carriage.
