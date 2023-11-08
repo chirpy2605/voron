@@ -87,6 +87,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - E3D V6 Groove Mount
 - Red Lizard K1 Pro (Dragon mount)
 - Red Lizard K1 UHF (Rapido HF mount)
+- Dragon Ace HF (with spacer use the Rapido HF mount, without spacer use the Dragon Ace HF mount)
 
 Note: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon Burner UHF hotends.
 
@@ -631,3 +632,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-01 Fixed cat cowls inner ears
 - 2023-11-04 Improved WristWatch G2 extruder mount
 - 2023-11-08 Improved printability of the hotend mounts
+- 2023-11-08 Improved G2SA Orbiter mount
+- 2023-11-08 Added Dragon Ace hotend mounts
