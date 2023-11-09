@@ -89,7 +89,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Red Lizard K1 UHF (Rapido HF mount)
 - Dragon Ace HF (with spacer use the Rapido HF mount, without spacer use the Dragon Ace HF mount)
 
-Note: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon Burner UHF hotends.
+**NOTE**: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon Burner UHF hotends.
 
 ### Extruder support:
 
