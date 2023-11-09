@@ -104,6 +104,8 @@ Note: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) (Gears from the LGX Lite, TBG Lite, Orbiter v1.5, Orbiter v2)
 - Galileo v2 Standalone (G2SA) with specific mounts for Sherpa Mini and Orbiter v2 mount hole configurations
 
+**NOTE**: Hotend mounts for the Sherpa Mini spacing, together with the LGX Lite, G2SA and GWW mounts are at the top-level of the STL directory. Extruders with different mount patterns are in the extruder specific sub-directories.
+
 ### Fan support:
 
 - Single 3010 24v hotend cooling fan
