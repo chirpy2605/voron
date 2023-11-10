@@ -553,3 +553,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-10-29 Added heat inserts to the rear of the ducts on the most cowls (not ZeroClick)
 - 2023-10-31 Added note regarding HoneyBadger fans together with klipper workaround. Thanks to PiotrK for supplying the information for this
 - 2023-10-31 Added Wristwatch extruder mount
+- 2023-11-10 Added Micron NoProbe cowl
