@@ -1,6 +1,6 @@
-# Rapid Burner v8 (BETA Release)
+# Rapid Burner v8
 
-**NOTE:** This is the v8 BETA release of this toolhead. There may be problems with STLs, documentation and fitment. Final release with CAD will come as soon as everything is stable
+
 
 This toolhead for the Voron v0.2 and various [Printers for Ants](https://3dprintersforants.com/).
 
@@ -554,3 +554,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-10-31 Added note regarding HoneyBadger fans together with klipper workaround. Thanks to PiotrK for supplying the information for this
 - 2023-10-31 Added Wristwatch extruder mount
 - 2023-11-10 Added Micron NoProbe cowl
+- 2023-11-11 Final release and CAD provided

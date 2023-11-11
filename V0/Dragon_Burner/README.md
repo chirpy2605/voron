@@ -1,6 +1,4 @@
-# Dragon Burner v8 (BETA)
-
-**NOTE:** This is the v8 BETA release of this toolhead. There may be problems with STLs, documentation and fitment. Final release with CAD will come as soon as everything is stable
+# Dragon Burner v8
 
 This is a toolhead for the v0.2 Voron printer. It will also work on the various [Printers for Ants](https://3dprintersforants.com/).
 
@@ -636,3 +634,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-08 Improved printability of the hotend mounts
 - 2023-11-08 Improved G2SA Orbiter mount
 - 2023-11-08 Added Dragon Ace hotend mounts
+- 2023-11-11 Final release and CAD provided
