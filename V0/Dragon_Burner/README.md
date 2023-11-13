@@ -635,3 +635,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-08 Improved G2SA Orbiter mount
 - 2023-11-08 Added Dragon Ace hotend mounts
 - 2023-11-11 Final release and CAD provided
+- 2023-11-13 Updated Bambu Labs hotend mounts
