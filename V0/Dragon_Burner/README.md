@@ -101,8 +101,9 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Double Folded Ascender
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) (Gears from the LGX Lite, TBG Lite, Orbiter v1.5, Orbiter v2)
 - Galileo v2 Standalone (G2SA) with specific mounts for Sherpa Mini and Orbiter v2 mount hole configurations
+- Wristwatch BMG and G2 use the Orbiter v2 hotend mounts
 
-**NOTE**: Hotend mounts for the Sherpa Mini spacing, together with the LGX Lite, G2SA and WristWatch mounts are at the top-level of the STL directory. Extruders with different mount patterns are in the extruder specific sub-directories.
+**NOTE**: Hotend mounts for the Sherpa Mini spacing, the G2SA, the Wristwatch BMG and G2, together with the LGX Lite are at the top-level of the STL directory. Extruders with different mount patterns are in the extruder specific sub-directories.
 
 ### Fan support:
 
