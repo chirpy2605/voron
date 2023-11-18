@@ -341,7 +341,7 @@ Mounts for various extruders and PCB mounts are [available](https://github.com/c
 
 ## Alternative Mounts:
 
-Mounts are available for [boop](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Boop) as well as the [Large Vorons](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts), including mounts for [Tap](https://github.com/chirpy2605/voron/tree/main/general/Large_Voron_Mounts#option-2-tap-probe-front).
+[Mounts are available](../../general/Alternative_Voron_Mounts) for all the Voron printers as well as Tap and Boop.
 
 ## Credits:
 

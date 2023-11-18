@@ -12,13 +12,13 @@ Voron and  [Printers for Ants](https://3dprintersforants.com/) toolhead using 2 
 
 Voron and [Printers for Ants](https://3dprintersforants.com/) toolhead has been specifically designed for the Rapido UHF, Dragon UHF, Goliath Air and Goliath Water hotends and uses 2 4010 part cooling fans and a 3010 hotend fan
 
+## [Alternative Printer Mounts](general/Alternative_Voron_Mounts)
+
+A series of mounts designed to allow mounting of any of the Dragon Burner, Rapid Burner toolheads to the Voron Trident, Voron 2.4, Voron Legacy, Voron Switchwire and Printers for Ants
+
 ## [Mailbox Toolhead](V0/Mailbox)
 
 Voron and [Printers for Ants](https://3dprintersforants.com/) toolhead using 1 5015 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
-
-## [Voron Large Printer Mounts](general/Large_Voron_Mounts)
-
-A series of mounts designed to allow mounting of any of the Dragon Burner, Rapid Burner or Mailbox toolheads to the Voron Trident and Voron 2.4
 
 ## [Rainbow Dragon](V0/Rainbow_Dragon)
 
