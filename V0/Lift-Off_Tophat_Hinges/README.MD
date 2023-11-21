@@ -6,7 +6,7 @@ This makes removal for PLA printing and maintenance much easier.
 
 ![](images/back.png)
 
-This project is a Work in Progress, so may change as issues crop up. I'll post the CAD when it's finalised.
+
 
 There are a couple of caveats at present:
 
@@ -15,7 +15,6 @@ There are a couple of caveats at present:
 - The STL's are orientated to get the best strength for the hinges. This means they are printed on their sides
 
 - The bottom hinges have inbuilt supports that have to be removed and tidied up a little
-
 
 ### BOM:
 
