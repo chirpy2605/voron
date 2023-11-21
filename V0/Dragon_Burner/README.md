@@ -142,6 +142,7 @@ For Klick support see following sites for implementation:
 ### Extras:
 
 - ADXL345 front mount
+- Fysetc Portable Input Shaper mount
 - Heatsink thermistor support on most hotend mounts
 - Neopixel support (nozzle and logo)
 - Adafruit Sequin support (nozzle and logo)
@@ -164,7 +165,7 @@ For Klick support see following sites for implementation:
 - 2 x M3x6mm BHCS to secure rear brace to lower cowl
 - 2 x M3x(20mm or 18mm or 14mm) BHCS to secure extruder to hotend mount. Screw length depends on extruder and hotend mount
 - 1 x M3 nut preferably preferably square over hexagonal to secure the 20mm screw through the X carriage to the rear of the toolhead
-- 2 x M3x50mm BHCS/SHCS to secure ADXL mount through cowl to X carriage (optional, preference would be for a nozzle mounted ADXL)
+- 2 x M3x50mm BHCS/SHCS to secure ADXL or PIS mount through cowl to X carriage (optional, preference would be for a nozzle mounted ADXL)
 - 2 x M3 brass heat inserts to secure extruder mount to cowl
 - 2 x M3 brass heat inserts to secure extruder to hotend mount
 - 2 x 4010 24v blower fans for part cooling
@@ -210,6 +211,7 @@ I am using and can recommend these fans:
 Each cowl includes a hole at the top to insert a thermistor. With this in place, klipper can track the temperature of the heatsink to watch for heat creep from the heatbreak. You can have klipper abort and shutdown before your whole toolhead melts! You only need a simple klipper entry for the appropriate pin on your MCU, e.g.:
 
 ```
+
 [temperature_sensor Heatsink]
 sensor_type: Generic 3950
 sensor_pin: expander:PA5
@@ -639,3 +641,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-13 Updated Bambu Labs hotend mounts
 - 2023-11-17 Another round of Bambu Labs hotend mounts
 - 2023-11-18 Added KUSBA front mounting ADXL mount
+- 2023-11-21 Added Fysetc PIS mount
