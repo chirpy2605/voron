@@ -48,3 +48,5 @@ The following are a series of mounts for the Dragon Burner and Rapid Burner Tool
 ## ChangeLog:
 
 2023-11-18 v2 initial BETA release
+
+2023-11-23 Added Euclid probe for Trident and v2.4
