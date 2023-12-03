@@ -87,7 +87,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Red Lizard K1 UHF (Rapido HF mount)
 - Dragon Ace HF (with spacer use the Rapido HF mount, without spacer use the Dragon Ace HF mount)
 
-**NOTE**: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon Burner UHF hotends.
+**NOTE**: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon UHF hotends.
 
 ### Extruder support:
 
@@ -133,7 +133,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
 
-For Klick support see following sites for implementation:
+For Klicky support see following sites for implementation:
 
 [Klicky-Probe/Printers/Voron/v0 at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v0#integrated-cowling-v01)
 
