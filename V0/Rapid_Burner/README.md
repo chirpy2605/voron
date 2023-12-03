@@ -118,7 +118,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
 
-For Klick support see following sites for implementation:
+For Klicky support see following sites for implementation:
 
 [Klicky-Probe/Printers/Voron/v0 at main · jlas1/Klicky-Probe · GitHub](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v0#integrated-cowling-v01)
 
