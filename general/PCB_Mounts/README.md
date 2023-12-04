@@ -85,3 +85,5 @@ The PCB carrier also has a vertical strain relief for the cable coming from the 
 - 2023-11-01 Added WristWatch BMG and G2 mounts
 
 - 2023-11-26 Fixed some stand-off orientations
+
+- 2023-12-04 Fixed missing mount holes in the rear of the Orbiter v2 RB mount
