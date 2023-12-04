@@ -1,7 +1,5 @@
 # Boop replacement front mount
 
-This release is in BETA, this means parts may change and the CAD will not be release until this moves into the final version.
-
 This mount is designed to be used with Boop v4 Beta. It is a modification of the stock boop_front.stl that it will work with the Dragon Burner and Rapid Burner toolheads.
 
 If you would prefer to use the stock Boop v4 Beta front mount you can use [this spacer](STLs/Boop_Spacer.stl) which will extend that mount 3mm further forwards.
@@ -30,4 +28,4 @@ Please provide feedback to me on Discord @chirpy__
 
 ## Changelog:
 
-2023-07-23 Published CAD
+2023-12-04 Published CAD

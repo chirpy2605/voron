@@ -1,7 +1,5 @@
 # Trident and v2.4 Mounts
 
-This release is in BETA, this means parts may change and the CAD will not be release until this moves into the final version.
-
 **NOTE: Do not forget to adjust your nozzle offset or calibrate your probe after adding any of these mounts or you will damage your flex plate**
 
 These mounts allow you to mount the Dragon Burner and Rapid Burner toolheads to the Trident and v2.4.
@@ -91,3 +89,7 @@ I would recommend using the following mod to swap out your X carriage mount so t
 ## Contact:
 
 Please provide feedback to me on Discord @chirpy__ 
+
+## Changelog:
+
+- 2023-12-04 Published CAD
