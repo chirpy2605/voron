@@ -43,7 +43,7 @@ The following are a series of mounts for the Dragon Burner and Rapid Burner Tool
 
 - Replacement mount
 
-### [Micron and Pandoras Box](Modified_Mounts/Boop)
+### [Micron and Pandoras Box](Modified_Mounts/Micron_Pandora)
 
 - MGN9H replacement mounts
 - 3mm and 5mm Spacers
