@@ -30,17 +30,17 @@ There are two test parts available:
 
 The difference is the angle of the sweep from the bottom to the top of the test part. When starting testing, use the 55 degree Shuriken to establish the effectiveness of the ducts. Once this part prints cleanly, move on to the 85 degree Shuriken.
 
-The aim is to physically show how well and where cooling affects the printed part. The goal is not necessarily to print perfect test parts, as much as showing improvements during the iterative design process.
+The aim is to physically show how well and where cooling affects the printed part. The goal is not necessarily to print perfect test parts, as much as showing improvements during the iterative design process. 
 
 ## Suggested Print Settings
 
-The following are suggested settings for printing the test parts. These were made from testing on the Voron v0, Voron Trident and Voron 2.4. They may need to be adjusted higher or lower depending on the capabilities of the printer:
+The following are suggested settings for printing the test parts. These were made from testing on the Voron v0, Voron Trident and Voron 2.4. They may need adjusting higher or lower depending on the capabilities of the printer:
 
 - use the same ABS or ASA filament for testing
 
 - use the same GCODE for each test print
 
-- 10000 mm/s$^2$ acceleration for all slicer settings
+- 10000 $mm/s^2$ acceleration for all slicer settings
 
 - 500 mm/s speed for all slicer settings
 
