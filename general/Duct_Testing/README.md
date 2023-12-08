@@ -42,7 +42,7 @@ The following are suggested settings for printing the test parts. These were mad
 
 - 10000 $mm/s^2$ acceleration for all slicer settings
 
-- 500 mm/s speed for all slicer settings
+- 500 $mm/s$ speed for all slicer settings
 
 - 0 minimum layer time
 
