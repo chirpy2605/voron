@@ -93,3 +93,4 @@ Please provide feedback to me on Discord @chirpy__
 ## Changelog:
 
 - 2023-12-04 Published CAD
+- 2023-12-10 Added KlickyNG mount
