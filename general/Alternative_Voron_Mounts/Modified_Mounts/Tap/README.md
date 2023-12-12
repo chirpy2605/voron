@@ -63,3 +63,4 @@ Please provide feedback to me on Discord @chirpy__
 ## Changelog:
 
 - 2023-12-04 Published CAD
+- 2023-12-12 Updated Tap_Extruder_Spacer.stl uploaded
