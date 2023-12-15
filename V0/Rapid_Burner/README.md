@@ -554,3 +554,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-11-10 Added Micron NoProbe cowl
 - 2023-11-11 Final release and CAD provided
 - 2023-11-25 Fixed incorrect orientation on some of the cowls
+- 2023-12-15 Adding the missing Neopixel soldering jig
