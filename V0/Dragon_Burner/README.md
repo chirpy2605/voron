@@ -639,3 +639,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-13 Updated Bambu Labs hotend mounts
 - 2023-11-17 Another round of Bambu Labs hotend mounts
 - 2023-11-18 Added KUSBA front mounting ADXL mount
+- 2023-12-18 Modified the Sherpa Micro mount to allow mount to attach with both through screws to the cowl - Thank you to tobi2845 for the suggestion and testing
