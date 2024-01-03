@@ -20,6 +20,8 @@ The following are a series of mounts for the Dragon Burner and Rapid Burner Tool
 
 - MGN12H replacement mounts
 
+- MGN12H replacement mounts for 9mm belts
+
 - MGN9H replacement mounts
 
 - CW2 adapter
@@ -55,3 +57,5 @@ The following are a series of mounts for the Dragon Burner and Rapid Burner Tool
 2023-11-23 Added Euclid probe for Trident and v2.4
 
 2023-12-04 Published CAD
+
+2023-12-?? Added MGN12H 9mm belt mounts

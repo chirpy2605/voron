@@ -8,9 +8,9 @@ This mount is designed to be used as a replacement for the stock Micron and Pand
 
 In addition to the mounts, there are sets of 3mm and 5mm [Spacers](STLs/) to provide more room at the rear for cabling.
 
-- MGN9H mount with provision for M3x16mm screws to decrease plastic flex, increase rigidity, increase durability which includes two lower mount points for the toolhead to the carriage
+- MGN9H/MGN9C mounts with provision for M3x16mm screws to decrease plastic flex, increase rigidity, increase durability which includes two lower mount points for the toolhead to the carriage
 
-- MGN9H mount with provision for M3x16mm screws to decrease plastic flex, increase rigidity, increase durability which does not includes two lower mount points
+- MGN9H/MGN9C mounts with provision for M3x16mm screws to decrease plastic flex, increase rigidity, increase durability which does not includes two lower mount points
 
 - 3mm Spacer set
 
@@ -27,3 +27,5 @@ Please provide feedback to me on Discord @chirpy__
 ## Changelog:
 
 2023-12-04 Published CAD
+
+2023-12-31 Added MGN9C mounts

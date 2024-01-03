@@ -22,6 +22,10 @@ There is a choice of MGN12H mounts:
 
 - MGN12H replacement mount with PCB Mount holes ([MGN12H_X_Carriage_Lite_Lugs](STLs/MGN12H/MGN12H_X_Carriage_Lite_Lugs.stl))
 
+- MGN12H replacement mounts as above but for 9mm belts ([MGN12H_X_Carriage_Lite_9mm](STLs/MGN12H/MGN12H_X_Carriage_Lite_9mm.stl)) ([MGN12H_X_Carriage_Lite_Lugs_9mm](STLs/MGN12H/MGN12H_X_Carriage_Lite_Lugs_9mm.stl))
+
+With the 9mm belt mounts, use M3x20mm screws to attach the carriage base mount directly in to plastic (due to space constraints), so do not overtighten.
+
 ## Option 2: MGN9H Mounts
 
 ![](../../images/1_2_MGN9H.png)
@@ -94,3 +98,4 @@ Please provide feedback to me on Discord @chirpy__
 
 - 2023-12-04 Published CAD
 - 2023-12-10 Added KlickyNG mount
+- 2023-12-?? Added MGN12H 9mm belt mounts
