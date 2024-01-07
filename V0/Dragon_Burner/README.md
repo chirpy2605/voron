@@ -641,3 +641,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2023-11-18 Added KUSBA front mounting ADXL mount
 - 2023-12-18 Modified the Sherpa Micro mount to allow mount to attach with both through screws to the cowl - Thank you to tobi2845 for the suggestion and testing
 - 2024-01-04 Fixed incorrect supports in most of the Bambu Labs hotend mounts
+- 2024-01-07 Added Salad Fork cowl and logo diffuser
+- 2024-01-07 Updated CAD
