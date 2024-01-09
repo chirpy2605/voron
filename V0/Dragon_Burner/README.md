@@ -643,3 +643,6 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-01-04 Fixed incorrect supports in most of the Bambu Labs hotend mounts
 - 2024-01-07 Added Salad Fork cowl and logo diffuser
 - 2024-01-07 Updated CAD
+- 2024-01-09 Added Cat cowls for Micron, Salad Fork
+- 2024-01-09 Added Printers for Ants cowls
+- 2024-01-09 Added mods directory (see README.md in that folder)
