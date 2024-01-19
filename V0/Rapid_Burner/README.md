@@ -556,3 +556,6 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2023-11-25 Fixed incorrect orientation on some of the cowls
 - 2023-12-15 Adding the missing Neopixel soldering jig
 - 2024-01-07 Fixed missing mountpoints for the v6 hotend on most of the mounts
+- 2024-01-19 Added Salad Fork cowl and logo diffuser
+- 2024-01-19 Added Cat cowls for Micron, Salad Fork
+- 2024-01-19 Added Printers for Ants cowls
