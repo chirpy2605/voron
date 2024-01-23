@@ -113,7 +113,6 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 
 ### Probe support:
 
-- MiniSlideSwipe (uses the [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe))
 - [SlideSwipe magnetic probe](https://github.com/chestwood96/SlideSwipe) support
 - [(Un)Klicky Probe](https://github.com/jlas1/Klicky-Probe) support
 - [ZeroClick probe](https://github.com/zruncho3d/ZeroClick) support
