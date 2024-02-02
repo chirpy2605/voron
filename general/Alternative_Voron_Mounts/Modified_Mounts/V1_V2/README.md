@@ -12,6 +12,8 @@ There are various designs to choose from, all are 2 part mounts with the top bei
 
 - CW2 adapter
 
+Note: Most of these mounts include the option to use a rear central screw that goes in to the toolhead for extra stability. If you intend to use it, it would be advisable to pre-load a M3x12mm screw into the hole in the toolhead before mounting it on the x carriage as on some mounts this won't be possible once the two main screws have been secured.
+
 ## Option 1: MGN12H Mounts
 
 ![](../../images/1_2_MGN12H.png)
