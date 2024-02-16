@@ -558,3 +558,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2024-01-19 Added Salad Fork cowl and logo diffuser
 - 2024-01-19 Added Cat cowls for Micron, Salad Fork
 - 2024-01-19 Added Printers for Ants cowls
+- 2024-02-16 Fixed heat insert hole widths for the Sherpa Micro v6 volcano mount
