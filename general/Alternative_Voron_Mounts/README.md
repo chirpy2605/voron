@@ -61,3 +61,5 @@ The following are a series of mounts for the Dragon Burner and Rapid Burner Tool
 2023-12-30 Added MGN12H 9mm belt mounts
 
 2024-01-30 Pushed latest CAD
+
+2024-02-20 Changes orientation of the extended extruder mounts to cater for part shrinkage
