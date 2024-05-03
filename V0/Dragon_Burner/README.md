@@ -646,3 +646,5 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-01-09 Added Cat cowls for Micron, Salad Fork
 - 2024-01-09 Added Printers for Ants cowls
 - 2024-01-09 Added mods directory (see README.md in that folder)
+- 2024-05-03 Re-organised the STL directory tree to make part selection a little more coherent
+- 
