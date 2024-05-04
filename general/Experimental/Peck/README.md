@@ -6,7 +6,7 @@ This is a flexure Probe for the Dragon Burner toolhead.
 
 ![](images/DBPeck.png)
 
-I have created a mount where the centre square is suspended from the rest of the hotend mount by flexures. This gives the user the ability to use the hotend as a probe like FlexTap to determine your Z offset and to create a bed mesh.
+This is an original design for a hotend mount where the centre square is suspended from the rest of the hotend mount by flexures. This gives the user the ability to use the hotend as a probe like FlexTap to determine your Z offset and to create a bed mesh.
 
 There are 8 hotend mounts available for testing made up of 4 for use with the Sherpa Mini mount pattern and 4 for the Orbiter v2 mount pattern, for the following hotends:
 
