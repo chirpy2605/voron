@@ -86,6 +86,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Red Lizard K1 Pro (Dragon mount)
 - Red Lizard K1 UHF (Rapido HF mount)
 - Dragon Ace HF (with spacer use the Rapido HF mount, without spacer use the Dragon Ace HF mount)
+- Phaetus NeXt G (Dragon mount)
 
 **NOTE**: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon UHF hotends.
 
@@ -647,4 +648,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-01-09 Added Printers for Ants cowls
 - 2024-01-09 Added mods directory (see README.md in that folder)
 - 2024-05-03 Re-organised the STL directory tree to make part selection a little more coherent
-- 
+- 2024-05-05 Confirmed support for the Phaetus NeXt G hotend using the Dragon mount
