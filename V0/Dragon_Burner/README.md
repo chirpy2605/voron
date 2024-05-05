@@ -10,6 +10,10 @@ It supports Nozzle and Logo mounted LED's.
 
 ![](images/dragonburner.png)
 
+## Online STL Configurator:
+
+With huge thanks to [MapleLeafMakers](https://github.com/MapleLeafMakers) the [Dragon Burner v8 Configurator](https://chirpy2605.github.io/DragonBurnerConfig) is available to easily put together a zip file of the STL's you need for _your_ toolhead.
+
 ---
 
 * [Review by Maple Leaf Makers](#review-by-maple-leaf-makers)
