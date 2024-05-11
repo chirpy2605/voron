@@ -289,7 +289,7 @@ Zip-tie the wires at the back of the assembly.
 
 Be careful not to catch any wires between the surfaces and that when the toolhead moves the X and Y axis endstops are triggered (if using physical X/Y endstops). Also check that the X axis can move completely to the left and right.
 
-Plugin, test the fans and redo your X offset as it will have changed.
+Plugin, test the fans and redo your Z offset as it will have changed.
 
 ## Goliath Air / Water:
 

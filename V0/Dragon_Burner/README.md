@@ -341,7 +341,7 @@ Check that when the toolhead moves, the X and Y axis end stops are triggered if 
 
 On the v0.2 X carriage you can use a 20mm screw from the rear of the carriage into the corresponding  m3 nut inside the toolhead.
 
-Plugin, test the fans and redo your X offset as it will have changed.
+Plugin, test the fans and redo your Z offset as it will have changed.
 
 ## PCB Mounts:
 
