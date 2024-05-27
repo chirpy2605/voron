@@ -24,9 +24,13 @@ You may also need to use the extruder mounts listed in the [Extended_Extruder_Mo
 
 This adapter is to be used between the toolhead and the stock Tap front. It is based on Tap RC8. This is useful if you prefer to use the stock Tap setup and want to simply add the toolheads to a working configuration. It does result in a loss of Y of ~7mm in addition to Tap Y loss.
 
+Note: The picture shows the old style mount, there is a new two piece design courtesy of [MapleLeafMakers](https://github.com/MapleLeafMakers) 
+
 ### STLs:
 
-- [Tap_Main_Spacer.stl](STLs/Tap_Main_Spacer.stl)
+- [Tap_Main_Spacer_New_Top.stl](STLs/Tap_Main_Spacer_New_Top.stl)
+
+- [Tap_Main_Spacer_New_Bottom.stl](STLs/Tap_Main_Spacer_New_Bottom.stl)
 
 - [Tap_Top_Spacer.stl](STLs/Tap_Top_Spacer.stl)
 
@@ -64,3 +68,4 @@ Please provide feedback to me on Discord @chirpy__
 
 - 2023-12-04 Published CAD
 - 2023-12-12 Updated Tap_Extruder_Spacer.stl uploaded
+- 2024-05-24 Replaced the Tap Spacer with a 2 piece spacer from [MapleLeafMakers](https://github.com/MapleLeafMakers)

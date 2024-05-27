@@ -29,3 +29,5 @@ Please provide feedback to me on Discord @chirpy__
 2023-12-04 Published CAD
 
 2023-12-31 Added MGN9C mounts
+
+2024-05-24 Fixed belt holes in MGN9C mounts
