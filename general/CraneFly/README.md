@@ -36,6 +36,8 @@ CAD will be available once the effector is out of BETA.
 
 - Revo Voron
 
+- Bambu Labs X1C (and clones)
+
 # Printing:
 
 - Use Voron spec slicer settings and print in ABS/ASA or better
