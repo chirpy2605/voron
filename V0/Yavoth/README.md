@@ -138,8 +138,9 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 
 ## Release:
 
-- 01-06-24 Initial BETA release
+- 24-06-01 Initial BETA release
 
 ## Changelog:
 
-- 01-06-24 Initial BETA release
+- 24-06-01 Initial BETA release
+- 24-06-02 Fixed the missing hotend mounts in the Sherpa Micro cowls
