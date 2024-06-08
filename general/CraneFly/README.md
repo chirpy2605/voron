@@ -125,3 +125,9 @@ TBD
 ## Attach to Printer:
 
 TBD
+
+## Changelog:
+
+- 2024-06-08 Strengthened the arm heat insert mounts
+
+- 2024-06-08 Fixed some geometry issues with the plate and cage
