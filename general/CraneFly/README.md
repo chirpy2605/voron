@@ -131,3 +131,5 @@ TBD
 - 2024-06-08 Strengthened the arm heat insert mounts
 
 - 2024-06-08 Fixed some geometry issues with the plate and cage
+
+- 2024-06-11 Fixed mis-aligned mounting holes on the plate and cage
