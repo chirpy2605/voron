@@ -133,3 +133,7 @@ TBD
 - 2024-06-08 Fixed some geometry issues with the plate and cage
 
 - 2024-06-11 Fixed mis-aligned mounting holes on the plate and cage
+
+- 2024-06-11 Centred mounting holes for probe mounts
+
+- 2024-06-11 Added CAN/USB PCB mount strain relief parts
