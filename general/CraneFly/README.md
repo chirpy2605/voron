@@ -88,7 +88,7 @@ Screw the hotend to the hotend mount. With the left fan cable going up through t
 
 Peck support is very much ALPHA - it has not been tested on this printer, so proceed with caution.
 
-Works in a similar way to the [Dragon Burner Peck](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Peck) mount. The main difference is that the lower grub screw needs to be screwed in further until it is passed where the wire comes in for that side of the switch.
+Works in a similar way to the [Dragon Burner Peck](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Peck) mount. The main difference is that the lower grub screw needs to be screwed in further until it passes the hole where the wire comes in for that side of the switch.
 
 With the Peck hotend mounts, heat inserts are not use to secure it to the cage, instead use 4x M3x6mm screws which go straight into plastic - so do not overtighten them.
 
