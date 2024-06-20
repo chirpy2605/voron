@@ -1,4 +1,4 @@
-# CraneFly Effector for the Doron Velta (BETA)
+# CraneFly Effector for the Doron Velta (BETA2)
 
 This is a BETA release of the CraneFly effector (3d Delta Printer toolhead) that has been designed for use on the [Doron Velta](https://github.com/rogerlz/Doron-Velta) designed by [rogerlz](https://github.com/rogerlz)
 
@@ -6,17 +6,13 @@ This is a BETA release of the CraneFly effector (3d Delta Printer toolhead) that
 
 ![](images/rear.png)
 
-## CAD:
-
-CAD will be available once the effector is out of BETA.
-
 ## BOM:
 
-6x M3x8mm BHCS/SHCS screws
+8x M3x8mm BHCS/SHCS screws
 
 6x M3x6mm BHCS screws
 
-18x M3x4x5mm Brass heat inserts
+20x M3x4x5mm Brass heat inserts
 
 2x 4010 blower fans
 
@@ -38,13 +34,13 @@ CAD will be available once the effector is out of BETA.
 
 - Bambu Labs X1C (and clones)
 
-# Printing:
+## Printing:
 
 - Use Voron spec slicer settings and print in ABS/ASA or better
 
 - Do not use Arachne or similar slicer settings as it may cause print problems
 
-# Parts:
+## Parts:
 
 You will need:
 
@@ -60,11 +56,11 @@ You will need:
 
 - The Probe Mount (optional)
 
-# Assembly:
+## Assembly:
 
 It is _very_ important to assemble the effector in the correct order, otherwise you will end up having to dismantle to achieve certain steps.
 
-## Heat inserts:
+### Heat inserts:
 
 Add heat inserts at the following locations:
 
@@ -78,55 +74,55 @@ Add heat inserts at the following locations:
 
 ![](images/heatinserts5.png)
 
-## Left Fan:
+### Left Fan:
 
 Push the wire for the left hand fan through the hole within the cage. Do _not_ fit the fan at this stage:
 
 ![](images/leftfan.png)
 
-## Hotend Mount:
+### Hotend Mount:
 
 Screw the hotend to the hotend mount. With the left fan cable going up through the middle of the cage, slide the hotend into the cage from the rear. Using 4x M3x6mm BHCS screws, attach the hotend mount to the cage on both sides.
 
-## Hotend Fan:
+### Hotend Peck Mount:
+
+Peck support is very much ALPHA - it has not been tested on this printer, so proceed with caution.
+
+Works in a similar way to the [Dragon Burner Peck](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Peck) mount. The main difference is that the lower grub screw needs to be screwed in further until it is passed where the wire comes in for that side of the switch.
+
+With the Peck hotend mounts, heat inserts are not use to secure it to the cage, instead use 4x M3x6mm screws which go straight into plastic - so do not overtighten them.
+
+### Hotend Fan:
 
 Orientate the 3010 fan such that the cable is to the right of the cage and insert through the gap to the right to feed through the channel alongside the right 4010 fan and then back inside the cage through the slot:
 
 ![](images/hefan.png)
 
-## Hotend Neopixel:
+### Hotend Neopixel:
 
 Route the hotend Neopixel wires through the channel and up through the gap in the cage to the right to feed through the channel alongside the right 4010 fan and then back inside the cage through the slot.
 
-## Right Fan:
+### Right Fan:
 
 Insert the right 4010 fan being careful to route the cable through the same slot into the cage being careful to lay the routed wires against the wire channel and not pinch them.
 
-## Left Fan:
+### Left Fan:
 
 Insert the left 4010 fan being careful to route the fan cable though the slot to the front of the cage while pulling the fan cable out as you push the fan in:
 
 ![](images/leftfanslot.png)
 
-## Effector plate:
+### Effector plate:
 
 Insert the hotend Neopixel into the effector plate.
 
 Using 4x M3x8mm screws and attach the effector plate onto the cage being careful not to pinch any cables.
 
-## Logo Neopixel:
+## Finishing up:
 
-TBD
+Attach the effector arms and route any cables using the provided zip-tie points.
 
-## Cable Ties:
-
-TBD
-
-## Attach to Printer:
-
-TBD
-
-## Changelog:
+## Changelog (BETA1):
 
 - 2024-06-08 Strengthened the arm heat insert mounts
 
@@ -137,3 +133,17 @@ TBD
 - 2024-06-11 Centred mounting holes for probe mounts
 
 - 2024-06-11 Added CAN/USB PCB mount strain relief parts
+
+## Changelog (BETA2):
+
+- 2024-06-24 Modifications to the Plate and Cage to tidy up geometry and features
+
+- 2024-06-24 Added alternative plate that uses M3 square nuts (DIN 562 preferred) instead of heat inserts
+
+- 2024-06-24 Added 2 additional holes to the top of the Cage for additional support for the Stress Relief mounts
+
+- 2024-06-24 Added extruder support for various mount patterns - some extruders may not fir within the dimensions of the arms
+
+- 2024-06-24 Added Peck hotend flexure mounts - these should be considered ALPHA releases as they have had no printer mounted testing for this printer
+
+- 2024-06-24 Release BETA2 CAD - This _will_ change as the BETA is developed
