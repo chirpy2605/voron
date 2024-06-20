@@ -142,7 +142,7 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 
 - 2024-06-24 Added 2 additional holes to the top of the Cage for additional support for the Stress Relief mounts
 
-- 2024-06-24 Added extruder support for various mount patterns - some extruders may not fir within the dimensions of the arms
+- 2024-06-24 Added extruder support for various mount patterns - some extruders may not fit within the dimensions of the arms
 
 - 2024-06-24 Added Peck hotend flexure mounts - these should be considered ALPHA releases as they have had no printer mounted testing for this printer
 
