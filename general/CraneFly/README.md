@@ -136,14 +136,16 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 
 ## Changelog (BETA2):
 
-- 2024-06-24 Modifications to the Plate and Cage to tidy up geometry and features
+- 2024-06-20 Modifications to the Plate and Cage to tidy up geometry and features
 
-- 2024-06-24 Added alternative plate that uses M3 square nuts (DIN 562 preferred) instead of heat inserts
+- 2024-06-20 Added alternative plate that uses M3 square nuts (DIN 562 preferred) instead of heat inserts
 
-- 2024-06-24 Added 2 additional holes to the top of the Cage for additional support for the Stress Relief mounts
+- 2024-06-20 Added 2 additional holes to the top of the Cage for additional support for the Stress Relief mounts
 
-- 2024-06-24 Added extruder support for various mount patterns - some extruders may not fit within the dimensions of the arms
+- 2024-06-20 Added extruder support for various mount patterns - some extruders may not fit within the dimensions of the arms
 
-- 2024-06-24 Added Peck hotend flexure mounts - these should be considered ALPHA releases as they have had no printer mounted testing for this printer
+- 2024-06-20 Added Peck hotend flexure mounts - these should be considered ALPHA releases as they have had no printer mounted testing for this printer
 
-- 2024-06-24 Release BETA2 CAD - This _will_ change as the BETA is developed
+- 2024-06-20 Release BETA2 CAD - This _will_ change as the BETA is developed
+
+- 2024-06-21 Added Stress Relief mount for the hartk MiniSB Bowden PCB
