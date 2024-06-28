@@ -142,6 +142,7 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 
 ## Changelog:
 
-- 24-06-01 Initial BETA release
-- 24-06-02 Fixed the missing hotend mounts in the Sherpa Micro cowls
-- 24-06-14 Raised the height of the LED mounts for a tighter
+- 2024-06-01 Initial BETA release
+- 2024-06-02 Fixed the missing hotend mounts in the Sherpa Micro cowls
+- 2024-06-14 Raised the height of the LED mounts for a tighter
+- 2024-06-28 Added cowls with a 5mm rear offset to allow more room for wiring and cooling on printers that won't suffer from 5mm Y loss
