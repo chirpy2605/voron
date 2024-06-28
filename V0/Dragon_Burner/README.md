@@ -655,3 +655,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-01-09 Added mods directory (see README.md in that folder)
 - 2024-05-03 Re-organised the STL directory tree to make part selection a little more coherent
 - 2024-05-05 Confirmed support for the Phaetus NeXt G HF hotend using the Dragon mount and the Phaetus NeXt G UHF using the RapidoHF mount
+- 2024-06-24 Modified Dragonfly BMS (7 fin) hotend mounts
