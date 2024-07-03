@@ -153,7 +153,5 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 ## Release (BETA v2):
 
 - 2024-07-03 BETA2 release with regenerated cowls
-
 - 2024-07-03 Minor geometric changes to cowls
-
 - 2024-07-03 BETA v2 CAD released (please do not post Mods based on the BETA CAD)
