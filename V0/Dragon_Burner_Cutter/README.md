@@ -65,3 +65,7 @@ The whole cutter is secured to a modified Sherpa Mini extruder mount.
 That should be it. Test moving the Carrier Lever and check that the blade occludes the filament path. Then push some filament through and test the cutter. Test the filament runout sensor using a multi-meter.
 
 The cutter is triggered by a long arm to be positioned at the front of the printer. One is included for the Voron Trident, others are left to the user to create.
+
+## Changelog:
+
+- 2024-07-03 Beta v1 released
