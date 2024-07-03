@@ -1,4 +1,4 @@
-# Yavoth - A Toolhead for Voron Printers (BETA)
+# Yavoth - A Toolhead for Voron Printers (BETA2)
 
 This is a toolhead for High Flow style hotends using angled 4010 part cooling fans and a 2510 hotend fan.
 
@@ -17,6 +17,8 @@ There are several cowls available:
 - Revo Voron pattern cowl
 
 - [Peck](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Peck) mounts for the above (Soon)
+
+Additionally, 5mm rear offset versions of the cowls are available if additional room is needed to the rear of the cowl, e.g. for additional cabling or HE fan exhaust.
 
 No probe mounts are currently available, so if used on anything other than the v0, any probes should be mounted on the printer specific x carriage mounts at [Alternative_Voron_Mounts](https://github.com/chirpy2605/voron/tree/main/general/Alternative_Voron_Mounts).
 
@@ -90,7 +92,7 @@ The following extruders are supported by this toolhead. Currently this is limite
 
 ## CAD:
 
-When it is out of Beta.
+BETA v2 CAD is available. Please don't publish Mods for this toolhead until it is released from BETA!
 
 ## Assembly:
 
@@ -136,7 +138,7 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 
 - *pnewb*
 
-## Release:
+## Release (BETA v1):
 
 - 24-06-01 Initial BETA release
 
@@ -147,3 +149,11 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 - 2024-06-14 Raised the height of the LED mounts for a tighter
 - 2024-06-28 Added cowls with a 5mm rear offset to allow more room for wiring and cooling on printers that won't suffer from 5mm Y loss
   2024-06-30 Added Bowden mount
+
+## Release (BETA v2):
+
+- 2024-07-03 BETA2 release with regenerated cowls
+
+- 2024-07-03 Minor geometric changes to cowls
+
+- 2024-07-03 BETA v2 CAD released (please do not post Mods based on the BETA CAD)
