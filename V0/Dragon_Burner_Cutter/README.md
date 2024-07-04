@@ -69,3 +69,4 @@ The cutter is triggered by a long arm to be positioned at the front of the print
 ## Changelog:
 
 - 2024-07-03 Beta v1 released
+  2024-07-04 Fixed orientation of parts
