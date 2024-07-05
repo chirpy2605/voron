@@ -155,3 +155,7 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 - 2024-07-05 Reduced hotend mount holes sizes for the Dragon pattern mounts
 
 - 2024-07-05 Added more room for the left hand 4010 fan wires
+
+- 2024-07-05 Reduced hotend mount holes sizes for the Dragon Peck pattern mounts
+
+- 2024-07-05 Updated CAD
