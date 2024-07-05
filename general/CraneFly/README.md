@@ -153,3 +153,5 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 - 2024-06-29 Minor modifications to the effector cage, including the ECAS04 fitment
 
 - 2024-07-05 Reduced hotend mount holes sizes for the Dragon pattern mounts
+
+- 2024-07-05 Added more room for the left hand 4010 fan wires
