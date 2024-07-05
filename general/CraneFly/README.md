@@ -151,3 +151,5 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 - 2024-06-21 Added Stress Relief mount for the hartk MiniSB Bowden PCB
 
 - 2024-06-29 Minor modifications to the effector cage, including the ECAS04 fitment
+
+- 2024-07-05 Reduced hotend mount holes sizes for the Dragon pattern mounts
