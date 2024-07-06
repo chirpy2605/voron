@@ -1,6 +1,6 @@
-# Yavoth - A Toolhead for Voron Printers (BETA2)
+# Yavoth - A Toolhead for Voron Printers (BETA3)
 
-This is a toolhead for High Flow style hotends using angled 4010 part cooling fans and a 2510 hotend fan.
+This is a toolhead for High and Ultra High Flow style hotends using angled 4010 part cooling fans and a 2510 hotend fan.
 
 ![](images/yavoth_front.png)
 
@@ -19,6 +19,8 @@ There are several cowls available:
 - [Peck](https://github.com/chirpy2605/voron/tree/main/general/Experimental/Peck) mounts for the above (Soon)
 
 Additionally, 5mm rear offset versions of the cowls are available if additional room is needed to the rear of the cowl, e.g. for additional cabling or HE fan exhaust.
+
+**UHF cowls are also provided**, but do note that these extend down (rather than up in the case of the Dragon and Rapid Burner toolheads), so there may be a loss of 8.5mm in Y depending on your printer. Only Dragon pattern mount hotends are supported. There are also currently no x carriage mounts that connect the bottom two attachment points.
 
 No probe mounts are currently available, so if used on anything other than the v0, any probes should be mounted on the printer specific x carriage mounts at [Alternative_Voron_Mounts](https://github.com/chirpy2605/voron/tree/main/general/Alternative_Voron_Mounts).
 
@@ -57,6 +59,10 @@ The following hotends are supported by this toolhead. Other hotends may work, bu
 - Dragon Ace (with ~3mm spacer)
 
 - Revo Voron (with ~5mm spacer)
+
+- UHF Dragon (using UHF cowl)
+
+- UHF Rapido (using UHF cowl)
 
 **Note**: Hotends that require a spacer will require longer mounting screws than normal to account for the extra length due to the spacer.
 
@@ -155,3 +161,7 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 - 2024-07-03 BETA2 release with regenerated cowls
 - 2024-07-03 Minor geometric changes to cowls
 - 2024-07-03 BETA v2 CAD released (please do not post Mods based on the BETA CAD)
+
+## Release (BETA v3):
+
+- 2024-07-06 Released new cowls that support UHF length hotends with a Dragon mount pattern. Standard and 5mm rear offset cowls are provided
