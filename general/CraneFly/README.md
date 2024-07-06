@@ -162,4 +162,6 @@ Attach the effector arms and route any cables using the provided zip-tie points.
 
 - 2024-07-06 Added DV logo lens, holder and Strain Relief options (DV = Doron Velta, VD = Voron Delta)
 
-- 2024-07-06 - Updated CAD
+- 2024-07-06 Added Rainbow Barf lens holder for VD logo lens carrier
+
+- 2024-07-06 Updated CAD
