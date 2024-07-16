@@ -165,3 +165,5 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 ## Release (BETA v3):
 
 - 2024-07-06 Released new cowls that support UHF length hotends with a Dragon mount pattern. Standard and 5mm rear offset cowls are provided
+- 2024-07-16 Added missing UHF LED Holders
+- 2024-07-16 Fixed UHF Cowls 4010 fan fitment
