@@ -1,4 +1,4 @@
-# Yavoth - A Toolhead for Voron Printers (BETA3)
+# Yavoth - A Toolhead for Voron Printers
 
 This is a toolhead for High and Ultra High Flow style hotends using angled 4010 part cooling fans and a 2510 hotend fan.
 
@@ -98,7 +98,7 @@ The following extruders are supported by this toolhead. Currently this is limite
 
 ## CAD:
 
-BETA v2 CAD is available. Please don't publish Mods for this toolhead until it is released from BETA!
+CAD is available
 
 ## Assembly:
 
@@ -167,3 +167,7 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 - 2024-07-06 Released new cowls that support UHF length hotends with a Dragon mount pattern. Standard and 5mm rear offset cowls are provided
 - 2024-07-16 Added missing UHF LED Holders
 - 2024-07-16 Fixed UHF Cowls 4010 fan fitment
+
+## Release v1:
+
+- 2024-08-21 Official release and CAD published

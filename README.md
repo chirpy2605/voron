@@ -4,6 +4,10 @@ These are mods that I have designed for my V0.1 and Trident.
 
 I hope you find some of them useful:
 
+## [Yavoth Toolhead](V0/Yavoth)
+
+This is a toolhead for High and Ultra High Flow style hotends using angled 4010 part cooling fans and a 2510 hotend fan
+
 ## [Dragon Burner Toolhead](V0/Dragon_Burner)
 
 Voron and  [Printers for Ants](https://3dprintersforants.com/) toolhead using 2 4010 part cooling fans and a 3010 fan for most hotends including the Dragon High Flow, Rapido High Flow and Revo Voron
