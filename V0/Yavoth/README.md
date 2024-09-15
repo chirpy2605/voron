@@ -20,7 +20,7 @@ There are several cowls available:
 
 Additionally, 5mm rear offset versions of the cowls are available if additional room is needed to the rear of the cowl, e.g. for additional cabling or HE fan exhaust.
 
-**UHF cowls are also provided**, but do note that these extend down (rather than up in the case of the Dragon and Rapid Burner toolheads), so there may be a loss of 8.5mm in Y depending on your printer. Only Dragon pattern mount hotends are supported. There are also currently no x carriage mounts that connect the bottom two attachment points.
+**UHF cowls are also provided**, but do note that these extend down (rather than up in the case of the Dragon and Rapid Burner toolheads), so there may be a loss of 8.5mm in Z depending on your printer. Only Dragon pattern mount hotends are supported. There are also currently no x carriage mounts that connect the bottom two attachment points.
 
 No probe mounts are currently available, so if used on anything other than the v0, any probes should be mounted on the printer specific x carriage mounts at [Alternative_Voron_Mounts](https://github.com/chirpy2605/voron/tree/main/general/Alternative_Voron_Mounts).
 
