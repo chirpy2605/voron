@@ -88,6 +88,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 - Double Folded Ascender (not for the Goliath Hotend)
 - [RoundTrip](https://github.com/waytotheweb/voron/tree/main/general/RoundTrip) (Gears from the LGX Lite, TBG Lite, Orbiter v1.5, Orbiter v2)
 - Galileo v2 Standalone (G2SA) with specific mounts for Sherpa Mini and Orbiter v2 mount hole configurations
+- [Lowboi Mk4](https://github.com/Shaunuss/Lowboi-Mk4) (use Sherpa Mini or Orbiter V2 mount)
 
 ### Fan support:
 

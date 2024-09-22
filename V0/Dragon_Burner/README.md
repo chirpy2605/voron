@@ -109,6 +109,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Galileo v2 Standalone (G2SA) with specific mounts for Sherpa Mini and Orbiter v2 mount hole configurations
 - Wristwatch BMG and G2 use the Orbiter v2 hotend mounts
 - Papilio Lite (Paplite) extruder (use Sherpa Mini mount)
+- [Lowboi Mk4](https://github.com/Shaunuss/Lowboi-Mk4) (use Sherpa Mini or Orbiter V2 mount)
 
 **NOTE**: Hotend mounts for the Sherpa Mini spacing, the G2SA, the Wristwatch BMG and G2, together with the LGX Lite are at the top-level of the STL directory. Extruders with different mount patterns are in the extruder specific sub-directories.
 
