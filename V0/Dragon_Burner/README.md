@@ -97,6 +97,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 
 ### Extruder support:
 
+- [E3D Roto Vitamins](https://e3d-online.com/pages/help-centre-roto-vitamins) (use the Sherpa Mini hotend mount)
 - LGX Lite (use the Sherpa Mini hotend mount)
 - Sherpa Mini
 - Sherpa Micro
@@ -656,3 +657,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-05-03 Re-organised the STL directory tree to make part selection a little more coherent
 - 2024-05-05 Confirmed support for the Phaetus NeXt G HF hotend using the Dragon mount and the Phaetus NeXt G UHF using the RapidoHF mount
 - 2024-06-24 Modified Dragonfly BMS (7 fin) hotend mounts
+- 2024-10-24 Added E3D Roto Vitamins to supported extruders

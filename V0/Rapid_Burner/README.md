@@ -78,6 +78,7 @@ You can also continue to use the [Rapid Burner v4](https://github.com/chirpy2605
 
 ### Extruder support:
 
+- [E3D Roto Vitamins](https://e3d-online.com/pages/help-centre-roto-vitamins) (use the Sherpa Mini hotend mount)
 - LGX Lite (use the Sherpa Mini hotend mount)
 - Sherpa Mini
 - Sherpa Micro
@@ -559,3 +560,4 @@ With this release you will need to print a cowl, a hotend mount and an extruder 
 - 2024-01-19 Added Cat cowls for Micron, Salad Fork
 - 2024-01-19 Added Printers for Ants cowls
 - 2024-02-16 Fixed heat insert hole widths for the Sherpa Micro v6 volcano mount
+- 2024-10-24 Added E3D Roto Vitamins to supported extruders

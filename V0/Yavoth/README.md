@@ -72,6 +72,8 @@ The following extruders are supported by this toolhead. Currently this is limite
 
 - Galileo v2 Standalone
 
+- [E3D Roto Vitamins](https://e3d-online.com/pages/help-centre-roto-vitamins) (use the Sherpa Mini hotend mount)
+
 - WristWatch BMG
 
 - WristWatch Galileo v2
@@ -171,3 +173,4 @@ Thanks go to the individuals that helped with the design, printing, testing and 
 ## Release v1:
 
 - 2024-08-21 Official release and CAD published
+- 2024-10-24 Added E3D Roto Vitamins to supported extruders
