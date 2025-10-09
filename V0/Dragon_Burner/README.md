@@ -658,3 +658,4 @@ For the initial release of v5, only the Cowl needs reprinting with the addition 
 - 2024-05-05 Confirmed support for the Phaetus NeXt G HF hotend using the Dragon mount and the Phaetus NeXt G UHF using the RapidoHF mount
 - 2024-06-24 Modified Dragonfly BMS (7 fin) hotend mounts
 - 2024-10-24 Added E3D Roto Vitamins to supported extruders
+- 2025-10-09 Added Chube Compact mounts for all the supported extruders
