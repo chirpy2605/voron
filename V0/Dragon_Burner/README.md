@@ -92,6 +92,7 @@ You can also continue to use the [Dragon Burner v4](https://github.com/chirpy260
 - Dragon Ace HF (with spacer use the Rapido HF mount, without spacer use the Dragon Ace HF mount)
 - Phaetus NeXt G HF (Dragon mount)
 - Phaetus NeXt G UHF (Rapido HF mount)
+- Chube Compact
 
 **NOTE**: The [Rapid Burner](https://github.com/chirpy2605/voron/tree/main/V0/Rapid_Burner) toolhead supports the Rapido UHF and Dragon UHF hotends.
 
