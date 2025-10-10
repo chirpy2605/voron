@@ -64,6 +64,10 @@ The following hotends are supported by this toolhead. Other hotends may work, bu
 
 - UHF Rapido (using UHF cowl)
 
+- Chube Compact (with 6.8mm spacer)
+
+- Chube Compact with MZE (with 6.8mm spacer)
+
 **Note**: Hotends that require a spacer will require longer mounting screws than normal to account for the extra length due to the spacer.
 
 ## Extruder Support:
