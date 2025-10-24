@@ -10,7 +10,9 @@ This makes removal for PLA printing and maintenance much easier.
 
 There are a couple of caveats at present:
 
-- There is no stop on the hinge. This means if you open it, you either need the tophat to rest against something, or to carefully allow it to open fully and remove it
+- There are two types of top hinges:
+  - `Hinge_Top_Left.stl` and `Hinge_Top_Right.stl` do not have a stop on the hinge. This means if you open it, you either need the tophat to rest against something, or to carefully allow it to open fully and remove it. 
+  - `Hinge_Top_With_Backstop_Left.stl` adds a reasonably sturdy backstop that allows the top to open 125°, but has a bit of flex. Print this one twice, with one mirrored.
 
 - The STL's are orientated to get the best strength for the hinges. This means they are printed on their sides
 
@@ -48,4 +50,4 @@ Now completely loosen the upper hinges without unscrewing from the nuts and sett
 
 You should now be able to tilt the Tophat all the way back. At the end of the tilt, the Tophat should lift off the bottom hinge easily.
 
-Be careful when opening fully as the Tophat could easily fall off if not removed.
+Be careful when opening fully as the Tophat could easily fall off if not removed if you printed the top hinges without backstop.
